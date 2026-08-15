@@ -1,0 +1,16 @@
+DODDAGGUBBI - ALIGNMENT TRIMMING REPORT
+==========================================================================================
+
+Original sequences: 109
+Original alignment length: 1550
+Trimming rule: remove columns with >=50% gaps
+Columns removed: 205
+Columns retained: 1345
+
+Trimmed constant sites: 597
+Trimmed variable sites: 748
+Trimmed parsimony-informative sites: 662
+
+Removed fraction: 13.23%
+
+Original MAFFT alignment was NOT modified.

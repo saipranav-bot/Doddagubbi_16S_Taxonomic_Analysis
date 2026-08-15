@@ -1,0 +1,13 @@
+name: doddagubbi-16s
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - python
+  - biopython
+  - pandas
+  - numpy
+  - matplotlib
+  - mafft
+  - iqtree
+  - pip

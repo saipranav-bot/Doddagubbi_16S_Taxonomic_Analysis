@@ -1,0 +1,37 @@
+DODDAGGUBBI - IUPAC-AWARE 109 SEQUENCE QC
+==============================================================================================================
+
+Records checked: 109
+PASS: 109
+FAIL: 0
+
+LENGTH
+--------------------------------------------------------------------------------------------------------------
+Minimum: 1232
+Maximum: 1499
+Mean: 1346.83
+Median: 1337.00
+
+IUPAC AMBIGUITY
+--------------------------------------------------------------------------------------------------------------
+Sequences with IUPAC ambiguity: 1
+Total ambiguity symbols: 1
+
+DUPLICATE SEQUENCES
+--------------------------------------------------------------------------------------------------------------
+Duplicate groups: 6
+Records in duplicate groups: 13
+
+INTERPRETATION
+--------------------------------------------------------------------------------------------------------------
+IUPAC ambiguity symbols are valid nucleotide notation and are reported separately from invalid characters.
+Identical 16S sequences across different accessions are retained unless an independent identity conflict is demonstrated.
+
+KJU0095
+--------------------------------------------------------------------------------------------------------------
+Length: 1330
+Ambiguity: K:1
+Status: PASS
+
+No source GenBank files were modified.
+Original master was not modified.

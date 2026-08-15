@@ -1,0 +1,17 @@
+DODDAGGUBBI - INDEPENDENT REFERENCE ALIGNMENT TRIMMING
+==============================================================================================================
+
+Sequences: 174
+Original alignment length: 1720
+Trimmed alignment length: 1369
+Columns removed: 351
+Columns retained: 1369
+
+Constant sites: 258
+Variable sites: 1111
+Parsimony-informative sites: 792
+
+Trimming rule:
+Columns containing >=50% gaps were removed.
+
+Output: /home/pranav/Doddagubbi_Master/07_Master_Metadata/FINAL_109_PHYLOGENY_V1/REFERENCE_PHYLOGENY_V2/KJU109_NCBI65_INDEPENDENT_MAFFT_TRIMMED_50GAP.fasta

@@ -1,0 +1,47 @@
+DODDAGGUBBI - TRULY INDEPENDENT NCBI REFERENCES
+==============================================================================================================
+
+KJU accessions protected: 109
+Independent reference sequences: 65
+Species represented: 13
+
+REFERENCES PER SPECIES
+--------------------------------------------------------------------------------------------------------------
+Aeromonas caviae: 5
+Aeromonas hydrophila: 5
+Aeromonas salmonicida: 5
+Aeromonas veronii: 5
+Bacillus cereus: 5
+Bacillus subtilis: 5
+Bacillus velezensis: 5
+Bacillus wiedmannii: 5
+Citrobacter braakii: 5
+Citrobacter freundii: 5
+Citrobacter koseri: 5
+Shewanella putrefaciens: 5
+Shewanella xiamenensis: 5
+
+EXCLUSIONS
+--------------------------------------------------------------------------------------------------------------
+Excluded KJU-owned accessions: 27
+Skipped undefined-sequence records: 2
+Skipped duplicates: 0
+Skipped invalid/non-matching records: 2
+
+QC
+--------------------------------------------------------------------------------------------------------------
+Length range: 1000-1700 bp
+IUPAC DNA alphabet required
+Exact organism/species match required
+16S/ribosomal RNA annotation required
+Any accession already present in the 109-KJU dataset was excluded.
+
+IMPORTANT
+--------------------------------------------------------------------------------------------------------------
+These references are intended to be independent of the Doddagubbi KJU sequence dataset.
+The 109-KJU dataset was not modified.
+
+UNDEFINED-SEQUENCE ACCESSIONS
+--------------------------------------------------------------------------------------------------------------
+NZ_CEXRIQ010000005.1
+NZ_JUYC01000066.1

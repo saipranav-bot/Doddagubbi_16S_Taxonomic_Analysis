@@ -1,0 +1,51 @@
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.swp
+*.swo
+*.tmp
+*.bak
+
+logs/
+
+.DS_Store
+Thumbs.db
+
+.ipynb_checkpoints/
+
+# Temporary BLAST files
+*_test.fasta
+*_test.tsv
+
+# Scratch files
+/tmp/
+
+# Large/generated inventory
+07_Master_Metadata/all_project_files.txt
+
+# IQ-TREE generated intermediates
+*.ckp.gz
+*.mldist
+*.uniqueseq.phy
+
+# Keep source/reproducible outputs; exclude generated console logs
+*.log
+
+# Local research archive — not uploaded directly
+07_Master_Metadata/
+01_NCBI/
+
+# Local duplicate figure archive
+
+# Local research archive — not uploaded directly
+07_Master_Metadata/
+01_NCBI/
+
+# Local duplicate figure archive
+
+# Local duplicate figure archive
+FINAL_FIGURES_DODDAGGUBBI_V1/
+
+# Local figure archive
+/FINAL_FIGURES_*/

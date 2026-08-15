@@ -1,0 +1,554 @@
+IQ-TREE 2.3.6 built Dec 11 2024
+
+Input file name: 07_Master_Metadata/FINAL_109_PHYLOGENY_V1/SENSITIVITY/KJU106_WITHOUT_COMPOSITION_BIASED_TAXA.fasta
+Type of analysis: tree reconstruction + ultrafast bootstrap (1000 replicates)
+Random seed number: 769379
+
+REFERENCES
+----------
+
+To cite IQ-TREE please use:
+
+Bui Quang Minh, Heiko A. Schmidt, Olga Chernomor, Dominik Schrempf,
+Michael D. Woodhams, Arndt von Haeseler, and Robert Lanfear (2020)
+IQ-TREE 2: New models and efficient methods for phylogenetic inference
+in the genomic era. Mol. Biol. Evol., in press.
+https://doi.org/10.1093/molbev/msaa015
+
+Since you used ultrafast bootstrap (UFBoot) please also cite: 
+
+Diep Thi Hoang, Olga Chernomor, Arndt von Haeseler, Bui Quang Minh,
+and Le Sy Vinh (2018) UFBoot2: Improving the ultrafast bootstrap
+approximation. Mol. Biol. Evol., 35:518–522.
+https://doi.org/10.1093/molbev/msx281
+
+SEQUENCE ALIGNMENT
+------------------
+
+Input data: 106 sequences with 1345 nucleotide sites
+Number of constant sites: 614 (= 45.6506% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 614 (= 45.6506% of all sites)
+Number of parsimony informative sites: 634
+Number of distinct site patterns: 736
+
+SUBSTITUTION PROCESS
+--------------------
+
+Model of substitution: GTR+F+R4
+
+Rate parameter R:
+
+  A-C: 0.6129
+  A-G: 1.8175
+  A-T: 1.5402
+  C-G: 0.5042
+  C-T: 2.8259
+  G-T: 1.0000
+
+State frequencies: (empirical counts from alignment)
+
+  pi(A) = 0.2544
+  pi(C) = 0.2296
+  pi(G) = 0.3179
+  pi(T) = 0.198
+
+Rate matrix Q:
+
+  A    -1.047     0.144    0.5912     0.312
+  C    0.1596   -0.8961     0.164    0.5725
+  G    0.4732    0.1185   -0.7942    0.2026
+  T     0.401    0.6639    0.3253     -1.39
+
+Model of rate heterogeneity: FreeRate with 4 categories
+Site proportion and rates:  (0.5332,0.05715) (0.2327,0.797) (0.1767,2.384) (0.05732,6.328)
+
+ Category  Relative_rate  Proportion
+  1         0.05715        0.5332
+  2         0.797          0.2327
+  3         2.384          0.1767
+  4         6.328          0.05732
+
+MAXIMUM LIKELIHOOD TREE
+-----------------------
+
+Log-likelihood of the tree: -18288.5960 (s.e. 561.7085)
+Unconstrained log-likelihood (without tree): -6926.7797
+Number of free parameters (#branches + #model parameters): 221
+Akaike information criterion (AIC) score: 37019.1920
+Corrected Akaike information criterion (AICc) score: 37106.5687
+Bayesian information criterion (BIC) score: 38169.3090
+
+Total tree length (sum of branch lengths): 3.6024
+Sum of internal branch lengths: 1.8881 (52.4104% of tree length)
+
+WARNING: 26 near-zero internal branches (<0.0007) should be treated with caution
+         Such branches are denoted by '**' in the figure below
+
+NOTE: Tree is UNROOTED although outgroup taxon 'KJU0001|PZ638859.1|Aeromonas_caviae' is drawn at root
+Numbers in parentheses are SH-aLRT support (%) / ultrafast bootstrap support (%)
+
++**KJU0001|PZ638859.1|Aeromonas_caviae
+|
+|                          +**KJU0002|PZ638860.1|Aeromonas_hydrophila
+|                       +**| (0/76)
+|                       |  +**KJU0061|PZ675267.1|Aeromonas_hydrophila
+|                    +--| (100/100)
+|                    |  +**KJU0058|PZ675265.1|Aeromonas_hydrophila
+|                 +**| (0/81)
+|                 |  +--KJU0108|PZ710623.1|Aeromonas_hydrophila
+|              +--| (83.9/55)
+|              |  +--KJU0009|PZ638867.1|Aeromonas_media
+|           +--| (97.4/98)
+|           |  +--KJU0004|PZ638862.1|Aeromonas_hydrophila
+|        +--| (96.8/95)
+|        |  |                      +**KJU0003|PZ638861.1|Pseudomonas_putida
+|        |  |                   +--| (100/100)
+|        |  |                   |  +**KJU0015|PZ652694.1|Pseudomonas_putida
+|        |  |                +--| (99.8/100)
+|        |  |                |  |     +--KJU0051|PZ675201.1|Pseudomonas_aeruginosa
+|        |  |                |  |  +**| (67.2/100)
+|        |  |                |  |  |  +--KJU0222|PZ735707.1|Pseudomonas_aeruginosa
+|        |  |                |  +--| (100/100)
+|        |  |                |     +--KJU0119|PZ711020.1|Pseudomonas_aeruginosa
+|        |  |             +--| (36.9/62)
+|        |  |             |  |          +--KJU0024|PZ652969.1|Faucicola_osloensis
+|        |  |             |  |       +--| (98.7/100)
+|        |  |             |  |       |  +--KJU0072|PZ675603.1|Faucicola_osloensis
+|        |  |             |  +-------| (100/100)
+|        |  |             |          +---KJU0071|PZ675602.1|Lwoffella_lincolnii
+|        |  |         +---| (99.8/100)
+|        |  |         |   |                          +--KJU0005|PZ638863.1|Comamonas_testosteroni
+|        |  |         |   |                       +**| (0/70)
+|        |  |         |   |                       |  +--KJU0091|PZ693572.1|Comamonas_testosteroni
+|        |  |         |   |                    +--| (21.6/70)
+|        |  |         |   |                    |  |  +**KJU0074|PZ675604.1|Comamonas_testosteroni
+|        |  |         |   |                    |  +--| (97.6/91)
+|        |  |         |   |                    |     +**KJU0089|PZ682702.1|Comamonas_testosteroni
+|        |  |         |   |                 +--| (98.6/100)
+|        |  |         |   |                 |  +--KJU0023|PZ652968.1|Comamonas_aquatica
+|        |  |         |   |           +-----| (100/100)
+|        |  |         |   |           |     +--KJU0205|PZ725632.1|Delftia_acidovorans
+|        |  |         |   |        +--| (91.8/99)
+|        |  |         |   |        |  +-----KJU0011|PZ652690.1|Alcaligenes_faecalis
+|        |  |         |   |  +-----| (100/100)
+|        |  |         |   |  |     +-----KJU0134|PZ711424.1|Chromobacterium_piscinae
+|        |  |         |   +--| (52.6/79)
+|        |  |         |      |                                   +--KJU0012|PZ652691.1|Peribacillus_simplex
+|        |  |         |      |                                +--| (100/100)
+|        |  |         |      |                                |  +--KJU0029|PZ653118.1|Peribacillus_simplex
+|        |  |         |      |                             +--| (80.4/95)
+|        |  |         |      |                             |  +--KJU0138|PZ711426.1|Priestia_megaterium
+|        |  |         |      |                          +--| (93.1/61)
+|        |  |         |      |                          |  |     +**KJU0105|PZ710590.1|Bacillus_cereus
+|        |  |         |      |                          |  |  +--| (95.5/100)
+|        |  |         |      |                          |  |  |  +--KJU0208|PZ725633.1|Bacillus_cereus
+|        |  |         |      |                          |  +--| (100/100)
+|        |  |         |      |                          |     |  +--KJU0211|PZ725883.1|Bacillus_wiedmannii
+|        |  |         |      |                          |     +--| (95.8/100)
+|        |  |         |      |                          |        +**KJU0217|PZ726885.1|Bacillus_cereus
+|        |  |         |      |                       +--| (80.9/92)
+|        |  |         |      |                       |  |     +--KJU0018|PZ652697.1|Mammaliicoccus_sciuri
+|        |  |         |      |                       |  |  +--| (100/100)
+|        |  |         |      |                       |  |  |  |  +--KJU0096|PZ693593.1|Staphylococcus_epidermidis
+|        |  |         |      |                       |  |  |  +--| (86.7/96)
+|        |  |         |      |                       |  |  |     +--KJU0102|PZ698382.1|Staphylococcus_xylosus
+|        |  |         |      |                       |  +--| (60.1/57)
+|        |  |         |      |                       |     |        +**KJU0057|PZ675210.1|Bacillus_subtilis
+|        |  |         |      |                       |     |     +--| (98.9/100)
+|        |  |         |      |                       |     |     |  +**KJU0215|PZ726883.1|Bacillus_subtilis
+|        |  |         |      |                       |     |  +--| (74.7/99)
+|        |  |         |      |                       |     |  |  |  +**KJU0093|PZ693573.1|Bacillus_subtilis
+|        |  |         |      |                       |     |  |  +--| (95/100)
+|        |  |         |      |                       |     |  |     +**KJU0103|PZ698383.1|Bacillus_subtilis
+|        |  |         |      |                       |     +--| (100/100)
+|        |  |         |      |                       |        |  +--KJU0128|PZ711421.1|Bacillus_velezensis
+|        |  |         |      |                       |        +--| (80.3/98)
+|        |  |         |      |                       |           +--KJU0216|PZ726884.1|Bacillus_velezensis
+|        |  |         |      |                    +--| (90.8/96)
+|        |  |         |      |                    |  |     +--KJU0109|PZ710624.1|Vagococcus_fluvialis
+|        |  |         |      |                    |  |  +--| (99.5/100)
+|        |  |         |      |                    |  |  |  +--------KJU0231|PZ740697.1|Limosilactobacillus_fermentum
+|        |  |         |      |                    |  +--| (94.4/97)
+|        |  |         |      |                    |     +--KJU0132|PZ711423.1|Listeria_innocua
+|        |  |         |      |                 +--| (99.5/99)
+|        |  |         |      |                 |  |    +--KJU0081|PZ675619.1|Exiguobacterium_acetylicum
+|        |  |         |      |                 |  +----| (100/100)
+|        |  |         |      |                 |       +--KJU0082|PZ675620.1|Exiguobacterium_indicum
+|        |  |         |      |           +-----| (99.7/100)
+|        |  |         |      |           |     |        +**KJU0063|PZ675326.1|Paenibacillus_polymyxa
+|        |  |         |      |           |     |     +--| (89.6/98)
+|        |  |         |      |           |     |     |  +**KJU0068|PZ675331.1|Paenibacillus_polymyxa
+|        |  |         |      |           |     |  +--| (100/100)
+|        |  |         |      |           |     |  |  |     +**KJU0076|PZ675605.1|Paenibacillus_polymyxa
+|        |  |         |      |           |     |  |  |  +**| (0/48)
+|        |  |         |      |           |     |  |  |  |  +**KJU0107|PZ710622.1|Paenibacillus_polymyxa
+|        |  |         |      |           |     |  |  +--| (92.9/98)
+|        |  |         |      |           |     |  |     +**KJU0115|PZ711016.1|Paenibacillus_polymyxa
+|        |  |         |      |           |     +--| (99.7/100)
+|        |  |         |      |           |        +---KJU0213|PZ726882.1|Paenibacillus_amylolyticus
+|        |  |         |      |       +---| (45.6/86)
+|        |  |         |      |       |   |                     +**KJU0013|PZ652692.1|Microbacterium_testaceum
+|        |  |         |      |       |   |                  +--| (92.9/100)
+|        |  |         |      |       |   |                  |  +**KJU0223|PZ738903.1|Microbacterium_testaceum
+|        |  |         |      |       |   |               +--| (97.9/99)
+|        |  |         |      |       |   |               |  +--KJU0195|PZ711592.1|Microbacterium_oxydans
+|        |  |         |      |       |   |            +--| (96.6/99)
+|        |  |         |      |       |   |            |  +--KJU0110|PZ710625.1|Leifsonia_aquatica
+|        |  |         |      |       |   +------------| (100/100)
+|        |  |         |      |       |                |  +--KJU0094|PZ693574.1|Kocuria_rosea
+|        |  |         |      |       |                +--| (95.3/100)
+|        |  |         |      |       |                   |  +--KJU0193|PZ711590.1|Glutamicibacter_nicotianae
+|        |  |         |      |       |                   +--| (89.5/98)
+|        |  |         |      |       |                      +--KJU0227|PZ740688.1|Micrococcus_luteus
+|        |  |         |      +-------| (99.4/99)
+|        |  |         |              +------------------------------------KJU0022|PZ652701.1|Hymenobacter_aquaticus
+|        |  |      +--| (92.7/90)
+|        |  |      |  |                    +**KJU0037|PZ666010.1|Shewanella_putrefaciens
+|        |  |      |  |                 +**| (0/94)
+|        |  |      |  |                 |  +**KJU0049|PZ666026.1|Shewanella_putrefaciens
+|        |  |      |  |              +**| (0/81)
+|        |  |      |  |              |  +**KJU0234|PZ741805.1|Shewanella_putrefaciens
+|        |  |      |  |           +**| (71.2/92)
+|        |  |      |  |           |  |  +**KJU0084|PZ675621.1|Shewanella_putrefaciens
+|        |  |      |  |           |  +**| (0/56)
+|        |  |      |  |           |     +**KJU0232|PZ741804.1|Shewanella_putrefaciens
+|        |  |      |  |        +--| (98.7/100)
+|        |  |      |  |        |  +--KJU0042|PZ666014.1|Shewanella_xiamenensis
+|        |  |      |  |     +--| (69.3/96)
+|        |  |      |  |     |  +--KJU0210|PZ725634.1|Shewanella_putrefaciens
+|        |  |      |  |  +--| (99.9/100)
+|        |  |      |  |  |  +--KJU0064|PZ675327.1|Shewanella_putrefaciens
+|        |  |      |  +--| (99.7/100)
+|        |  |      |     +--KJU0038|PZ666011.1|Shewanella_algae
+|        |  |  +---| (100/100)
+|        |  |  |   |                       +--KJU0007|PZ638865.1|Citrobacter_freundii
+|        |  |  |   |                    +**| (0/51)
+|        |  |  |   |                    |  +--KJU0099|PZ698200.1|Citrobacter_freundii
+|        |  |  |   |                 +**| (0/79)
+|        |  |  |   |                 |  |  +--KJU0088|PZ682701.1|Citrobacter_freundii
+|        |  |  |   |                 |  +**| (0/37)
+|        |  |  |   |                 |     +--KJU0221|PZ735706.1|Citrobacter_freundii
+|        |  |  |   |              +**| (0/70)
+|        |  |  |   |              |  |  +---KJU0053|PZ675203.1|Edwardsiella_tarda
+|        |  |  |   |              |  +--| (99.4/83)
+|        |  |  |   |              |     +**KJU0106|PZ710591.1|Citrobacter_freundii
+|        |  |  |   |           +--| (84.8/78)
+|        |  |  |   |           |  +--KJU0008|PZ638866.1|Citrobacter_braakii
+|        |  |  |   |        +--| (39.9/80)
+|        |  |  |   |        |  |              +**KJU0019|PZ652698.1|Citrobacter_koseri
+|        |  |  |   |        |  |           +**| (0/48)
+|        |  |  |   |        |  |           |  +**KJU0021|PZ652700.1|Citrobacter_koseri
+|        |  |  |   |        |  |        +**| (0/90)
+|        |  |  |   |        |  |        |  |  +**KJU0032|PZ654717.1|Citrobacter_koseri
+|        |  |  |   |        |  |        |  +**| (0/91)
+|        |  |  |   |        |  |        |     |  +**KJU0035|PZ654848.1|Citrobacter_koseri
+|        |  |  |   |        |  |        |     +**| (0/92)
+|        |  |  |   |        |  |        |        +**KJU0048|PZ666025.1|Citrobacter_koseri
+|        |  |  |   |        |  |     +--| (77.3/96)
+|        |  |  |   |        |  |     |  +**KJU0095|PZ693592.1|Citrobacter_koseri
+|        |  |  |   |        |  |  +--| (87.6/98)
+|        |  |  |   |        |  |  |  +--KJU0067|PZ675330.1|Citrobacter_koseri
+|        |  |  |   |        |  +--| (99.9/100)
+|        |  |  |   |        |     +--KJU0226|PZ740687.1|Escherichia_coli
+|        |  |  |   |     +--| (100/100)
+|        |  |  |   |     |  +--KJU0025|PZ652970.1|Pantoea_agglomerans
+|        |  |  |   |  +--| (91.9/98)
+|        |  |  |   |  |  |  +--KJU0010|PZ638868.1|Plesiomonas_shigelloides
+|        |  |  |   |  |  +--| (99.3/100)
+|        |  |  |   |  |     |     +**KJU0026|PZ652971.1|Plesiomonas_shigelloides
+|        |  |  |   |  |     |  +--| (86.6/97)
+|        |  |  |   |  |     |  |  +**KJU0116|PZ711017.1|Plesiomonas_shigelloides
+|        |  |  |   |  |     +**| (0/79)
+|        |  |  |   |  |        +--KJU0194|PZ711591.1|Plesiomonas_shigelloides
+|        |  |  |   +--| (68.7/80)
+|        |  |  |      +------KJU0062|PZ675268.1|Pseudoalteromonas_rubra
+|        |  +--| (92.7/93)
+|        |     |           +**KJU0028|PZ653117.1|Aeromonas_veronii
+|        |     |        +**| (0/81)
+|        |     |        |  +**KJU0030|PZ653119.1|Aeromonas_veronii
+|        |     |     +**| (0/83)
+|        |     |     |  |  +**KJU0036|PZ654849.1|Aeromonas_veronii
+|        |     |     |  +**| (0/89)
+|        |     |     |     +**KJU0043|PZ666015.1|Aeromonas_veronii
+|        |     |  +--| (94.1/72)
+|        |     |  |  +--KJU0054|PZ675204.1|Aeromonas_salmonicida
+|        |     +--| (48.4/54)
+|        |        |  +**KJU0060|PZ675266.1|Aeromonas_veronii
+|        |        +**| (0/64)
+|        |           |  +**KJU0066|PZ675329.1|Aeromonas_veronii
+|        |           +--| (99.9/100)
+|        |              +**KJU0114|PZ711015.1|Aeromonas_veronii
+|     +**| (0/93)
+|     |  |     +--KJU0014|PZ652693.1|Aeromonas_caviae
+|     |  |  +**| (0/58)
+|     |  |  |  |        +**KJU0016|PZ652695.1|Aeromonas_caviae
+|     |  |  |  |     +**| (0/89)
+|     |  |  |  |     |  +**KJU0020|PZ652699.1|Aeromonas_caviae
+|     |  |  |  |  +--| (81.5/98)
+|     |  |  |  |  |  +--KJU0065|PZ675328.1|Aeromonas_caviae
+|     |  |  |  +--| (99.4/100)
+|     |  |  |     +**KJU0017|PZ652696.1|Aeromonas_hydrophila
+|     |  +--| (88.4/78)
+|     |     +--KJU0027|PZ652972.1|Aeromonas_caviae
+|  +**| (0/85)
+|  |  +**KJU0052|PZ675202.1|Aeromonas_caviae
++--| (99/100)
+|  +--KJU0104|PZ710589.1|Aeromonas_caviae
+|
++**KJU0006|PZ638864.1|Aeromonas_caviae
+
+Tree in newick format:
+
+(KJU0001|PZ638859.1|Aeromonas_caviae:0.0000026780,(((((((((KJU0002|PZ638860.1|Aeromonas_hydrophila:0.0000010924,KJU0061|PZ675267.1|Aeromonas_hydrophila:0.0000010924)0/76:0.0000031850,KJU0058|PZ675265.1|Aeromonas_hydrophila:0.0000010924)100/100:0.0094144778,KJU0108|PZ710623.1|Aeromonas_hydrophila:0.0054161757)0/81:0.0000024238,KJU0009|PZ638867.1|Aeromonas_media:0.0060430333)83.9/55:0.0014703625,KJU0004|PZ638862.1|Aeromonas_hydrophila:0.0015213946)97.4/98:0.0064198764,(((((((KJU0003|PZ638861.1|Pseudomonas_putida:0.0000022587,KJU0015|PZ652694.1|Pseudomonas_putida:0.0000010924)100/100:0.0406219751,((KJU0051|PZ675201.1|Pseudomonas_aeruginosa:0.0030023132,KJU0222|PZ735707.1|Pseudomonas_aeruginosa:0.0067683875)67.2/100:0.0004359909,KJU0119|PZ711020.1|Pseudomonas_aeruginosa:0.0062876484)100/100:0.0347299343)99.8/100:0.0494307338,((KJU0024|PZ652969.1|Faucicola_osloensis:0.0039461531,KJU0072|PZ675603.1|Faucicola_osloensis:0.0096720233)98.7/100:0.0252396866,KJU0071|PZ675602.1|Lwoffella_lincolnii:0.0591196721)100/100:0.1106049128)36.9/62:0.0117388677,(((((((KJU0005|PZ638863.1|Comamonas_testosteroni:0.0076778173,KJU0091|PZ693572.1|Comamonas_testosteroni:0.0052070708)0/70:0.0000022434,(KJU0074|PZ675604.1|Comamonas_testosteroni:0.0000010924,KJU0089|PZ682702.1|Comamonas_testosteroni:0.0000010924)97.6/91:0.0046065053)21.6/70:0.0142294962,KJU0023|PZ652968.1|Comamonas_aquatica:0.0341351774)98.6/100:0.0290971392,KJU0205|PZ725632.1|Delftia_acidovorans:0.0212978908)100/100:0.0758694783,KJU0011|PZ652690.1|Alcaligenes_faecalis:0.0853446824)91.8/99:0.0329240222,KJU0134|PZ711424.1|Chromobacterium_piscinae:0.0819991563)100/100:0.0831976152,(((((((((KJU0012|PZ652691.1|Peribacillus_simplex:0.0031461945,KJU0029|PZ653118.1|Peribacillus_simplex:0.0045796787)100/100:0.0264115583,KJU0138|PZ711426.1|Priestia_megaterium:0.0236461899)80.4/95:0.0087395728,((KJU0105|PZ710590.1|Bacillus_cereus:0.0000027660,KJU0208|PZ725633.1|Bacillus_cereus:0.0023663940)95.5/100:0.0050522338,(KJU0211|PZ725883.1|Bacillus_wiedmannii:0.0007494222,KJU0217|PZ726885.1|Bacillus_cereus:0.0000010924)95.8/100:0.0049146385)100/100:0.0335355371)93.1/61:0.0094886725,((KJU0018|PZ652697.1|Mammaliicoccus_sciuri:0.0170171795,(KJU0096|PZ693593.1|Staphylococcus_epidermidis:0.0105465944,KJU0102|PZ698382.1|Staphylococcus_xylosus:0.0113601084)86.7/96:0.0114390413)100/100:0.0502601589,(((KJU0057|PZ675210.1|Bacillus_subtilis:0.0000010924,KJU0215|PZ726883.1|Bacillus_subtilis:0.0000010924)98.9/100:0.0054619352,(KJU0093|PZ693573.1|Bacillus_subtilis:0.0000010924,KJU0103|PZ698383.1|Bacillus_subtilis:0.0000010924)95/100:0.0030914765)74.7/99:0.0019657926,(KJU0128|PZ711421.1|Bacillus_velezensis:0.0023908959,KJU0216|PZ726884.1|Bacillus_velezensis:0.0022918350)80.3/98:0.0026886167)100/100:0.0424230358)60.1/57:0.0055906835)80.9/92:0.0075166111,((KJU0109|PZ710624.1|Vagococcus_fluvialis:0.0346831045,KJU0231|PZ740697.1|Limosilactobacillus_fermentum:0.1218546428)99.5/100:0.0304498345,KJU0132|PZ711423.1|Listeria_innocua:0.0422035137)94.4/97:0.0187503624)90.8/96:0.0175630946,(KJU0081|PZ675619.1|Exiguobacterium_acetylicum:0.0036378714,KJU0082|PZ675620.1|Exiguobacterium_indicum:0.0159955867)100/100:0.0740253095)99.5/99:0.0396914638,(((KJU0063|PZ675326.1|Paenibacillus_polymyxa:0.0000010924,KJU0068|PZ675331.1|Paenibacillus_polymyxa:0.0000010924)89.6/98:0.0037944818,((KJU0076|PZ675605.1|Paenibacillus_polymyxa:0.0000010924,KJU0107|PZ710622.1|Paenibacillus_polymyxa:0.0000010924)0/48:0.0000027623,KJU0115|PZ711016.1|Paenibacillus_polymyxa:0.0000010924)92.9/98:0.0051960856)100/100:0.0418986987,KJU0213|PZ726882.1|Paenibacillus_amylolyticus:0.0507872762)99.7/100:0.0490426787)99.7/100:0.0857365690,((((KJU0013|PZ652692.1|Microbacterium_testaceum:0.0000010924,KJU0223|PZ738903.1|Microbacterium_testaceum:0.0000010924)92.9/100:0.0087594760,KJU0195|PZ711592.1|Microbacterium_oxydans:0.0214760866)97.9/99:0.0202053859,KJU0110|PZ710625.1|Leifsonia_aquatica:0.0451454349)96.6/99:0.0384305602,(KJU0094|PZ693574.1|Kocuria_rosea:0.0198851142,(KJU0193|PZ711590.1|Glutamicibacter_nicotianae:0.0160395102,KJU0227|PZ740688.1|Micrococcus_luteus:0.0323293899)89.5/98:0.0109573588)95.3/100:0.0257287893)100/100:0.1672440221)45.6/86:0.0572345616,KJU0022|PZ652701.1|Hymenobacter_aquaticus:0.4675871491)99.4/99:0.1033042392)52.6/79:0.0183396284)99.8/100:0.0575863590,(((((((KJU0037|PZ666010.1|Shewanella_putrefaciens:0.0000010924,KJU0049|PZ666026.1|Shewanella_putrefaciens:0.0000010924)0/94:0.0000010924,KJU0234|PZ741805.1|Shewanella_putrefaciens:0.0000010924)0/81:0.0000023090,(KJU0084|PZ675621.1|Shewanella_putrefaciens:0.0000010924,KJU0232|PZ741804.1|Shewanella_putrefaciens:0.0000010924)0/56:0.0000010924)71.2/92:0.0005920595,KJU0042|PZ666014.1|Shewanella_xiamenensis:0.0146448902)98.7/100:0.0062500298,KJU0210|PZ725634.1|Shewanella_putrefaciens:0.0037650482)69.3/96:0.0009685570,KJU0064|PZ675327.1|Shewanella_putrefaciens:0.0051728674)99.9/100:0.0322377359,KJU0038|PZ666011.1|Shewanella_algae:0.0264672127)99.7/100:0.0410805675)92.7/90:0.0275169744,((((((((KJU0007|PZ638865.1|Citrobacter_freundii:0.0046067689,KJU0099|PZ698200.1|Citrobacter_freundii:0.0046080367)0/51:0.0000010924,(KJU0088|PZ682701.1|Citrobacter_freundii:0.0015168654,KJU0221|PZ735706.1|Citrobacter_freundii:0.0022793456)0/37:0.0000010924)0/79:0.0000028468,(KJU0053|PZ675203.1|Edwardsiella_tarda:0.0512539754,KJU0106|PZ710591.1|Citrobacter_freundii:0.0000031841)99.4/83:0.0061351091)0/70:0.0000023955,KJU0008|PZ638866.1|Citrobacter_braakii:0.0083983253)84.8/78:0.0067379067,(((((KJU0019|PZ652698.1|Citrobacter_koseri:0.0000010924,KJU0021|PZ652700.1|Citrobacter_koseri:0.0000010924)0/48:0.0000010924,(KJU0032|PZ654717.1|Citrobacter_koseri:0.0000010924,(KJU0035|PZ654848.1|Citrobacter_koseri:0.0000010924,KJU0048|PZ666025.1|Citrobacter_koseri:0.0000010924)0/92:0.0000010924)0/91:0.0000010924)0/90:0.0000010924,KJU0095|PZ693592.1|Citrobacter_koseri:0.0000010924)77.3/96:0.0009695027,KJU0067|PZ675330.1|Citrobacter_koseri:0.0086345730)87.6/98:0.0040074601,KJU0226|PZ740687.1|Escherichia_coli:0.0275022496)99.9/100:0.0205772132)39.9/80:0.0093140637,KJU0025|PZ652970.1|Pantoea_agglomerans:0.0331898284)100/100:0.0387094908,(KJU0010|PZ638868.1|Plesiomonas_shigelloides:0.0059536249,((KJU0026|PZ652971.1|Plesiomonas_shigelloides:0.0000010924,KJU0116|PZ711017.1|Plesiomonas_shigelloides:0.0000010924)86.6/97:0.0014808156,KJU0194|PZ711591.1|Plesiomonas_shigelloides:0.0068167641)0/79:0.0000025555)99.3/100:0.0174258215)91.9/98:0.0131618470,KJU0062|PZ675268.1|Pseudoalteromonas_rubra:0.0921302978)68.7/80:0.0237617269)100/100:0.0604531648,((((KJU0028|PZ653117.1|Aeromonas_veronii:0.0000010924,KJU0030|PZ653119.1|Aeromonas_veronii:0.0000010924)0/81:0.0000010924,(KJU0036|PZ654849.1|Aeromonas_veronii:0.0000010924,KJU0043|PZ666015.1|Aeromonas_veronii:0.0000010924)0/89:0.0000021898)0/83:0.0000022411,KJU0054|PZ675204.1|Aeromonas_salmonicida:0.0172521633)94.1/72:0.0045188549,(KJU0060|PZ675266.1|Aeromonas_veronii:0.0000021510,(KJU0066|PZ675329.1|Aeromonas_veronii:0.0000010924,KJU0114|PZ711015.1|Aeromonas_veronii:0.0000010924)99.9/100:0.0068723637)0/64:0.0000027439)48.4/54:0.0027030539)92.7/93:0.0085366645)96.8/95:0.0063295908,((KJU0014|PZ652693.1|Aeromonas_caviae:0.0075615258,(((KJU0016|PZ652695.1|Aeromonas_caviae:0.0000010924,KJU0020|PZ652699.1|Aeromonas_caviae:0.0000010924)0/89:0.0000010924,KJU0065|PZ675328.1|Aeromonas_caviae:0.0022807693)81.5/98:0.0008442462,KJU0017|PZ652696.1|Aeromonas_hydrophila:0.0000025735)99.4/100:0.0059825085)0/58:0.0000022080,KJU0027|PZ652972.1|Aeromonas_caviae:0.0060610085)88.4/78:0.0014995453)0/93:0.0000025530,KJU0052|PZ675202.1|Aeromonas_caviae:0.0000010924)0/85:0.0000029944,KJU0104|PZ710589.1|Aeromonas_caviae:0.0061912328)99/100:0.0076732367,KJU0006|PZ638864.1|Aeromonas_caviae:0.0000010924);
+
+CONSENSUS TREE
+--------------
+
+Consensus tree is constructed from 1000 bootstrap trees
+Log-likelihood of consensus tree: -18288.679775
+Robinson-Foulds distance between ML tree and consensus tree: 2
+
+Branches with support >0.000000% are kept (extended consensus)
+Branch lengths are optimized by maximum likelihood on original alignment
+Numbers in parentheses are bootstrap supports (%)
+
++--KJU0001|PZ638859.1|Aeromonas_caviae
+|
+|                          +--KJU0002|PZ638860.1|Aeromonas_hydrophila
+|                       +--| (76)
+|                       |  +--KJU0061|PZ675267.1|Aeromonas_hydrophila
+|                    +--| (100)
+|                    |  +--KJU0058|PZ675265.1|Aeromonas_hydrophila
+|                 +--| (81)
+|                 |  +--KJU0108|PZ710623.1|Aeromonas_hydrophila
+|              +--| (55)
+|              |  +--KJU0009|PZ638867.1|Aeromonas_media
+|           +--| (98)
+|           |  +--KJU0004|PZ638862.1|Aeromonas_hydrophila
+|        +--| (95)
+|        |  |                      +--KJU0003|PZ638861.1|Pseudomonas_putida
+|        |  |                   +--| (100)
+|        |  |                   |  +--KJU0015|PZ652694.1|Pseudomonas_putida
+|        |  |                +--| (100)
+|        |  |                |  |     +--KJU0051|PZ675201.1|Pseudomonas_aeruginosa
+|        |  |                |  |  +--| (100)
+|        |  |                |  |  |  +--KJU0222|PZ735707.1|Pseudomonas_aeruginosa
+|        |  |                |  +--| (100)
+|        |  |                |     +--KJU0119|PZ711020.1|Pseudomonas_aeruginosa
+|        |  |             +--| (62)
+|        |  |             |  |          +--KJU0024|PZ652969.1|Faucicola_osloensis
+|        |  |             |  |       +--| (100)
+|        |  |             |  |       |  +--KJU0072|PZ675603.1|Faucicola_osloensis
+|        |  |             |  +-------| (100)
+|        |  |             |          +---KJU0071|PZ675602.1|Lwoffella_lincolnii
+|        |  |         +---| (100)
+|        |  |         |   |                          +--KJU0005|PZ638863.1|Comamonas_testosteroni
+|        |  |         |   |                       +--| (70)
+|        |  |         |   |                       |  +--KJU0091|PZ693572.1|Comamonas_testosteroni
+|        |  |         |   |                    +--| (70)
+|        |  |         |   |                    |  |  +--KJU0074|PZ675604.1|Comamonas_testosteroni
+|        |  |         |   |                    |  +--| (91)
+|        |  |         |   |                    |     +--KJU0089|PZ682702.1|Comamonas_testosteroni
+|        |  |         |   |                 +--| (100)
+|        |  |         |   |                 |  +--KJU0023|PZ652968.1|Comamonas_aquatica
+|        |  |         |   |           +-----| (100)
+|        |  |         |   |           |     +--KJU0205|PZ725632.1|Delftia_acidovorans
+|        |  |         |   |        +--| (99)
+|        |  |         |   |        |  +-----KJU0011|PZ652690.1|Alcaligenes_faecalis
+|        |  |         |   |  +-----| (100)
+|        |  |         |   |  |     +-----KJU0134|PZ711424.1|Chromobacterium_piscinae
+|        |  |         |   +--| (79)
+|        |  |         |      |                                   +--KJU0012|PZ652691.1|Peribacillus_simplex
+|        |  |         |      |                                +--| (100)
+|        |  |         |      |                                |  +--KJU0029|PZ653118.1|Peribacillus_simplex
+|        |  |         |      |                             +--| (95)
+|        |  |         |      |                             |  +--KJU0138|PZ711426.1|Priestia_megaterium
+|        |  |         |      |                          +--| (61)
+|        |  |         |      |                          |  |     +--KJU0105|PZ710590.1|Bacillus_cereus
+|        |  |         |      |                          |  |  +--| (100)
+|        |  |         |      |                          |  |  |  +--KJU0208|PZ725633.1|Bacillus_cereus
+|        |  |         |      |                          |  +--| (100)
+|        |  |         |      |                          |     |  +--KJU0211|PZ725883.1|Bacillus_wiedmannii
+|        |  |         |      |                          |     +--| (100)
+|        |  |         |      |                          |        +--KJU0217|PZ726885.1|Bacillus_cereus
+|        |  |         |      |                       +--| (92)
+|        |  |         |      |                       |  |     +--KJU0018|PZ652697.1|Mammaliicoccus_sciuri
+|        |  |         |      |                       |  |  +--| (100)
+|        |  |         |      |                       |  |  |  |  +--KJU0096|PZ693593.1|Staphylococcus_epidermidis
+|        |  |         |      |                       |  |  |  +--| (96)
+|        |  |         |      |                       |  |  |     +--KJU0102|PZ698382.1|Staphylococcus_xylosus
+|        |  |         |      |                       |  +--| (57)
+|        |  |         |      |                       |     |        +--KJU0057|PZ675210.1|Bacillus_subtilis
+|        |  |         |      |                       |     |     +--| (100)
+|        |  |         |      |                       |     |     |  +--KJU0215|PZ726883.1|Bacillus_subtilis
+|        |  |         |      |                       |     |  +--| (99)
+|        |  |         |      |                       |     |  |  |  +--KJU0093|PZ693573.1|Bacillus_subtilis
+|        |  |         |      |                       |     |  |  +--| (100)
+|        |  |         |      |                       |     |  |     +--KJU0103|PZ698383.1|Bacillus_subtilis
+|        |  |         |      |                       |     +--| (100)
+|        |  |         |      |                       |        |  +--KJU0128|PZ711421.1|Bacillus_velezensis
+|        |  |         |      |                       |        +--| (98)
+|        |  |         |      |                       |           +--KJU0216|PZ726884.1|Bacillus_velezensis
+|        |  |         |      |                    +--| (96)
+|        |  |         |      |                    |  |     +--KJU0109|PZ710624.1|Vagococcus_fluvialis
+|        |  |         |      |                    |  |  +--| (100)
+|        |  |         |      |                    |  |  |  +--------KJU0231|PZ740697.1|Limosilactobacillus_fermentum
+|        |  |         |      |                    |  +--| (97)
+|        |  |         |      |                    |     +--KJU0132|PZ711423.1|Listeria_innocua
+|        |  |         |      |                 +--| (99)
+|        |  |         |      |                 |  |    +--KJU0081|PZ675619.1|Exiguobacterium_acetylicum
+|        |  |         |      |                 |  +----| (100)
+|        |  |         |      |                 |       +--KJU0082|PZ675620.1|Exiguobacterium_indicum
+|        |  |         |      |           +-----| (100)
+|        |  |         |      |           |     |        +--KJU0063|PZ675326.1|Paenibacillus_polymyxa
+|        |  |         |      |           |     |     +--| (98)
+|        |  |         |      |           |     |     |  +--KJU0068|PZ675331.1|Paenibacillus_polymyxa
+|        |  |         |      |           |     |  +--| (100)
+|        |  |         |      |           |     |  |  |  +--KJU0076|PZ675605.1|Paenibacillus_polymyxa
+|        |  |         |      |           |     |  |  +--| (98)
+|        |  |         |      |           |     |  |     |  +--KJU0107|PZ710622.1|Paenibacillus_polymyxa
+|        |  |         |      |           |     |  |     +--| (50)
+|        |  |         |      |           |     |  |        +--KJU0115|PZ711016.1|Paenibacillus_polymyxa
+|        |  |         |      |           |     +--| (100)
+|        |  |         |      |           |        +---KJU0213|PZ726882.1|Paenibacillus_amylolyticus
+|        |  |         |      |       +---| (86)
+|        |  |         |      |       |   |                     +--KJU0013|PZ652692.1|Microbacterium_testaceum
+|        |  |         |      |       |   |                  +--| (100)
+|        |  |         |      |       |   |                  |  +--KJU0223|PZ738903.1|Microbacterium_testaceum
+|        |  |         |      |       |   |               +--| (99)
+|        |  |         |      |       |   |               |  +--KJU0195|PZ711592.1|Microbacterium_oxydans
+|        |  |         |      |       |   |            +--| (99)
+|        |  |         |      |       |   |            |  +--KJU0110|PZ710625.1|Leifsonia_aquatica
+|        |  |         |      |       |   +------------| (100)
+|        |  |         |      |       |                |  +--KJU0094|PZ693574.1|Kocuria_rosea
+|        |  |         |      |       |                +--| (100)
+|        |  |         |      |       |                   |  +--KJU0193|PZ711590.1|Glutamicibacter_nicotianae
+|        |  |         |      |       |                   +--| (98)
+|        |  |         |      |       |                      +--KJU0227|PZ740688.1|Micrococcus_luteus
+|        |  |         |      +-------| (99)
+|        |  |         |              +------------------------------------KJU0022|PZ652701.1|Hymenobacter_aquaticus
+|        |  |      +--| (90)
+|        |  |      |  |                    +--KJU0037|PZ666010.1|Shewanella_putrefaciens
+|        |  |      |  |                 +--| (94)
+|        |  |      |  |                 |  +--KJU0049|PZ666026.1|Shewanella_putrefaciens
+|        |  |      |  |              +--| (81)
+|        |  |      |  |              |  +--KJU0234|PZ741805.1|Shewanella_putrefaciens
+|        |  |      |  |           +--| (92)
+|        |  |      |  |           |  |  +--KJU0084|PZ675621.1|Shewanella_putrefaciens
+|        |  |      |  |           |  +--| (56)
+|        |  |      |  |           |     +--KJU0232|PZ741804.1|Shewanella_putrefaciens
+|        |  |      |  |        +--| (100)
+|        |  |      |  |        |  +--KJU0042|PZ666014.1|Shewanella_xiamenensis
+|        |  |      |  |     +--| (96)
+|        |  |      |  |     |  +--KJU0210|PZ725634.1|Shewanella_putrefaciens
+|        |  |      |  |  +--| (100)
+|        |  |      |  |  |  +--KJU0064|PZ675327.1|Shewanella_putrefaciens
+|        |  |      |  +--| (100)
+|        |  |      |     +--KJU0038|PZ666011.1|Shewanella_algae
+|        |  |  +---| (100)
+|        |  |  |   |                       +--KJU0007|PZ638865.1|Citrobacter_freundii
+|        |  |  |   |                    +--| (51)
+|        |  |  |   |                    |  +--KJU0099|PZ698200.1|Citrobacter_freundii
+|        |  |  |   |                 +--| (79)
+|        |  |  |   |                 |  |  +--KJU0088|PZ682701.1|Citrobacter_freundii
+|        |  |  |   |                 |  +--| (37)
+|        |  |  |   |                 |     +--KJU0221|PZ735706.1|Citrobacter_freundii
+|        |  |  |   |              +--| (70)
+|        |  |  |   |              |  |  +---KJU0053|PZ675203.1|Edwardsiella_tarda
+|        |  |  |   |              |  +--| (83)
+|        |  |  |   |              |     +--KJU0106|PZ710591.1|Citrobacter_freundii
+|        |  |  |   |           +--| (78)
+|        |  |  |   |           |  +--KJU0008|PZ638866.1|Citrobacter_braakii
+|        |  |  |   |        +--| (80)
+|        |  |  |   |        |  |              +--KJU0019|PZ652698.1|Citrobacter_koseri
+|        |  |  |   |        |  |           +--| (48)
+|        |  |  |   |        |  |           |  +--KJU0021|PZ652700.1|Citrobacter_koseri
+|        |  |  |   |        |  |        +--| (90)
+|        |  |  |   |        |  |        |  |  +--KJU0032|PZ654717.1|Citrobacter_koseri
+|        |  |  |   |        |  |        |  +--| (91)
+|        |  |  |   |        |  |        |     |  +--KJU0035|PZ654848.1|Citrobacter_koseri
+|        |  |  |   |        |  |        |     +--| (92)
+|        |  |  |   |        |  |        |        +--KJU0048|PZ666025.1|Citrobacter_koseri
+|        |  |  |   |        |  |     +--| (96)
+|        |  |  |   |        |  |     |  +--KJU0095|PZ693592.1|Citrobacter_koseri
+|        |  |  |   |        |  |  +--| (98)
+|        |  |  |   |        |  |  |  +--KJU0067|PZ675330.1|Citrobacter_koseri
+|        |  |  |   |        |  +--| (100)
+|        |  |  |   |        |     +--KJU0226|PZ740687.1|Escherichia_coli
+|        |  |  |   |     +--| (100)
+|        |  |  |   |     |  +--KJU0025|PZ652970.1|Pantoea_agglomerans
+|        |  |  |   |  +--| (98)
+|        |  |  |   |  |  |  +--KJU0010|PZ638868.1|Plesiomonas_shigelloides
+|        |  |  |   |  |  +--| (100)
+|        |  |  |   |  |     |     +--KJU0026|PZ652971.1|Plesiomonas_shigelloides
+|        |  |  |   |  |     |  +--| (97)
+|        |  |  |   |  |     |  |  +--KJU0116|PZ711017.1|Plesiomonas_shigelloides
+|        |  |  |   |  |     +--| (79)
+|        |  |  |   |  |        +--KJU0194|PZ711591.1|Plesiomonas_shigelloides
+|        |  |  |   +--| (80)
+|        |  |  |      +------KJU0062|PZ675268.1|Pseudoalteromonas_rubra
+|        |  +--| (93)
+|        |     |              +**KJU0028|PZ653117.1|Aeromonas_veronii
+|        |     |           +--|
+|        |     |           |  +**KJU0031|PZ654716.1|Aeromonas_veronii
+|        |     |        +--| (81)
+|        |     |        |  +--KJU0030|PZ653119.1|Aeromonas_veronii
+|        |     |     +--| (83)
+|        |     |     |  |  +--KJU0036|PZ654849.1|Aeromonas_veronii
+|        |     |     |  +--| (89)
+|        |     |     |     +--KJU0043|PZ666015.1|Aeromonas_veronii
+|        |     |  +--| (72)
+|        |     |  |  +--KJU0054|PZ675204.1|Aeromonas_salmonicida
+|        |     +--| (54)
+|        |        |  +--KJU0060|PZ675266.1|Aeromonas_veronii
+|        |        +--| (64)
+|        |           |  +--KJU0066|PZ675329.1|Aeromonas_veronii
+|        |           +--| (100)
+|        |              +--KJU0114|PZ711015.1|Aeromonas_veronii
+|     +--| (93)
+|     |  |     +--KJU0014|PZ652693.1|Aeromonas_caviae
+|     |  |  +--| (58)
+|     |  |  |  |        +--KJU0016|PZ652695.1|Aeromonas_caviae
+|     |  |  |  |     +--| (89)
+|     |  |  |  |     |  +--KJU0020|PZ652699.1|Aeromonas_caviae
+|     |  |  |  |  +--| (98)
+|     |  |  |  |  |  +--KJU0065|PZ675328.1|Aeromonas_caviae
+|     |  |  |  +--| (100)
+|     |  |  |     +--KJU0017|PZ652696.1|Aeromonas_hydrophila
+|     |  +--| (78)
+|     |     +--KJU0027|PZ652972.1|Aeromonas_caviae
+|  +--| (85)
+|  |  +--KJU0052|PZ675202.1|Aeromonas_caviae
++--| (100)
+|  +--KJU0104|PZ710589.1|Aeromonas_caviae
+|
++--KJU0006|PZ638864.1|Aeromonas_caviae
+
+
+Consensus tree in newick format: 
+
+(KJU0001|PZ638859.1|Aeromonas_caviae:0.0000024516,(((((((((KJU0002|PZ638860.1|Aeromonas_hydrophila:0.0000024516,KJU0061|PZ675267.1|Aeromonas_hydrophila:0.0000024516)76:0.0000024516,KJU0058|PZ675265.1|Aeromonas_hydrophila:0.0000024516)100:0.0093970183,KJU0108|PZ710623.1|Aeromonas_hydrophila:0.0054061617)81:0.0000024516,KJU0009|PZ638867.1|Aeromonas_media:0.0060320059)55:0.0014684713,KJU0004|PZ638862.1|Aeromonas_hydrophila:0.0015193979)98:0.0064099242,(((((((KJU0003|PZ638861.1|Pseudomonas_putida:0.0000024516,KJU0015|PZ652694.1|Pseudomonas_putida:0.0000024516)100:0.0405424494,((KJU0051|PZ675201.1|Pseudomonas_aeruginosa:0.0029961309,KJU0222|PZ735707.1|Pseudomonas_aeruginosa:0.0067545683)100:0.0004366558,KJU0119|PZ711020.1|Pseudomonas_aeruginosa:0.0062747992)100:0.0346580331)100:0.0493178919,((KJU0024|PZ652969.1|Faucicola_osloensis:0.0039402467,KJU0072|PZ675603.1|Faucicola_osloensis:0.0096510728)100:0.0251743368,KJU0071|PZ675602.1|Lwoffella_lincolnii:0.0590112489)100:0.1103577635)62:0.0117420455,(((((((KJU0005|PZ638863.1|Comamonas_testosteroni:0.0076609079,KJU0091|PZ693572.1|Comamonas_testosteroni:0.0051959002)70:0.0000024250,(KJU0074|PZ675604.1|Comamonas_testosteroni:0.0000024516,KJU0089|PZ682702.1|Comamonas_testosteroni:0.0000024516)91:0.0045962918)70:0.0141980770,KJU0023|PZ652968.1|Comamonas_aquatica:0.0340622786)100:0.0290219258,KJU0205|PZ725632.1|Delftia_acidovorans:0.0212692299)100:0.0756843779,KJU0011|PZ652690.1|Alcaligenes_faecalis:0.0851461132)99:0.0328590121,KJU0134|PZ711424.1|Chromobacterium_piscinae:0.0818290019)100:0.0830176304,(((((((((KJU0012|PZ652691.1|Peribacillus_simplex:0.0031371871,KJU0029|PZ653118.1|Peribacillus_simplex:0.0045673149)100:0.0263373031,KJU0138|PZ711426.1|Priestia_megaterium:0.0235806880)95:0.0087225248,((KJU0105|PZ710590.1|Bacillus_cereus:0.0000024541,KJU0208|PZ725633.1|Bacillus_cereus:0.0023598061)100:0.0050393077,(KJU0211|PZ725883.1|Bacillus_wiedmannii:0.0007479912,KJU0217|PZ726885.1|Bacillus_cereus:0.0000024516)100:0.0049004761)100:0.0334382388)61:0.0094657659,((KJU0018|PZ652697.1|Mammaliicoccus_sciuri:0.0169705269,(KJU0096|PZ693593.1|Staphylococcus_epidermidis:0.0105193254,KJU0102|PZ698382.1|Staphylococcus_xylosus:0.0113269096)96:0.0114075141)100:0.0501103058,(((KJU0057|PZ675210.1|Bacillus_subtilis:0.0000024516,KJU0215|PZ726883.1|Bacillus_subtilis:0.0000024516)100:0.0054458519,(KJU0093|PZ693573.1|Bacillus_subtilis:0.0000024516,KJU0103|PZ698383.1|Bacillus_subtilis:0.0000024516)100:0.0030824214)99:0.0019597097,(KJU0128|PZ711421.1|Bacillus_velezensis:0.0023839251,KJU0216|PZ726884.1|Bacillus_velezensis:0.0022850543)98:0.0026823518)100:0.0423078570)57:0.0055765359)92:0.0075117700,((KJU0109|PZ710624.1|Vagococcus_fluvialis:0.0345939062,KJU0231|PZ740697.1|Limosilactobacillus_fermentum:0.1214955623)100:0.0303662263,KJU0132|PZ711423.1|Listeria_innocua:0.0420866966)97:0.0187020021)96:0.0175296243,(KJU0081|PZ675619.1|Exiguobacterium_acetylicum:0.0036345028,KJU0082|PZ675620.1|Exiguobacterium_indicum:0.0159498960)100:0.0737998918)99:0.0396068816,(((KJU0063|PZ675326.1|Paenibacillus_polymyxa:0.0000024516,KJU0068|PZ675331.1|Paenibacillus_polymyxa:0.0000024516)98:0.0037864001,(KJU0076|PZ675605.1|Paenibacillus_polymyxa:0.0000024516,(KJU0107|PZ710622.1|Paenibacillus_polymyxa:0.0000020954,KJU0115|PZ711016.1|Paenibacillus_polymyxa:0.0000024516)50:0.0000020954)98:0.0051824194)100:0.0417913197,KJU0213|PZ726882.1|Paenibacillus_amylolyticus:0.0506619132)100:0.0488973252)100:0.0855367026,((((KJU0013|PZ652692.1|Microbacterium_testaceum:0.0000024516,KJU0223|PZ738903.1|Microbacterium_testaceum:0.0000024516)100:0.0087405506,KJU0195|PZ711592.1|Microbacterium_oxydans:0.0214217226)99:0.0201504313,KJU0110|PZ710625.1|Leifsonia_aquatica:0.0450312414)99:0.0383043308,(KJU0094|PZ693574.1|Kocuria_rosea:0.0198437013,(KJU0193|PZ711590.1|Glutamicibacter_nicotianae:0.0160059638,KJU0227|PZ740688.1|Micrococcus_luteus:0.0322409649)98:0.0109246084)100:0.0257124071)100:0.1667339386)86:0.0571382079,KJU0022|PZ652701.1|Hymenobacter_aquaticus:0.4661961698)99:0.1029897207)79:0.0182843109)100:0.0574645627,(((((((KJU0037|PZ666010.1|Shewanella_putrefaciens:0.0000024516,KJU0049|PZ666026.1|Shewanella_putrefaciens:0.0000024516)94:0.0000024516,KJU0234|PZ741805.1|Shewanella_putrefaciens:0.0000024516)81:0.0000024516,(KJU0084|PZ675621.1|Shewanella_putrefaciens:0.0000024516,KJU0232|PZ741804.1|Shewanella_putrefaciens:0.0000024516)56:0.0000024516)92:0.0005913645,KJU0042|PZ666014.1|Shewanella_xiamenensis:0.0146158053)100:0.0062375693,KJU0210|PZ725634.1|Shewanella_putrefaciens:0.0037575723)96:0.0009689713,KJU0064|PZ675327.1|Shewanella_putrefaciens:0.0051617886)100:0.0321693781,KJU0038|PZ666011.1|Shewanella_algae:0.0264247668)100:0.0410047363)90:0.0274729496,((((((((KJU0007|PZ638865.1|Citrobacter_freundii:0.0045988842,KJU0099|PZ698200.1|Citrobacter_freundii:0.0046001582)51:0.0000024516,(KJU0088|PZ682701.1|Citrobacter_freundii:0.0015150260,KJU0221|PZ735706.1|Citrobacter_freundii:0.0022754596)37:0.0000024516)79:0.0000024516,(KJU0053|PZ675203.1|Edwardsiella_tarda:0.0511612151,KJU0106|PZ710591.1|Citrobacter_freundii:0.0000024516)83:0.0061243747)70:0.0000024541,KJU0008|PZ638866.1|Citrobacter_braakii:0.0083836691)78:0.0067295499,(((((KJU0019|PZ652698.1|Citrobacter_koseri:0.0000024516,KJU0021|PZ652700.1|Citrobacter_koseri:0.0000024516)48:0.0000024516,(KJU0032|PZ654717.1|Citrobacter_koseri:0.0000024516,(KJU0035|PZ654848.1|Citrobacter_koseri:0.0000024516,KJU0048|PZ666025.1|Citrobacter_koseri:0.0000024516)92:0.0000024516)91:0.0000024516)90:0.0000024516,KJU0095|PZ693592.1|Citrobacter_koseri:0.0000024516)96:0.0009678341,KJU0067|PZ675330.1|Citrobacter_koseri:0.0086201811)98:0.0039997538,KJU0226|PZ740687.1|Escherichia_coli:0.0274572977)100:0.0205420794)80:0.0092964940,KJU0025|PZ652970.1|Pantoea_agglomerans:0.0331340570)100:0.0386407378,(KJU0010|PZ638868.1|Plesiomonas_shigelloides:0.0059429038,((KJU0026|PZ652971.1|Plesiomonas_shigelloides:0.0000024516,KJU0116|PZ711017.1|Plesiomonas_shigelloides:0.0000024516)97:0.0014789459,KJU0194|PZ711591.1|Plesiomonas_shigelloides:0.0068045161)79:0.0000027096)100:0.0173967062)98:0.0131387413,KJU0062|PZ675268.1|Pseudoalteromonas_rubra:0.0919542900)80:0.0237187971)100:0.0603476339,(((((KJU0028|PZ653117.1|Aeromonas_veronii:0.0000000000,KJU0031|PZ654716.1|Aeromonas_veronii:0.0000000000):0.0000024516,KJU0030|PZ653119.1|Aeromonas_veronii:0.0000024516)81:0.0000024516,(KJU0036|PZ654849.1|Aeromonas_veronii:0.0000024516,KJU0043|PZ666015.1|Aeromonas_veronii:0.0000024516)89:0.0000024516)83:0.0000028238,KJU0054|PZ675204.1|Aeromonas_salmonicida:0.0172200169)72:0.0045105150,(KJU0060|PZ675266.1|Aeromonas_veronii:0.0000024516,(KJU0066|PZ675329.1|Aeromonas_veronii:0.0000024516,KJU0114|PZ711015.1|Aeromonas_veronii:0.0000024516)100:0.0068595010)64:0.0000022793)54:0.0026990426)93:0.0085221019)95:0.0063171202,((KJU0014|PZ652693.1|Aeromonas_caviae:0.0075478601,(((KJU0016|PZ652695.1|Aeromonas_caviae:0.0000024516,KJU0020|PZ652699.1|Aeromonas_caviae:0.0000024516)89:0.0000024516,KJU0065|PZ675328.1|Aeromonas_caviae:0.0022766541)98:0.0008427233,KJU0017|PZ652696.1|Aeromonas_hydrophila:0.0000024516)100:0.0059717575)58:0.0000024516,KJU0027|PZ652972.1|Aeromonas_caviae:0.0060500287)78:0.0014976157)93:0.0000024516,KJU0052|PZ675202.1|Aeromonas_caviae:0.0000024516)85:0.0000024541,KJU0104|PZ710589.1|Aeromonas_caviae:0.0061798675)100:0.0076593003,KJU0006|PZ638864.1|Aeromonas_caviae:0.0000024516);
+
+ALISIM COMMAND
+--------------
+To simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis, you can use the following command:
+
+--alisim simulated_MSA -t 07_Master_Metadata/FINAL_109_PHYLOGENY_V1/SENSITIVITY/KJU106_no_bias.treefile -m "GTR{0.612918,1.81749,1.54022,0.504229,2.82586}+F{0.254443,0.229611,0.317935,0.198011}+R4{0.533228,0.0571494,0.232735,0.79705,0.176714,2.38389,0.0573236,6.32825}" --length 1345
+
+To mimic the alignment used to produce this analysis, i.e. simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis *and* copying the same gap positions as the original alignment, you can use the following command:
+
+iqtree -s 07_Master_Metadata/FINAL_109_PHYLOGENY_V1/SENSITIVITY/KJU106_WITHOUT_COMPOSITION_BIASED_TAXA.fasta --alisim mimicked_MSA
+
+To simulate any number of alignments in either of the two commandlines above, use the --num-alignments options, for example mimic 100 alignments you would use the command line:
+
+iqtree -s 07_Master_Metadata/FINAL_109_PHYLOGENY_V1/SENSITIVITY/KJU106_WITHOUT_COMPOSITION_BIASED_TAXA.fasta --alisim mimicked_MSA --num-alignments 100
+
+For more information on using AliSim, please visit: www.iqtree.org/doc/AliSim
+
+TIME STAMP
+----------
+
+Date and time: Sat Aug 15 19:45:48 2026
+Total CPU time used: 398.179753 seconds (0h:6m:38s)
+Total wall-clock time used: 134.5789742 seconds (0h:2m:14s)
+

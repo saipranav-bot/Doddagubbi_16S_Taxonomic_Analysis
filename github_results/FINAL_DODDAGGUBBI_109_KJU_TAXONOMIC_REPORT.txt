@@ -1,0 +1,61 @@
+====================================================================================================
+DODDAGGUBBI 16S rRNA - FINAL 109-KJU TAXONOMIC ASSESSMENT
+====================================================================================================
+
+DATASET
+----------------------------------------------------------------------------------------------------
+Final validated KJU records: 109
+GenBank validation: 109/109 PASS
+Sequence QC: 109/109 PASS
+Original MAFFT alignment: 109 x 1550 bp
+Trimmed alignment: 109 x 1345 bp
+Main phylogeny model: GTR+F+R4
+Main phylogeny support: 1000 UFBoot + 1000 SH-aLRT
+
+REFERENCE-AUGMENTED ANALYSIS
+----------------------------------------------------------------------------------------------------
+Independent NCBI reference sequences: 65
+Target species represented: 13
+Total reference-augmented taxa: 174
+Independent-reference trimmed alignment: 1369 bp
+Independent-reference phylogeny model: GTR+F+R3
+Independent-reference support: 1000 UFBoot + 1000 SH-aLRT
+
+SENSITIVITY
+----------------------------------------------------------------------------------------------------
+Target KJUs compared between main and sensitivity trees: 38
+Stable nearest-reference placements: 38
+Changed placements: 0
+
+FINAL 9-KJU REVIEW
+----------------------------------------------------------------------------------------------------
+KJU0017 | Aeromonas hydrophila | alternative=Aeromonas caviae | delta=0.0081537141 | SH-aLRT=98.2 | UFBoot=100.0 | stable=true | STRONG_ALTERNATIVE_SIGNAL | HIGH_PRIORITY_TAXONOMIC_REVIEW
+KJU0217 | Bacillus cereus | alternative=Bacillus wiedmannii | delta=1.000800000100152e-06 | SH-aLRT=99.0 | UFBoot=100.0 | stable=true | STRONG_ALTERNATIVE_SIGNAL | HIGH_PRIORITY_TAXONOMIC_REVIEW
+KJU0007 | Citrobacter freundii | alternative=Citrobacter braakii | delta=0.0014716588999999 | SH-aLRT=84.5 | UFBoot=89.0 | stable=true | MODERATE_ALTERNATIVE_SIGNAL | RETAIN_BUT_FLAG_FOR_REVIEW
+KJU0088 | Citrobacter freundii | alternative=Citrobacter braakii | delta=0.0014716588999999 | SH-aLRT=84.5 | UFBoot=89.0 | stable=true | MODERATE_ALTERNATIVE_SIGNAL | RETAIN_BUT_FLAG_FOR_REVIEW
+KJU0099 | Citrobacter freundii | alternative=Citrobacter braakii | delta=0.0014716588999999 | SH-aLRT=84.5 | UFBoot=89.0 | stable=true | MODERATE_ALTERNATIVE_SIGNAL | RETAIN_BUT_FLAG_FOR_REVIEW
+KJU0106 | Citrobacter freundii | alternative=Citrobacter braakii | delta=0.0014716588999999 | SH-aLRT=84.5 | UFBoot=89.0 | stable=true | MODERATE_ALTERNATIVE_SIGNAL | RETAIN_BUT_FLAG_FOR_REVIEW
+KJU0221 | Citrobacter freundii | alternative=Citrobacter braakii | delta=0.0014716588999999 | SH-aLRT=84.5 | UFBoot=89.0 | stable=true | MODERATE_ALTERNATIVE_SIGNAL | RETAIN_BUT_FLAG_FOR_REVIEW
+KJU0105 | Bacillus cereus | alternative=Bacillus wiedmannii | delta=1.000800000100152e-06 | SH-aLRT=0.0 | UFBoot=38.0 | stable=true | WEAK_ALTERNATIVE_SIGNAL | RETAIN_CURRENT_ANNOTATION
+KJU0208 | Bacillus cereus | alternative=Bacillus wiedmannii | delta=1.000800000100152e-06 | SH-aLRT=0.0 | UFBoot=38.0 | stable=true | WEAK_ALTERNATIVE_SIGNAL | RETAIN_CURRENT_ANNOTATION
+
+INTERPRETATION
+----------------------------------------------------------------------------------------------------
+KJU0017 and KJU0217 are the highest-priority taxonomic review candidates.
+Both show strong alternative placement support and stable placement in the independent-reference sensitivity analysis.
+
+KJU0007, KJU0088, KJU0099, KJU0106 and KJU0221 show a repeated moderate alternative signal
+toward Citrobacter braakii and should be flagged for further taxonomic review without automatic reassignment.
+
+KJU0105 and KJU0208 show weak/unresolved alternative signal and should retain their current Bacillus cereus annotation.
+
+FINAL SCIENTIFIC CAUTION
+----------------------------------------------------------------------------------------------------
+16S rRNA evidence alone is not sufficient to establish definitive species reassignment.
+High-priority candidates should be checked against additional markers, whole-genome ANI/dDDH,
+and curated taxonomic/reference records before any change to the master annotation.
+
+MASTER DATA STATUS
+----------------------------------------------------------------------------------------------------
+Original master data were not modified.
+This report is an evidence/interpretation layer only.

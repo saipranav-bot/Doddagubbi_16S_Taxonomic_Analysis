@@ -1,0 +1,21 @@
+DODDAGGUBBI - MAFFT ALIGNMENT QC
+==========================================================================================
+
+Sequences: 109
+Alignment length: 1550
+
+Constant sites: 692
+Variable sites: 858
+Parsimony-informative sites: 725
+
+Mean column gap %: 13.11
+Maximum column gap %: 99.08
+Columns >=50% gaps: 205
+Columns >=80% gaps: 140
+Columns >=95% gaps: 93
+
+Minimum sequence gap %: 3.29
+Maximum sequence gap %: 20.52
+Mean sequence gap %: 13.11
+
+No source sequences were modified.

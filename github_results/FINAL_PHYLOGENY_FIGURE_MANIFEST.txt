@@ -1,0 +1,22 @@
+DODDAGGUBBI FINAL PHYLOGENY FIGURE PACKAGE
+================================================================================
+
+FIGURE 1
+FIGURE_1_MAIN_109_KJU_PHYLOGENY.png
+109 KJUs; main maximum-likelihood phylogeny
+Model: GTR+F+R4
+Support: 1000 SH-aLRT + 1000 UFBoot
+
+FIGURE 2
+FIGURE_2_109_KJU_PLUS_65_INDEPENDENT_NCBI_REFERENCES.png
+109 KJUs + 65 independent NCBI references
+13 target species
+Model: GTR+F+R3
+Support: 1000 SH-aLRT + 1000 UFBoot
+
+FIGURE 3
+FIGURE_3_FOCUSED_9_KJU_TAXONOMIC_REVIEW.png
+9 discordant KJUs + nearest independent reference taxa
+
+NO SOURCE DATA WERE MODIFIED.
+
