@@ -1,0 +1,56 @@
+STEP 107: PHYLOGENETIC + TAXONOMIC DIVERSITY
+============================================================
+
+Input tree: /home/pranav/Doddagubbi_Master/downstream_analysis/STEP106_REPRODUCIBLE_PHYLOGENY/STEP106_PHYLOGENY.treefile
+Input metadata: /home/pranav/Doddagubbi_Master/downstream_analysis/STEP102_ANALYSIS_METADATA/STEP102_ANALYSIS_METADATA.csv
+
+TAXONOMIC DIVERSITY:
+  Total KJUs: 111
+  Unique genera: 34
+  Unique species: 51
+
+DIVERSITY INDICES:
+  Shannon index (genus): 2.886
+  Shannon index (species): 3.593
+  Evenness (genus): 0.818
+  Evenness (species): 0.914
+
+DOMINANCE:
+  Dominant genus: Aeromonas (25, 22.5%)
+  Singleton genera: 21
+
+GENUS CLUSTERS:
+  Aeromonas                  25 species
+  Citrobacter                13 species
+  Bacillus                   10 species
+  Shewanella                  9 species
+  Pseudomonas                 6 species
+  Paenibacillus               6 species
+  Comamonas                   5 species
+  Plesiomonas                 4 species
+  Microbacterium              3 species
+  Staphylococcus              3 species
+  Exiguobacterium             2 species
+  Peribacillus                2 species
+  Faucicola                   2 species
+  Alcaligenes                 1 species
+  Edwardsiella                1 species
+  Chromobacterium             1 species
+  Chryseobacterium            1 species
+  Cellulomonas                1 species
+  Leifsonia                   1 species
+  Kocuria                     1 species
+  Hymenobacter                1 species
+  Glutamicibacter             1 species
+  Empedobacter                1 species
+  Escherichia                 1 species
+  Delftia                     1 species
+  Limosilactobacillus         1 species
+  Pantoea                     1 species
+  Micrococcus                 1 species
+  Lwoffella                   1 species
+  Mammaliicoccus              1 species
+  Listeria                    1 species
+  Priestia                    1 species
+  Pseudoalteromonas           1 species
+  Vagococcus                  1 species

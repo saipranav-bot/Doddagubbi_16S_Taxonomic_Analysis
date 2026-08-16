@@ -1,0 +1,19 @@
+STEP 89: CANONICAL SEQUENCE FASTA GENERATION
+==============================================================================================================
+
+Frozen master SHA256: 7d858153a0aaf19e3e1f4f7a1d3b03b3acc69ec6451c6c71541213172196c8a8
+Expected SHA256:      7d858153a0aaf19e3e1f4f7a1d3b03b3acc69ec6451c6c71541213172196c8a8
+Status:               PASS
+
+Entries:              111
+Unique headers:       111
+Unique KJUs:          111
+Total bases:          149522
+GC%:                  54.6%
+Length range:         1232-1499
+Errors:               0
+
+FASTA: /home/pranav/Doddagubbi_Master/github_results/reconciliation_111_vs_109/final_integrated_master/STEP89_CANONICAL_FASTA/STEP89_CANONICAL_KJU_16S.fasta
+Manifest: /home/pranav/Doddagubbi_Master/github_results/reconciliation_111_vs_109/final_integrated_master/STEP89_CANONICAL_FASTA/STEP89_FASTA_MANIFEST.csv
+
+Frozen V1 master untouched.

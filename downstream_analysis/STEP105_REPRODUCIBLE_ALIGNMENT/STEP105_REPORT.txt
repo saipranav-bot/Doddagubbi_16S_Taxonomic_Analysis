@@ -1,0 +1,11 @@
+STEP 105: REPRODUCIBLE MAFFT ALIGNMENT
+============================================================
+
+Input: /home/pranav/Doddagubbi_Master/github_results/reconciliation_111_vs_109/final_integrated_master/STEP98_FINAL_FREEZE_V2/FINAL_KJU_MASTER_FREEZE_V2/FINAL_CANONICAL_KJU_16S_V2.fasta
+Method: MAFFT --auto (FFT-NS-2)
+Runtime: 2.7s
+
+Sequences: 111
+Alignment length: 1549 bp
+Mean gaps per sequence: 202.0
+Conserved positions: 689/1549 (44.5%)

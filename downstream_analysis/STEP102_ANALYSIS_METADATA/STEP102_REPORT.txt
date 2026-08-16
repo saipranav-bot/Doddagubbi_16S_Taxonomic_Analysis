@@ -1,0 +1,79 @@
+STEP 102: BUILD ANALYSIS-READY METADATA
+======================================================================
+
+INPUTS
+----------------------------------------------------------------------
+  V2 master: /home/pranav/Doddagubbi_Master/github_results/reconciliation_111_vs_109/final_integrated_master/STEP98_FINAL_FREEZE_V2/FINAL_KJU_MASTER_FREEZE_V2/FINAL_204_KJU_ADJUDICATED_MASTER_V2.csv
+  Genbank metadata: /home/pranav/Doddagubbi_Master/07_Master_Metadata/direct_genbank_kju_metadata.csv
+  V2 SHA256: 65185f7545f73fcf36ff5062bb85305affcae76458f8049130f052a811b79bee
+
+RESULTS
+----------------------------------------------------------------------
+  Canonical KJUs: 111
+  With sample metadata: 89
+  Without sample metadata: 22
+  Analysis columns: 25
+
+TAXONOMIC COMPOSITION
+----------------------------------------------------------------------
+  Unique genera: 34
+  Unique species: 51
+
+Top 10 genera:
+    Aeromonas: 25
+    Citrobacter: 13
+    Bacillus: 10
+    Shewanella: 9
+    Pseudomonas: 6
+    Paenibacillus: 6
+    Comamonas: 5
+    Plesiomonas: 4
+    Microbacterium: 3
+    Staphylococcus: 3
+
+SEQUENCE STATISTICS
+----------------------------------------------------------------------
+  GC% range: 49.5% – 59.1%
+  GC% mean: 54.6%
+  Length range: 1232 – 1499 bp
+  Length mean: 1347 bp
+
+KJUs WITHOUT SAMPLE METADATA
+----------------------------------------------------------------------
+    KJU0028: Aeromonas veronii
+    KJU0029: Peribacillus simplex
+    KJU0030: Aeromonas veronii
+    KJU0031: Aeromonas veronii
+    KJU0032: Citrobacter koseri
+    KJU0037: Shewanella putrefaciens
+    KJU0038: Shewanella algae
+    KJU0042: Shewanella xiamenensis
+    KJU0043: Aeromonas veronii
+    KJU0071: Lwoffella lincolnii
+    KJU0072: Faucicola osloensis
+    KJU0074: Comamonas testosteroni
+    KJU0076: Paenibacillus polymyxa
+    KJU0091: Comamonas testosteroni
+    KJU0093: Bacillus subtilis
+    KJU0094: Kocuria rosea
+    KJU0107: Paenibacillus polymyxa
+    KJU0108: Aeromonas hydrophila
+    KJU0109: Vagococcus fluvialis
+    KJU0110: Leifsonia aquatica
+    KJU0224: Pseudomonas putida
+    KJU0225: Chryseobacterium indologenes
+
+OUTPUTS
+----------------------------------------------------------------------
+  STEP102_ANALYSIS_METADATA.csv (all 111)
+  STEP102_ANALYSIS_METADATA_COMPLETE.csv (89 with metadata)
+  STEP102_MISSING_METADATA_REPORT.csv (22 without metadata)
+  STEP102_REPORT.txt
+  STEP102_CHECKSUMS.txt
+
+DATA LIMITATIONS
+----------------------------------------------------------------------
+  22 KJUs have no sample metadata
+  No abundance/read-count data available
+  No multiple-sample design
+  All sequences from Doddagubbi Lake area

@@ -1,0 +1,11 @@
+STEP 106: REPRODUCIBLE IQ-TREE PHYLOGENY
+============================================================
+
+Input: /home/pranav/Doddagubbi_Master/downstream_analysis/STEP105_REPRODUCIBLE_ALIGNMENT/STEP105_MAFFT_ALIGNED.fasta
+Model: GTR+G
+Seed: 12345
+Runtime: 92.8s
+
+Tree tips: 111
+Tree file: STEP106_PHYLOGENY.treefile
+IQ-TREE log: STEP106_PHYLOGENY.iqtree

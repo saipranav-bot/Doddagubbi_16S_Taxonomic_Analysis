@@ -1,0 +1,35 @@
+Genus,Count,KJU_IDs,Taxonomy
+Aeromonas,25,KJU0001; KJU0002; KJU0061; KJU0058; KJU0108; KJU0009; KJU0004; KJU0028; KJU0031; KJU0030; KJU0036; KJU0043; KJU0054; KJU0060; KJU0066; KJU0114; KJU0014; KJU0016; KJU0020; KJU0065; KJU0017; KJU0027; KJU0052; KJU0104; KJU0006,Aeromonas_hydrophila; Aeromonas_salmonicida; Aeromonas_caviae; Aeromonas_veronii; Aeromonas_media
+Citrobacter,13,KJU0007; KJU0106; KJU0088; KJU0221; KJU0099; KJU0008; KJU0019; KJU0021; KJU0032; KJU0035; KJU0048; KJU0095; KJU0067,Citrobacter_freundii; Citrobacter_braakii; Citrobacter_koseri
+Bacillus,10,KJU0057; KJU0215; KJU0093; KJU0103; KJU0128; KJU0216; KJU0105; KJU0208; KJU0211; KJU0217,Bacillus_velezensis; Bacillus_wiedmannii; Bacillus_subtilis; Bacillus_cereus
+Shewanella,9,KJU0037; KJU0049; KJU0234; KJU0084; KJU0232; KJU0042; KJU0210; KJU0064; KJU0038,Shewanella_putrefaciens; Shewanella_algae; Shewanella_xiamenensis
+Pseudomonas,6,KJU0003; KJU0015; KJU0224; KJU0051; KJU0222; KJU0119,Pseudomonas_aeruginosa; Pseudomonas_putida
+Paenibacillus,6,KJU0063; KJU0068; KJU0076; KJU0107; KJU0115; KJU0213,Paenibacillus_amylolyticus; Paenibacillus_polymyxa
+Comamonas,5,KJU0005; KJU0091; KJU0074; KJU0089; KJU0023,Comamonas_aquatica; Comamonas_testosteroni
+Plesiomonas,4,KJU0010; KJU0026; KJU0116; KJU0194,Plesiomonas_shigelloides
+Microbacterium,3,KJU0013; KJU0223; KJU0195,Microbacterium_oxydans; Microbacterium_testaceum
+Staphylococcus,3,KJU0102; KJU0096; KJU0131,Staphylococcus_epidermidis; Staphylococcus_xylosus
+Exiguobacterium,2,KJU0081; KJU0082,Exiguobacterium_acetylicum; Exiguobacterium_indicum
+Peribacillus,2,KJU0012; KJU0029,Peribacillus_simplex
+Faucicola,2,KJU0024; KJU0072,Faucicola_osloensis
+Alcaligenes,1,KJU0011,Alcaligenes_faecalis
+Edwardsiella,1,KJU0053,Edwardsiella_tarda
+Chromobacterium,1,KJU0134,Chromobacterium_piscinae
+Chryseobacterium,1,KJU0225,Chryseobacterium_indologenes
+Cellulomonas,1,KJU0101,Cellulomonas_flavigena
+Leifsonia,1,KJU0110,Leifsonia_aquatica
+Kocuria,1,KJU0094,Kocuria_rosea
+Hymenobacter,1,KJU0022,Hymenobacter_aquaticus
+Glutamicibacter,1,KJU0193,Glutamicibacter_nicotianae
+Empedobacter,1,KJU0100,Empedobacter_brevis
+Escherichia,1,KJU0226,Escherichia_coli
+Delftia,1,KJU0205,Delftia_acidovorans
+Limosilactobacillus,1,KJU0231,Limosilactobacillus_fermentum
+Pantoea,1,KJU0025,Pantoea_agglomerans
+Micrococcus,1,KJU0227,Micrococcus_luteus
+Lwoffella,1,KJU0071,Lwoffella_lincolnii
+Mammaliicoccus,1,KJU0018,Mammaliicoccus_sciuri
+Listeria,1,KJU0132,Listeria_innocua
+Priestia,1,KJU0138,Priestia_megaterium
+Pseudoalteromonas,1,KJU0062,Pseudoalteromonas_rubra
+Vagococcus,1,KJU0109,Vagococcus_fluvialis

@@ -1,0 +1,22 @@
+STEP 88: CANONICAL SEQUENCE QC + PROVENANCE VALIDATION
+==============================================================================================================
+
+Frozen master SHA256: 7d858153a0aaf19e3e1f4f7a1d3b03b3acc69ec6451c6c71541213172196c8a8
+Expected SHA256:      7d858153a0aaf19e3e1f4f7a1d3b03b3acc69ec6451c6c71541213172196c8a8
+Status:               PASS
+
+Total canonical sequences: 111
+All checks pass:          111
+Any fail:                 0
+
+SHA256 mismatch:          0
+Invalid IUPAC:            0
+Accession root mismatch:  0
+Length mismatch:          0
+Missing from STEP83:      0
+Source files missing:     0
+
+NO_SEQUENCE KJUs:         1
+UNRESOLVED KJUs:          92
+
+Frozen V1 master untouched.

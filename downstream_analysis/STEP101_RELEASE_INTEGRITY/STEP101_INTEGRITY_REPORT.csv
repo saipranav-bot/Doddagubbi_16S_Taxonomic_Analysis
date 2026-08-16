@@ -1,0 +1,21 @@
+Check_Number,Check_Name,Status,Detail
+1,Release package exists,PASS,/home/pranav/Doddagubbi_Master/github_results/reconciliation_111_vs_109/final_integrated_master/STEP100_RELEASE_PACKAGE
+2,V2 CSV identified,PASS,/home/pranav/Doddagubbi_Master/github_results/reconciliation_111_vs_109/final_integrated_master/STEP100_RELEASE_PACKAGE/DATA/FINAL_204_KJU_ADJUDICATED_MASTER_V2.csv
+3,V2 Bio identified,PASS,/home/pranav/Doddagubbi_Master/github_results/reconciliation_111_vs_109/final_integrated_master/STEP100_RELEASE_PACKAGE/DATA/FINAL_BIOLOGICALLY_UNIQUE_KJU_MASTER_V2.csv
+4,V2 FASTA identified,PASS,/home/pranav/Doddagubbi_Master/github_results/reconciliation_111_vs_109/final_integrated_master/STEP100_RELEASE_PACKAGE/DATA/FINAL_CANONICAL_KJU_16S_V2.fasta
+5,V2 manifest identified,PASS,/home/pranav/Doddagubbi_Master/github_results/reconciliation_111_vs_109/final_integrated_master/STEP100_RELEASE_PACKAGE/MANIFESTS/FINAL_KJU_MASTER_FREEZE_MANIFEST_V2.txt
+6,Checksums identified,PASS,/home/pranav/Doddagubbi_Master/github_results/reconciliation_111_vs_109/final_integrated_master/STEP100_RELEASE_PACKAGE/STEP100_RELEASE_CHECKSUMS.txt
+7,V2 SHA256 matches manifest,PASS,calculated=65185f7545f73fcf... manifest=65185f7545f73fcf...
+8,V1 SHA256 matches expected,PASS,calculated=7d858153a0aaf19e... expected=7d858153a0aaf19e...
+9,V2 row count,PASS,204 rows
+10,V2 unique KJUs,PASS,204 unique KJU IDs
+11,FASTA entry count,PASS,111 entries
+12,FASTA → V2 mapping,PASS,"fasta_not_in_v2=0, v2_not_in_fasta=0"
+13,FASTA duplicate IDs,PASS,duplicates=0
+14,Bio unique count,PASS,111 rows
+15,Release checksums,PASS,54/54 verified
+16,Status counts,PASS,"canonical=111, no_seq=1, unresolved=92"
+17,FASTA IUPAC valid,PASS,invalid=0 (none)
+18,FASTA length consistency,PASS,mismatches=0 (none)
+19,FASTA SHA256 consistency,PASS,mismatches=0 (none)
+20,Workspace directories,PASS,7/7 exist

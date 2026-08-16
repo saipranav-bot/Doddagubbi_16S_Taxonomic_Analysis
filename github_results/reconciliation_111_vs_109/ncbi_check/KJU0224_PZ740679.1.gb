@@ -1,0 +1,67 @@
+LOCUS       PZ740679                1396 bp    DNA     linear   BCT 29-JUL-2026
+DEFINITION  Pseudomonas putida strain KJU0224 16S ribosomal RNA gene, partial
+            sequence.
+ACCESSION   PZ740679
+VERSION     PZ740679.1
+KEYWORDS    .
+SOURCE      Pseudomonas putida
+  ORGANISM  Pseudomonas putida
+            Bacteria; Pseudomonadati; Pseudomonadota; Gammaproteobacteria;
+            Pseudomonadales; Pseudomonadaceae; Pseudomonas.
+REFERENCE   1  (bases 1 to 1396)
+  AUTHORS   Parul,J. and PrasannaKumar,C.
+  TITLE     Summer Internship in Limnetic Microbiology 2026
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 1396)
+  AUTHORS   Parul,J. and PrasannaKumar,C.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (24-JUL-2026) School of Biological and Forensic Sciences,
+            Department of Life Sciences, Kristu Jayanti (Deemed To Be
+            University), K. Narayanapura, Kothanur Post, Bengaluru, Karnataka
+            560077, India
+COMMENT     Sequences were screened for chimeras by the submitter using
+            Decipher 2.
+            
+            ##Assembly-Data-START##
+            Sequencing Technology :: Sanger dideoxy sequencing
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1396
+                     /organism="Pseudomonas putida"
+                     /mol_type="genomic DNA"
+                     /strain="KJU0224"
+                     /isolation_source="Doddagubbi Lake water sample"
+                     /db_xref="taxon:303"
+                     /geo_loc_name="India: Bengaluru"
+                     /collection_date="16-Jun-2026"
+                     /collected_by="Parul Jain"
+                     /note="Summer Inetrnship in Limnetic Microbiology 2026"
+     rRNA            <1..>1396
+                     /product="16S ribosomal RNA"
+ORIGIN      
+        1 ggcggcaggc ctaacacatg caagtcgagc ggatgagaag agcttgctct tcgattcagc
+       61 ggcggacggg tgagtaatgc ctaggaaact gcctggtagt gggggacaac gtttcgaaag
+      121 gaacgctaat accgcatacg tcctacggga gaaagcgggg gaccttcggg ccttgcgcta
+      181 tcagatgagc ctaggtcgga ttagctagtt ggtgaggtaa tggctcacca aggcgacgat
+      241 ccgtaactgg tctgagagga tgatcagtca cactggaact gagacacggt ccagactcct
+      301 acgggaggca gcagtgggga aaattggaca atgggcgaaa gcctgatcca gccatgccgc
+      361 gtgtgttaag aaggtcttcg gattgtaaag cactttaagt tgggaggaag ggcattaacc
+      421 taatacgtta gtgttttcac gttaccgaca gaaaaagcac cggctaactc tgtgccagca
+      481 gccgcggtaa tacagagggt gcaagcgtta atcggaaata ctgggcgtaa agcgcgcgtg
+      541 ggtggtttgt taagttggat gtgaaagccc cgggctcaac ctgggaactg catccaaaac
+      601 tggcaagcta gagtacggta gagggtggtg gaaattcctg tgtagcggtg aaatgcgtag
+      661 atataggaag gaacaccagt ggcgaaagcg accacctgga ctgatactga cactgaggtg
+      721 cgaaagcgtg gggagcaaac aggattagat accctggtag tccacgccgt aaacgatgtc
+      781 aactagccgt tggaaacctt gagattttag tggcgcagct aacgcattaa gttgaccgcc
+      841 tggggagtac ggccgcaagg ttaaaactca aatgaaatga cgggggcccg cacaagcggt
+      901 ggagcatgtg gtttaattcg aagcaacgcg aagaacctta ccaggccttg acatgcagag
+      961 aactttccag agatggattg gtgccttcgg gaactctgac acaggtgctg catggctgtc
+     1021 gtcagctcgt gtcgtgagat gttgggttaa gtcccgtaac gagcgcaacc cttgtcctta
+     1081 gttaccagca cgtaatggtg ggcactctaa ggagactgcc ggtgacaaac cggaggaagg
+     1141 tggggatgac gtcaagtcat catggccctt acggcctggg ctacacacgt gctacaatgg
+     1201 tcggtacaga gggttgccaa gccgcgaggt ggagctaatc tcacaaaacc gaacgtagtc
+     1261 cggatcgcag tctgcaactc gactgcgtga agtcggaaac gctagtaatc gcgaaacaga
+     1321 aagtcgcggt gaaaacgttc ccgggccttg tacacaccgc ccgtcacacc atgggagtgg
+     1381 gttgcaccag aagtag
+//
+

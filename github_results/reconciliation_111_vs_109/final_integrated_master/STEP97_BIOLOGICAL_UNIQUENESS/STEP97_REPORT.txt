@@ -1,0 +1,14 @@
+STEP 97: FINAL BIOLOGICAL UNIQUENESS RECONCILIATION
+==============================================================================================================
+
+Frozen master SHA256: PASS
+
+KJUs with biological identity: 112
+Unique biological identities:   111
+Duplicate biological identities:1
+Cross-KJU identical seq pairs:  11
+
+DUPLICATE BIOLOGICAL IDENTITIES:
+  PZ666011: 2 KJUs (KJU0038;KJU0039)
+
+Frozen V1 master untouched.

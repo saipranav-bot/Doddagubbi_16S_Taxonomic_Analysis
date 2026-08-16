@@ -1,0 +1,18 @@
+================================================================================
+STEP 62 — ALIGNMENT REPORT
+================================================================================
+
+New KJU sequences: 2
+NCBI references: 62
+Combined sequences: 64
+Aligned sequences: 64
+Alignment length: 1700
+
+KJU sequences included:
+KJU0224
+KJU0225
+
+MAFFT status: SUCCESS
+
+Combined FASTA: /home/pranav/Doddagubbi_Master/github_results/reconciliation_111_vs_109/taxonomic_validation/NEW_KJUS_PLUS_NCBI_REFERENCES.fasta
+Alignment FASTA: /home/pranav/Doddagubbi_Master/github_results/reconciliation_111_vs_109/taxonomic_validation/NEW_KJUS_PLUS_NCBI_REFERENCES_MAFFT.fasta

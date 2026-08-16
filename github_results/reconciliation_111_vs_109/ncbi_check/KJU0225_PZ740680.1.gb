@@ -1,0 +1,67 @@
+LOCUS       PZ740680                1321 bp    DNA     linear   BCT 29-JUL-2026
+DEFINITION  Chryseobacterium indologenes strain KJU0225 16S ribosomal RNA gene,
+            partial sequence.
+ACCESSION   PZ740680
+VERSION     PZ740680.1
+KEYWORDS    .
+SOURCE      Chryseobacterium indologenes
+  ORGANISM  Chryseobacterium indologenes
+            Bacteria; Pseudomonadati; Bacteroidota; Flavobacteriia;
+            Flavobacteriales; Weeksellaceae; Chryseobacterium group;
+            Chryseobacterium.
+REFERENCE   1  (bases 1 to 1321)
+  AUTHORS   Parul,J. and PrasannaKumar,C.
+  TITLE     Summer Internship in Limnetic Microbiology 2026
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 1321)
+  AUTHORS   Parul,J. and PrasannaKumar,C.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (24-JUL-2026) School of Biological and Forensic Sciences,
+            Department of Life Sciences, Kristu Jayanti (Deemed To Be
+            University), K. Narayanapura, Kothanur Post, Bengaluru, Karnataka
+            560077, India
+COMMENT     Sequences were screened for chimeras by the submitter using
+            Decipher 2.
+            
+            ##Assembly-Data-START##
+            Sequencing Technology :: Sanger dideoxy sequencing
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1321
+                     /organism="Chryseobacterium indologenes"
+                     /mol_type="genomic DNA"
+                     /strain="KJU0225"
+                     /isolation_source="Doddagubbi Lake water sample"
+                     /db_xref="taxon:253"
+                     /geo_loc_name="India: Bengaluru"
+                     /collection_date="16-Jun-2026"
+                     /collected_by="Parul Jain"
+                     /note="Summer Inetrnship in Limnetic Microbiology 2026"
+     rRNA            <1..>1321
+                     /product="16S ribosomal RNA"
+ORIGIN      
+        1 gcggcgtacg ggtgcggaac acgtgtgcaa cctgccttta tctgggggat agcctttcga
+       61 aaggaagatt aataccccat aatatgttgg atggcatcat tcgacattga aaactccggt
+      121 ggatagagat gggcacgcgc aagattagat agttggtgag gtaacggctc accaagtctg
+      181 cgatctttag ggggcctgag agggtgatcc cccacactgg tactgagaca cggaccagac
+      241 tcctacggga ggcagcagtg aggaaaattg gacaatgggt gagagcctga tccagccatc
+      301 ccgcgtgaag gacgacggcc ctatgggttg taaacttctt ttgtataggg ataaacctac
+      361 tctcgtgaga gtagctgaag gtactatacg aaaaagcacc ggctaactcc gtgccagcag
+      421 ccgcggtaat acggagggtg caagcgttat ccggatttat tgggtttaaa gggtccgtag
+      481 gcggatctgt aagtcagtgg tgaaatctca cagcttaact gtgaaactgc cattgatact
+      541 gcaggtcttg agtgttgttg aagtagctgg aaaaagtagt gtagcggtga aatgcataga
+      601 tattacttag aacaccaatt gcgaaggcag gttactaagc aacaactgac gctgatggac
+      661 gaaagcgtgg ggagcgaaca ggattagata ccctggtagt ccacgccgta aacgatgcta
+      721 actcgttttt gggctttcgg gttcagagac taagcgaaag tgataagtta gccacctggg
+      781 gagtacgaac gcaagtttga aactcaaagg aaatgacggg ggcccgcaca agcggtggat
+      841 tatgtggttt aattcgatga tacgcgagga accttaccaa ggcttaaatg ggaaatgaca
+      901 ggtttagaaa tagacttttc ttcggacatt tttcaggtgc tgcatggttg tcgtcagctc
+      961 gtgccgtgag gtgttaggtt aagtcctgca acgagcgcaa cccctgtcac tagttgccat
+     1021 cattaagttg gggactctag tgagactgcc tacgcaagta gagaggaagg tggggatgac
+     1081 gtcaaatcat cacggccctt acgccttggg ccacacacgt aatacaatgg ccggtacaga
+     1141 gggcagctac acagcgatgt gatgcaaatc tcgaaagccg gtctcagttc ggattggagt
+     1201 ctgcaactcg actctatgaa gctggaaacg ctagtaatcg cgcatcagcc atggcgcggt
+     1261 gaaaacgttc ccgggccttg tacacaccgc ccgtcaagcc atggaagtct ggggtacctg
+     1321 a
+//
+

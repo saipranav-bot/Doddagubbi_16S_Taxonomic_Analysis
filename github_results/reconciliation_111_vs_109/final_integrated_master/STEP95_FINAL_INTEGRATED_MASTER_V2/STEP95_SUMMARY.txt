@@ -1,0 +1,19 @@
+STEP 95: FINAL INTEGRATED MASTER CANDIDATE V2
+==============================================================================================================
+
+Frozen master SHA256: PASS
+
+Total rows: 204
+Unique KJUs: 204
+
+Final status distribution:
+  ADJUDICATED_CANONICAL: 111
+  UNRESOLVED: 92
+  ADJUDICATED_NO_SEQUENCE: 1
+
+With canonical sequence: 111
+Without canonical sequence: 93
+
+V2 output: /home/pranav/Doddagubbi_Master/github_results/reconciliation_111_vs_109/final_integrated_master/STEP95_FINAL_INTEGRATED_MASTER_V2/STEP95_INTEGRATED_MASTER_V2.csv
+
+Frozen V1 master untouched.

@@ -1,0 +1,25 @@
+STEP 101 DOWNSTREAM MANIFEST
+======================================================================
+
+Generated: 2026-08-16 18:15:24
+V1 SHA256: 7d858153a0aaf19e3e1f4f7a1d3b03b3acc69ec6451c6c71541213172196c8a8
+V2 SHA256: 65185f7545f73fcf36ff5062bb85305affcae76458f8049130f052a811b79bee
+
+FILES FOR DOWNSTREAM ANALYSIS
+----------------------------------------------------------------------
+65185f7545f73fcf36ff5062bb85305affcae76458f8049130f052a811b79bee  V2_MASTER: /home/pranav/Doddagubbi_Master/github_results/reconciliation_111_vs_109/final_integrated_master/STEP100_RELEASE_PACKAGE/DATA/FINAL_204_KJU_ADJUDICATED_MASTER_V2.csv
+9466cecb43bf3d6d1a2ffd382d8ec894f465156f6d9c4f78e3c0711314cd0061  V2_BIO: /home/pranav/Doddagubbi_Master/github_results/reconciliation_111_vs_109/final_integrated_master/STEP100_RELEASE_PACKAGE/DATA/FINAL_BIOLOGICALLY_UNIQUE_KJU_MASTER_V2.csv
+2ed228e0d88d543ebd0d252682f0676ead8f6ca1b6a600f7b01284d5910844ce  V2_FASTA: /home/pranav/Doddagubbi_Master/github_results/reconciliation_111_vs_109/final_integrated_master/STEP100_RELEASE_PACKAGE/DATA/FINAL_CANONICAL_KJU_16S_V2.fasta
+074a8bef0e7c43abd29eae7e238b3ab925af9fd2b97162bb172a1ca3fd6c4b71  V2_MANIFEST: /home/pranav/Doddagubbi_Master/github_results/reconciliation_111_vs_109/final_integrated_master/STEP100_RELEASE_PACKAGE/MANIFESTS/FINAL_KJU_MASTER_FREEZE_MANIFEST_V2.txt
+7d858153a0aaf19e3e1f4f7a1d3b03b3acc69ec6451c6c71541213172196c8a8  V1_MASTER: /home/pranav/Doddagubbi_Master/github_results/reconciliation_111_vs_109/final_integrated_master/FINAL_KJU_MASTER_FREEZE_V1/FINAL_204_KJU_ADJUDICATED_MASTER_V1.csv
+bbdf328806744c732e1f90c729325957739ea9a6a85e9b051ad0d44398b1ef7e  BLAST_RESULTS: /home/pranav/Doddagubbi_Master/github_results/reconciliation_111_vs_109/final_integrated_master/STEP92_BLAST_VALIDATION/STEP92_BLAST_RESULTS.csv
+077a8e08081007cbd7bfab8950601884eb46f801399ec1fc996d0b2981dce55b  BLAST_TAXONOMY_CORRECTED: /home/pranav/Doddagubbi_Master/github_results/reconciliation_111_vs_109/final_integrated_master/STEP92_BLAST_VALIDATION/STEP92b_TAXONOMY_CORRECTION/STEP92b_TAXONOMY_COMPARISON_CORRECTED.csv
+c49e3e8d23afc97fc0942268d2943762bf7fce6c2556ea9f9e693cb202a7ce29  PHYLOGENY_TREE: /home/pranav/Doddagubbi_Master/github_results/reconciliation_111_vs_109/final_integrated_master/STEP93_PHYLOGENETIC_VALIDATION/STEP93_PHYLOGENY.treefile
+1ba337fe5bda9dee4514fa00dc79fd067efeecda5b33c14d12ef4804c13dec04  PHYLOGENY_ALIGNMENT: /home/pranav/Doddagubbi_Master/github_results/reconciliation_111_vs_109/final_integrated_master/STEP93_PHYLOGENETIC_VALIDATION/STEP93_ALIGNED_CANONICAL.fasta
+69cf22c7278fafebc3adcf1936e75236b77fbd22fd30397b923e58d317c59de0  CLUSTERING_AUDIT: /home/pranav/Doddagubbi_Master/github_results/reconciliation_111_vs_109/final_integrated_master/STEP93_PHYLOGENETIC_VALIDATION/STEP93_CLUSTERING_AUDIT.csv
+841dc744c1b0f0e729a112fb0b7954a663007a81a6ce149a5c3450decaf38dd5  CROSS_KJU: /home/pranav/Doddagubbi_Master/github_results/reconciliation_111_vs_109/final_integrated_master/STEP97_BIOLOGICAL_UNIQUENESS/STEP97_CROSS_KJU_RELATIONSHIPS.csv
+3b8d74a74f7eef149ca1138a3aceed3b2f8a14a49d1352a33a7a25c34f4f3fd8  GENBANK_METADATA: /home/pranav/Doddagubbi_Master/07_Master_Metadata/direct_genbank_kju_metadata.csv
+4964aded153e21e9d5d157f4a12196f47906dcfc48aa16430a473265f95eb49c  STEP83_RECORDS: /home/pranav/Doddagubbi_Master/github_results/reconciliation_111_vs_109/final_integrated_master/STEP83_TRUE_SEQUENCE_INVENTORY/STEP83_TRUE_SEQUENCE_RECORDS.csv
+2f625d0262d5a222be199e65a4df947a642f8c8ba2bcb4b09088d1825cbcaffe  STEP87_CANONICAL: /home/pranav/Doddagubbi_Master/github_results/reconciliation_111_vs_109/final_integrated_master/STEP87_DETERMINISTIC_CANONICAL_SEQUENCE/STEP87_CANONICAL_SEQUENCE_RECORDS.csv
+
+Total: 14/14 files found

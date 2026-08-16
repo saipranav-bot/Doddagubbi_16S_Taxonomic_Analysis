@@ -1,0 +1,52 @@
+==============================================================================================================
+STEP 79: SEQUENCE DISCREPANCY INVESTIGATION
+==============================================================================================================
+
+MASTER
+--------------------------------------------------------------------------------------------------------------
+Total KJU records             : 204
+Resolved records              : 112
+Unresolved records            : 92
+
+SEQUENCE COVERAGE
+--------------------------------------------------------------------------------------------------------------
+KJUs with sequence            : 111
+KJUs without sequence         : 93
+Resolved + sequence           : 111
+Unresolved + sequence         : 0
+
+PER-KJU SEQUENCE STRUCTURE
+--------------------------------------------------------------------------------------------------------------
+KJUs with exactly one sequence: 0
+KJUs with multiple sequences  : 111
+
+LENGTH AUDIT
+--------------------------------------------------------------------------------------------------------------
+Length mismatch KJUs          : 0
+
+ACCESSION AUDIT
+--------------------------------------------------------------------------------------------------------------
+Accession conflict groups     : 111
+
+DUPLICATE SEQUENCE AUDIT
+--------------------------------------------------------------------------------------------------------------
+Duplicate sequence groups     : 31
+
+IMPORTANT INTERPRETATION
+--------------------------------------------------------------------------------------------------------------
+PASS — no unresolved KJU has a sequence.
+PASS — no KJU-level length discrepancy.
+REVIEW — accession-level sequence conflicts detected.
+
+OUTPUT FILES
+--------------------------------------------------------------------------------------------------------------
+KJU audit       : /home/pranav/Doddagubbi_Master/github_results/reconciliation_111_vs_109/final_integrated_master/STEP79_SEQUENCE_DISCREPANCY/STEP79_KJU_SEQUENCE_AUDIT.csv
+Accession audit : /home/pranav/Doddagubbi_Master/github_results/reconciliation_111_vs_109/final_integrated_master/STEP79_SEQUENCE_DISCREPANCY/STEP79_ACCESSION_SEQUENCE_AUDIT.csv
+Length problems : /home/pranav/Doddagubbi_Master/github_results/reconciliation_111_vs_109/final_integrated_master/STEP79_SEQUENCE_DISCREPANCY/STEP79_LENGTH_MISMATCHES.csv
+Conflicts       : /home/pranav/Doddagubbi_Master/github_results/reconciliation_111_vs_109/final_integrated_master/STEP79_SEQUENCE_DISCREPANCY/STEP79_SEQUENCE_CONFLICTS.csv
+Duplicates      : /home/pranav/Doddagubbi_Master/github_results/reconciliation_111_vs_109/final_integrated_master/STEP79_SEQUENCE_DISCREPANCY/STEP79_DUPLICATE_SEQUENCE_GROUPS.csv
+QC report       : /home/pranav/Doddagubbi_Master/github_results/reconciliation_111_vs_109/final_integrated_master/STEP79_SEQUENCE_DISCREPANCY/STEP79_SEQUENCE_DISCREPANCY_REPORT.txt
+
+==============================================================================================================
+FROZEN V1 MASTER WAS NOT MODIFIED
+==============================================================================================================

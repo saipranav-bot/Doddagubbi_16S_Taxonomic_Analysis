@@ -1,0 +1,27 @@
+DODDAGUBBI OPENCITY 111 vs FINAL 109 RECONCILIATION
+======================================================================
+
+Original OpenCity records : 111
+Original OpenCity unique KJU IDs : 111
+
+Final metadata records : 109
+Final metadata unique KJU IDs : 109
+
+KJU IDs present in both : 108
+KJU IDs only in OpenCity : 3
+KJU IDs only in final metadata : 1
+
+RECONCILIATION STATUS
+----------------------------------------------------------------------
+MATCHED: 108
+OPENCITY_ONLY: 3
+FINAL_ONLY: 1
+
+OpenCity-only KJU IDs:
+KJU0039, KJU0224, KJU0225
+
+Final-only KJU IDs:
+KJU0038
+
+IMPORTANT:
+This report compares the original OpenCity inventory against the final KJU metadata. It does not by itself prove sequence identity or taxonomic correctness.

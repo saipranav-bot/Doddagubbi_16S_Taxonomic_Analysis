@@ -1,0 +1,69 @@
+==============================================================================================================
+STEP 85: TRUE SEQUENCE CONFLICT + LENGTH DIAGNOSTIC
+==============================================================================================================
+
+INPUTS
+--------------------------------------------------------------------------------------------------------------
+Frozen master       : /home/pranav/Doddagubbi_Master/github_results/reconciliation_111_vs_109/final_integrated_master/FINAL_KJU_MASTER_FREEZE_V1/FINAL_204_KJU_ADJUDICATED_MASTER_V1.csv
+True sequence file  : /home/pranav/Doddagubbi_Master/github_results/reconciliation_111_vs_109/final_integrated_master/STEP83_TRUE_SEQUENCE_INVENTORY/STEP83_TRUE_SEQUENCE_RECORDS.csv
+
+INPUT SIZES
+--------------------------------------------------------------------------------------------------------------
+Master records      : 204
+True sequence rows  : 2258
+KJUs with sequences : 111
+
+SEQUENCE COVERAGE
+--------------------------------------------------------------------------------------------------------------
+KJUs with sequence       : 111
+KJUs without sequence    : 93
+Exactly one unique seq   : 12
+Multiple unique seq      : 99
+
+RECONCILIATION CLASSIFICATION
+--------------------------------------------------------------------------------------------------------------
+Exact single sequence match              : 10
+Multiple sequences with matching candidate: 99
+Accession match + length conflict        : 0
+Length match + accession conflict        : 0
+Accession + length conflict              : 2
+
+CONFLICT COUNTS
+--------------------------------------------------------------------------------------------------------------
+Candidate rows with length conflict      : 871
+Candidate rows with accession conflict   : 4
+Same accession / different length rows   : 871
+Same accession / different sequence rows : 2034
+Cross-KJU identical sequence rows        : 312
+
+UNRESOLVED QC
+--------------------------------------------------------------------------------------------------------------
+PASS — no unresolved KJU has an actual sequence
+
+INTERPRETATION
+--------------------------------------------------------------------------------------------------------------
+REVIEW REQUIRED — multiple distinct nucleotide sequences exist for one or more KJUs.
+REVIEW REQUIRED — at least one accession is associated with multiple distinct sequences.
+REVIEW REQUIRED — accepted accession matches exist with different sequence lengths.
+Potential deterministic matches identified: 10
+
+IMPORTANT
+--------------------------------------------------------------------------------------------------------------
+STEP 85 DOES NOT SELECT OR MODIFY ANY CANONICAL SEQUENCE.
+STEP 85 DOES NOT MODIFY TAXONOMY.
+STEP 85 DOES NOT MODIFY THE FROZEN V1 MASTER.
+
+OUTPUT FILES
+--------------------------------------------------------------------------------------------------------------
+KJU audit            : /home/pranav/Doddagubbi_Master/github_results/reconciliation_111_vs_109/final_integrated_master/STEP85_TRUE_SEQUENCE_CONFLICT_DIAGNOSTIC/STEP85_KJU_CONFLICT_AUDIT.csv
+Length audit         : /home/pranav/Doddagubbi_Master/github_results/reconciliation_111_vs_109/final_integrated_master/STEP85_TRUE_SEQUENCE_CONFLICT_DIAGNOSTIC/STEP85_LENGTH_CONFLICT_AUDIT.csv
+Accession audit      : /home/pranav/Doddagubbi_Master/github_results/reconciliation_111_vs_109/final_integrated_master/STEP85_TRUE_SEQUENCE_CONFLICT_DIAGNOSTIC/STEP85_ACCESSION_CONFLICT_AUDIT.csv
+Candidate audit      : /home/pranav/Doddagubbi_Master/github_results/reconciliation_111_vs_109/final_integrated_master/STEP85_TRUE_SEQUENCE_CONFLICT_DIAGNOSTIC/STEP85_SEQUENCE_CANDIDATE_AUDIT.csv
+Same accession/length: /home/pranav/Doddagubbi_Master/github_results/reconciliation_111_vs_109/final_integrated_master/STEP85_TRUE_SEQUENCE_CONFLICT_DIAGNOSTIC/STEP85_SAME_ACCESSION_DIFFERENT_LENGTH.csv
+Same accession/seq   : /home/pranav/Doddagubbi_Master/github_results/reconciliation_111_vs_109/final_integrated_master/STEP85_TRUE_SEQUENCE_CONFLICT_DIAGNOSTIC/STEP85_SAME_ACCESSION_DIFFERENT_SEQUENCE.csv
+Cross-KJU identical  : /home/pranav/Doddagubbi_Master/github_results/reconciliation_111_vs_109/final_integrated_master/STEP85_TRUE_SEQUENCE_CONFLICT_DIAGNOSTIC/STEP85_CROSS_KJU_IDENTICAL_SEQUENCES.csv
+
+==============================================================================================================
+STEP 85 COMPLETE
+FROZEN V1 MASTER WAS NOT MODIFIED
+==============================================================================================================

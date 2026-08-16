@@ -1,0 +1,30 @@
+==============================================================================================================
+STEP 81: CANONICAL SEQUENCE RESOLUTION AUDIT
+==============================================================================================================
+
+Frozen V1 master was used as read-only input.
+Frozen master SHA256: 7d858153a0aaf19e3e1f4f7a1d3b03b3acc69ec6451c6c71541213172196c8a8
+
+MASTER
+Total KJU records          : 204
+Resolved records           : 112
+Unresolved records         : 92
+
+SEQUENCE COVERAGE
+KJUs with sequence         : 111
+KJUs without sequence      : 93
+Exactly one unique seq     : 0
+Multiple unique sequences  : 111
+
+CANONICAL RESOLUTION
+Automatically resolved     : 0
+Manual review required     : 111
+No sequence available      : 1
+Unresolved/no canonical     : 92
+
+CONFLICT QC
+Same accession/diff seq    : 111
+
+PASS — no unresolved KJU has a sequence.
+
+FROZEN V1 MASTER WAS NOT MODIFIED.

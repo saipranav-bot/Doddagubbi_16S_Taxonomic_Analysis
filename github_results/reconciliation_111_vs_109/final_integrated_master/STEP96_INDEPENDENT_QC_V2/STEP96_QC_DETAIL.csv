@@ -1,0 +1,19 @@
+Check,Pass,Detail
+V2 row count == 204,True,got 204
+V2 unique KJUs == 204,True,got 204
+V2 KJU IDs == master KJU IDs,True,diff=set()
+Status counts sum to 204,True,got 204
+canonical + noseq + unresolved == 204,True,111+1+92
+Frozen master SHA256 unchanged,True,got 7d858153a0aaf19e...
+All canonical have SHA256,True,0 blank
+All canonical have sequence,True,0 blank
+SHA256 integrity for all canonical,True,0 mismatches
+IUPAC validity for all canonical,True,0 invalid
+No unresolved has sequence,True,0
+No fabricated accession,True,
+No fabricated biological identity,True,
+KJU0039 is NO_SEQUENCE,True,
+KJU0038 is ADJUDICATED_CANONICAL,True,
+KJU0105 is ADJUDICATED_CANONICAL,True,
+KJU0224 is ADJUDICATED_CANONICAL,True,
+KJU0225 is ADJUDICATED_CANONICAL,True,

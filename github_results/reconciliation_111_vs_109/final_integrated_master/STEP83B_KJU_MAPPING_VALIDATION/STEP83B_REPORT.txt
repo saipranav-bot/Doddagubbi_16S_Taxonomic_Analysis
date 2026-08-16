@@ -1,0 +1,28 @@
+STEP 83B: KJU SEQUENCE MAPPING VALIDATION
+==============================================================================================================
+
+Frozen master SHA256: 7d858153a0aaf19e3e1f4f7a1d3b03b3acc69ec6451c6c71541213172196c8a8
+Expected SHA256:      7d858153a0aaf19e3e1f4f7a1d3b03b3acc69ec6451c6c71541213172196c8a8
+Status:               PASS
+
+Master rows:          204
+Master unique KJUs:   204
+STEP83 raw rows:      3511
+
+=== MAPPING CLASSIFICATION ===
+Valid (in master):    2258
+Blank/NaN KJU:        1253
+Invalid (not in master): 0
+Unique valid KJUs:    111
+
+=== PER-KJU AUDIT ===
+KJUs with sequence:   111
+KJUs without sequence:93
+
+Single unique sequence:  12
+Multiple unique seqs:    99
+
+=== SAFETY ===
+No STEP83 outputs modified.
+No mappings fabricated.
+Frozen V1 master untouched.

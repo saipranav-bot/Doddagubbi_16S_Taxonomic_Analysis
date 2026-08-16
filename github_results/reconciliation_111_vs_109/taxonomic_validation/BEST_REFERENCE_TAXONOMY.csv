@@ -1,0 +1,11 @@
+query,reference,query_length,reference_length,matches,aligned_positions,identity_percent,query_coverage_percent,reference_organism,reference_description
+KJU0224,PZ794310.1,1396,1400,1350,1350,100.0,96.70487106017193,Pseudomonas putida,"Pseudomonas putida strain BC28 16S ribosomal RNA gene, partial sequence"
+KJU0224,PZ794551.1,1396,1389,1345,1345,100.0,96.34670487106015,Pseudomonas putida,"Pseudomonas putida strain LA9 16S ribosomal RNA gene, partial sequence"
+KJU0224,PZ794311.1,1396,1390,1345,1345,100.0,96.34670487106015,Pseudomonas putida,"Pseudomonas putida strain BC29 16S ribosomal RNA gene, partial sequence"
+KJU0224,PZ794308.1,1396,1386,1341,1341,100.0,96.06017191977078,Pseudomonas putida,"Pseudomonas putida strain BC26 16S ribosomal RNA gene, partial sequence"
+KJU0224,PZ794331.1,1396,1432,1340,1340,100.0,95.98853868194844,Pseudomonas putida,"Pseudomonas putida strain P1-1 16S ribosomal RNA gene, partial sequence"
+KJU0225,PZ101831.1,1321,1382,1315,1315,100.0,99.5457986373959,Chryseobacterium indologenes,"Chryseobacterium indologenes strain Chrys_04 16S ribosomal RNA gene, partial sequence"
+KJU0225,PZ101828.1,1321,1383,1313,1313,100.0,99.39439818319455,Chryseobacterium indologenes,"Chryseobacterium indologenes strain Chrys_01 16S ribosomal RNA gene, partial sequence"
+KJU0225,PZ779402.1,1321,1382,1301,1301,100.0,98.48599545798638,Chryseobacterium flavum,"Chryseobacterium flavum strain BOTRUEML126 16S ribosomal RNA gene, partial sequence"
+KJU0225,PZ799168.1,1321,1367,1298,1298,100.0,98.25889477668431,Chryseobacterium indologenes,"Chryseobacterium indologenes strain PCB3 16S ribosomal RNA gene, partial sequence"
+KJU0225,PZ737232.1,1321,1401,1298,1298,100.0,98.25889477668431,Chryseobacterium sp.,"Chryseobacterium sp. strain MQRB80 16S ribosomal RNA gene, partial sequence"

@@ -1,0 +1,46 @@
+FINAL 204-KJU ADJUDICATED MASTER DATASET
+==============================================================================================================
+
+Original master KJU IDs       : 183
+Reconciliation KJU IDs        : 112
+Combined unique KJU IDs       : 204
+MASTER_ONLY unresolved        : 92
+Resolved records              : 112
+Biologically unique records   : 203
+
+TAXONOMY RESOLUTION
+--------------------------------------------------------------------------------------------------------------
+Blank Accepted_taxonomy       : 92
+Allowed unresolved blanks     : 92
+Unexpected blank taxonomy     : 0
+
+ADJUDICATION TYPES
+--------------------------------------------------------------------------------------------------------------
+MATCHED_FINAL_TAXONOMY: 94
+MASTER_ONLY_UNRESOLVED: 92
+OPEN_CITY_TAXONOMY_SPELLING_ERROR: 13
+OPENCITY_ONLY_NCBI_VALIDATED: 2
+FINAL_ONLY_GENBANK_RECORD: 1
+OPEN_CITY_IDENTIFIER_DISCREPANCY: 1
+OPEN_CITY_TAXONOMIC_ERROR: 1
+
+CONFIDENCE
+--------------------------------------------------------------------------------------------------------------
+HIGH: 107
+UNRESOLVED: 92
+VERY_HIGH: 5
+
+BIOLOGICALLY UNIQUE DATASET
+--------------------------------------------------------------------------------------------------------------
+Total biological identities : 203
+Total KJU records           : 204
+
+KNOWN BIOLOGICAL DUPLICATE
+--------------------------------------------------------------------------------------------------------------
+PZ666011 -> KJU0038;KJU0039
+
+OUTPUT FILES
+--------------------------------------------------------------------------------------------------------------
+/home/pranav/Doddagubbi_Master/github_results/reconciliation_111_vs_109/final_integrated_master/FINAL_204_KJU_ADJUDICATED_MASTER.csv
+/home/pranav/Doddagubbi_Master/github_results/reconciliation_111_vs_109/final_integrated_master/FINAL_BIOLOGICALLY_UNIQUE_KJU_MASTER.csv
+/home/pranav/Doddagubbi_Master/github_results/reconciliation_111_vs_109/final_integrated_master/FINAL_204_KJU_ADJUDICATED_MASTER_SUMMARY.txt

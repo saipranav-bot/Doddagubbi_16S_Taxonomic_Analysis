@@ -1,0 +1,81 @@
+STEP 99: INDEPENDENT V2 EVIDENCE + PROVENANCE AUDIT
+======================================================================
+
+V2 Master: /home/pranav/Doddagubbi_Master/github_results/reconciliation_111_vs_109/final_integrated_master/STEP98_FINAL_FREEZE_V2/FINAL_KJU_MASTER_FREEZE_V2/FINAL_204_KJU_ADJUDICATED_MASTER_V2.csv
+V2 SHA256: 65185f7545f73fcf36ff5062bb85305affcae76458f8049130f052a811b79bee
+V1 SHA256: 7d858153a0aaf19e3e1f4f7a1d3b03b3acc69ec6451c6c71541213172196c8a8
+
+CHECK RESULTS
+----------------------------------------------------------------------
+  [PASS] V2 Structure: 204 rows, 204 unique KJUs, 29 cols, 0 empty KJU_ID, 0 dup KJU_ID, schema match=True, empty_cols=2 (BLAST_taxonomy, Evidence_conflicts)
+  [INFO] V2 Structure detail: BLAST_taxonomy empty (STEP92 bug, fixed in 92b), Evidence_conflicts empty (no conflicts detected)
+  [PASS] V2 SHA256: calculated=65185f7545f73fcf... manifest=65185f7545f73fcf... match=True
+  [PASS] V1 SHA256: calculated=7d858153a0aaf19e... expected=7d858153a0aaf19e... match=True
+  [PASS] V2 FASTA SHA256: match=True
+  [PASS] V2 Bio SHA256: match=True
+  [PASS] Canonical Count: canonical=111 (expect 111), no_seq=1 (expect 1), unresolved=92 (expect 92)
+  [PASS] FASTA Count: 111 FASTA records (expect 111)
+  [PASS] FASTA ↔ Master IDs: fasta_not_in_master=0, master_not_in_fasta=0
+  [PASS] FASTA Duplicates: duplicate KJU IDs in FASTA: 0
+  [PASS] FASTA ↔ Master Seq/Len/SHA: mismatches=0 (none)
+  [PASS] Sequence Hash Provenance: 111/111 hash match, mismatches=0
+  [PASS] Source Files Exist: missing=0
+  [PASS] Source Records Traceable: missing=0
+  [PASS] Accession Root Consistency: 111/111 root match, mismatches=0
+  [PASS] Length Consistency: mismatches=0, accepted_length_unavailable=2
+  [PASS] Sequence Type 16S: non-16S=0
+  [PASS] IUPAC Valid: invalid=0
+  [PASS] BLAST Hits Present: canon_with_blast=111, canon_without_blast=0
+  [PASS] BLAST Species Populated: species_populated=111/204
+  [PASS] Taxonomy Categories: discordant=0
+  [INFO]   Category: INSUFFICIENT_REFERENCE: 56
+  [INFO]   Category: SPECIES_AGREEMENT: 47
+  [INFO]   Category: GENUS_AGREEMENT: 8
+  [INFO] STEP92 Bug Note: Original STEP92 had empty Hit_species due to versioned vs root accession key mismatch. Fixed in STEP92b.
+  [PASS] Phylogenetic Inclusion: 111/111 in tree, not_in_tree=0
+  [PASS] Biological Identity Agreement: full_agreement=111, review=0
+  [INFO] Cross-KJU Identical Sequences: independent_pairs=8, step97_pairs=11, mismatch=3
+  [PASS] KJU0038 accession: PZ666011.1
+  [PASS] KJU0038 identity: Shewanella algae
+  [PASS] KJU0038 has sequence: True
+  [PASS] KJU0039 accession: PZ666011
+  [PASS] KJU0039 identity: Shewanella algae
+  [PASS] KJU0039 has no sequence: has_seq=False
+  [PASS] KJU0039 status: ADJUDICATED_NO_SEQUENCE
+  [PASS] KJU0038/KJU0039 not merged: Both records exist separately
+  [PASS] Special: KJU0105: acc=PZ710590.1 (expect PZ710590.1), tax=Bacillus cereus, has_seq=True
+  [PASS] Special: KJU0224: acc=PZ740679 (expect PZ740679), tax=Pseudomonas putida, has_seq=True
+  [PASS] Special: KJU0225: acc=PZ740680 (expect PZ740680), tax=Chryseobacterium indologenes, has_seq=True
+  [PASS] Unresolved Count: 92 (expect 92)
+  [PASS] No Sequences: violations=0
+  [PASS] No Invented Taxonomy: unresolved with taxonomy=0
+  [PASS] No Invented Accession: unresolved with accession=0
+  [PASS] No Data Loss: v1=204, v2=204, lost=0, gained=0
+  [PASS] V1 Immutability: sha256=7d858153a0aaf19e... expected=7d858153a0aaf19e... match=True
+
+OVERALL STATUS: PASS
+  PASS: 39, FAIL: 0, INFO: 6
+
+SUMMARY
+----------------------------------------------------------------------
+  MASTER: 204 rows, 204 unique KJUs
+  CANONICAL: 111
+  NO_SEQUENCE: 1
+  UNRESOLVED: 92
+  FASTA: 111/111 consistent
+  SEQUENCE SHA256: 111/111 consistent
+  ACCESSION: 111/111 root consistent
+  LENGTH: 111 consistent
+  SEQUENCE TYPE: 111/111 16S
+  BLAST: 111/111 evidence, 0 discordant
+  PHYLOGENY: 111/111 included
+  BIOLOGICAL IDENTITY: 111/111 full agreement
+  CROSS-KJU: 8 pairs
+  PROVENANCE: 111 complete, 0 missing
+  V1 INTEGRITY: PASS
+  V2 INTEGRITY: PASS
+
+  OVERALL: PASS
+
+Generated: 2026-08-16 18:04:03
+V2 frozen: DO NOT MODIFY

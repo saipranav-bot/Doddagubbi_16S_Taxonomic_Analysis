@@ -1,0 +1,59 @@
+==============================================================================================================
+STEP 80: CANONICAL SEQUENCE SELECTION + PROVENANCE AUDIT
+==============================================================================================================
+
+INPUTS
+--------------------------------------------------------------------------------------------------------------
+Frozen master : /home/pranav/Doddagubbi_Master/github_results/reconciliation_111_vs_109/final_integrated_master/FINAL_KJU_MASTER_FREEZE_V1/FINAL_204_KJU_ADJUDICATED_MASTER_V1.csv
+Raw sequences : /home/pranav/Doddagubbi_Master/github_results/reconciliation_111_vs_109/final_integrated_master/STEP77_SEQUENCE_QC/STEP77_RAW_SEQUENCE_RECORDS.csv
+Inventory     : /home/pranav/Doddagubbi_Master/github_results/reconciliation_111_vs_109/final_integrated_master/STEP77_SEQUENCE_QC/STEP77_SEQUENCE_INVENTORY.csv
+
+MASTER
+--------------------------------------------------------------------------------------------------------------
+Total KJU records          : 204
+Resolved records           : 112
+Unresolved records         : 92
+
+SEQUENCE COVERAGE
+--------------------------------------------------------------------------------------------------------------
+KJUs with sequence         : 111
+KJUs without sequence      : 93
+Exactly one unique seq     : 12
+Multiple unique sequences  : 99
+
+ACCESSION / SEQUENCE CONFLICTS
+--------------------------------------------------------------------------------------------------------------
+Same accession/diff seq    : 99
+Different accession/same seq : 25
+
+UNRESOLVED RECORD QC
+--------------------------------------------------------------------------------------------------------------
+PASS — no unresolved KJU has a sequence
+
+CANONICAL SELECTION POLICY
+--------------------------------------------------------------------------------------------------------------
+Unique sequence per KJU:
+  -> canonical sequence accepted automatically.
+Multiple sequences per KJU:
+  -> accepted-accession sequence selected only when exactly one unique sequence matches the accepted accession.
+Multiple sequences without deterministic accession support:
+  -> MANUAL_REVIEW; no arbitrary sequence selected.
+
+SPECIAL KJU0038 / KJU0039
+--------------------------------------------------------------------------------------------------------------
+KJU0038 | accepted_accession=PZ666011 | unique_sequences=4
+KJU0039 | accepted_accession=PZ666011 | unique_sequences=0
+
+OUTPUT FILES
+--------------------------------------------------------------------------------------------------------------
+Canonical       : /home/pranav/Doddagubbi_Master/github_results/reconciliation_111_vs_109/final_integrated_master/STEP80_CANONICAL_SEQUENCE_AUDIT/STEP80_CANONICAL_SEQUENCE_SELECTION.csv
+Provenance      : /home/pranav/Doddagubbi_Master/github_results/reconciliation_111_vs_109/final_integrated_master/STEP80_CANONICAL_SEQUENCE_AUDIT/STEP80_SEQUENCE_PROVENANCE.csv
+KJU audit       : /home/pranav/Doddagubbi_Master/github_results/reconciliation_111_vs_109/final_integrated_master/STEP80_CANONICAL_SEQUENCE_AUDIT/STEP80_KJU_SEQUENCE_AUDIT.csv
+Accession audit : /home/pranav/Doddagubbi_Master/github_results/reconciliation_111_vs_109/final_integrated_master/STEP80_CANONICAL_SEQUENCE_AUDIT/STEP80_ACCESSION_SEQUENCE_AUDIT.csv
+Conflicts       : /home/pranav/Doddagubbi_Master/github_results/reconciliation_111_vs_109/final_integrated_master/STEP80_CANONICAL_SEQUENCE_AUDIT/STEP80_SEQUENCE_CONFLICTS.csv
+Duplicates      : /home/pranav/Doddagubbi_Master/github_results/reconciliation_111_vs_109/final_integrated_master/STEP80_CANONICAL_SEQUENCE_AUDIT/STEP80_EXACT_DUPLICATES.csv
+QC report       : /home/pranav/Doddagubbi_Master/github_results/reconciliation_111_vs_109/final_integrated_master/STEP80_CANONICAL_SEQUENCE_AUDIT/STEP80_CANONICAL_SEQUENCE_AUDIT_REPORT.txt
+
+==============================================================================================================
+FROZEN V1 MASTER WAS NOT MODIFIED
+==============================================================================================================

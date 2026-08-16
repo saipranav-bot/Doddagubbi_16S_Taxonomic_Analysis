@@ -1,0 +1,119 @@
+STEP 92b: BLAST TAXONOMY SPECIES LOOKUP CORRECTION
+============================================================
+
+BUG DESCRIPTION
+----------------------------------------
+STEP92 ref_lookup used versioned accession keys (e.g. PX979534.1)
+but lookup code normalized BLAST hits to root accessions (e.g. PX979534).
+Species lookup failed silently. Taxonomy_agreement defaulted to True.
+
+FIX APPLIED
+----------------------------------------
+1. Built ref_lookup with root accession keys
+2. Extracted Hit_species from Subject_accession 3rd pipe field
+   (PX979534.1|NCBI_REF|Aeromonas_caviae -> Aeromonas caviae)
+3. Re-classified taxonomy agreement into 4 categories
+
+DATA COVERAGE
+----------------------------------------
+BLAST results: 555 hits
+NCBI references: 65 sequences, 13 species
+Canonical species: 51
+Species with NCBI_REF: 13
+Species without NCBI_REF: 38
+
+RESULTS (all 204 KJUs)
+----------------------------------------
+  NO_BLAST_HITS: 93
+  INSUFFICIENT_REFERENCE: 56
+  SPECIES_AGREEMENT: 47
+  GENUS_AGREEMENT: 8
+
+RESULTS (canonical 111 only)
+----------------------------------------
+  INSUFFICIENT_REFERENCE: 56
+  SPECIES_AGREEMENT: 47
+  GENUS_AGREEMENT: 8
+
+GENUS_AGREEMENT DETAILS
+----------------------------------------
+These are same-genus BLAST hits with >99% identity.
+Expected when the reference DB lacks the exact species.
+
+  KJU0007: Citrobacter freundii vs Citrobacter braakii
+    Identity: 99.2%
+  KJU0017: Aeromonas hydrophila vs Aeromonas caviae
+    Identity: 99.7%
+  KJU0088: Citrobacter freundii vs Citrobacter braakii
+    Identity: 99.5%
+  KJU0099: Citrobacter freundii vs Citrobacter braakii
+    Identity: 99.2%
+  KJU0106: Citrobacter freundii vs Citrobacter braakii
+    Identity: 99.0%
+  KJU0128: Bacillus velezensis vs Bacillus subtilis
+    Identity: 99.6%
+  KJU0216: Bacillus velezensis vs Bacillus subtilis
+    Identity: 99.6%
+  KJU0221: Citrobacter freundii vs Citrobacter braakii
+    Identity: 99.4%
+
+DISCORDANT CASES
+----------------------------------------
+  None
+
+INSUFFICIENT_REFERENCE SPECIES
+----------------------------------------
+These species have no entry in NCBI_REFERENCE_METADATA.
+Species-level BLAST comparison cannot be performed.
+
+  Aeromonas media: 1 KJUs
+  Alcaligenes faecalis: 1 KJUs
+  Cellulomonas flavigena: 1 KJUs
+  Chromobacterium piscinae: 1 KJUs
+  Chryseobacterium indologenes: 1 KJUs
+  Comamonas aquatica: 1 KJUs
+  Comamonas testosteroni: 4 KJUs
+  Delftia acidovorans: 1 KJUs
+  Edwardsiella tarda: 1 KJUs
+  Empedobacter brevis: 1 KJUs
+  Escherichia coli: 1 KJUs
+  Exiguobacterium acetylicum: 1 KJUs
+  Exiguobacterium indicum: 1 KJUs
+  Faucicola osloensis: 2 KJUs
+  Glutamicibacter nicotianae: 1 KJUs
+  Hymenobacter aquaticus: 1 KJUs
+  Kocuria rosea: 1 KJUs
+  Leifsonia aquatica: 1 KJUs
+  Limosilactobacillus fermentum: 1 KJUs
+  Listeria innocua: 1 KJUs
+  Lwoffella lincolnii: 1 KJUs
+  Mammaliicoccus sciuri: 1 KJUs
+  Microbacterium oxydans: 1 KJUs
+  Microbacterium testaceum: 2 KJUs
+  Micrococcus luteus: 1 KJUs
+  Paenibacillus amylolyticus: 1 KJUs
+  Paenibacillus polymyxa: 5 KJUs
+  Pantoea agglomerans: 1 KJUs
+  Peribacillus simplex: 2 KJUs
+  Plesiomonas shigelloides: 4 KJUs
+  Priestia megaterium: 1 KJUs
+  Pseudoalteromonas rubra: 1 KJUs
+  Pseudomonas aeruginosa: 3 KJUs
+  Pseudomonas putida: 3 KJUs
+  Shewanella algae: 1 KJUs
+  Staphylococcus epidermidis: 2 KJUs
+  Staphylococcus xylosus: 1 KJUs
+  Vagococcus fluvialis: 1 KJUs
+
+FILES
+----------------------------------------
+Corrected taxonomy comparison: STEP92b_TAXONOMY_COMPARISON_CORRECTED.csv
+Corrected BLAST results: STEP92b_BLAST_RESULTS_CORRECTED.csv
+Canonical detail: STEP92b_CANONICAL_TAXONOMY_DETAIL.csv
+Checksums: STEP92b_CHECKSUMS.txt
+
+V2 FREEZE STATUS
+----------------------------------------
+V2 freeze was NOT modified by this step.
+BLAST_taxonomy column in V2 remains empty.
+Corrected data available in STEP92b_TAXONOMY_COMPARISON_CORRECTED.csv

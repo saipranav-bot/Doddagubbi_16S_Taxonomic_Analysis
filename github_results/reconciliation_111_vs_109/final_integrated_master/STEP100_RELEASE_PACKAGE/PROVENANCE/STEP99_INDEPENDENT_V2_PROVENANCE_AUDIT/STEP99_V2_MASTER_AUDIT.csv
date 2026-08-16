@@ -1,0 +1,4 @@
+Check,Rows,Unique_KJUs,Columns,Schema_Match,Empty_KJU_ID,Duplicate_KJU_ID,Status,V2_SHA256,V2_SHA256_Match,V1_SHA256,V1_SHA256_Match,Canonical,No_Sequence,Unresolved,Total
+V2_Structure,204.0,204.0,29.0,True,0.0,0.0,PASS,,,,,,,,
+V2_Freeze_Integrity,,,,,,,PASS,65185f7545f73fcf36ff5062bb85305affcae76458f8049130f052a811b79bee,True,7d858153a0aaf19e3e1f4f7a1d3b03b3acc69ec6451c6c71541213172196c8a8,True,,,,
+Canonical_Count,,,,,,,PASS,,,,,111.0,1.0,92.0,204.0

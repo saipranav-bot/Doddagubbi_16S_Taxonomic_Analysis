@@ -1,0 +1,51 @@
+==============================================================================================================
+STEP 84: TRUE SEQUENCE ↔ FROZEN MASTER RECONCILIATION
+==============================================================================================================
+
+INPUTS
+--------------------------------------------------------------------------------------------------------------
+Frozen master : /home/pranav/Doddagubbi_Master/github_results/reconciliation_111_vs_109/final_integrated_master/FINAL_KJU_MASTER_FREEZE_V1/FINAL_204_KJU_ADJUDICATED_MASTER_V1.csv
+True records  : /home/pranav/Doddagubbi_Master/github_results/reconciliation_111_vs_109/final_integrated_master/STEP83_TRUE_SEQUENCE_INVENTORY/STEP83_TRUE_SEQUENCE_RECORDS.csv
+
+MASTER
+--------------------------------------------------------------------------------------------------------------
+Total KJU records        : 204
+Resolved records         : 112
+Unresolved records       : 92
+
+SEQUENCE COVERAGE
+--------------------------------------------------------------------------------------------------------------
+KJUs with sequence       : 111
+KJUs without sequence    : 93
+Exactly one unique seq   : 12
+Multiple unique seq      : 99
+
+RECONCILIATION STATUS
+--------------------------------------------------------------------------------------------------------------
+EXACT_MATCH                         : 10
+ACCESSION_MATCH_MULTIPLE_SEQUENCES : 99
+ACCESSION_CONFLICT                 : 2
+NO_SEQUENCE                        : 1
+UNRESOLVED                         : 92
+
+CONFLICT SUMMARY
+--------------------------------------------------------------------------------------------------------------
+Same accession / different sequence groups : 99
+Different KJU / identical sequence groups  : 25
+KJUs with length conflict                   : 109
+
+QC
+--------------------------------------------------------------------------------------------------------------
+PASS — Master contains 204 unique KJU IDs
+PASS — No unresolved KJU has a sequence
+PASS — No empty KJU IDs
+PASS — All exact matches have accepted accession
+PASS — Frozen master remains untouched
+
+IMPORTANT INTERPRETATION
+--------------------------------------------------------------------------------------------------------------
+This audit compares the actual nucleotide sequences recovered in STEP 83 against the frozen adjudicated master.
+No canonical sequence is selected in STEP 84.
+Multiple-sequence KJUs remain explicitly flagged for downstream investigation.
+No taxonomy is fabricated or altered.
+The frozen V1 master is not modified.

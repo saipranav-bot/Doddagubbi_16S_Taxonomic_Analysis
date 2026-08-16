@@ -1,0 +1,29 @@
+STEP 96: INDEPENDENT QC OF V2
+==============================================================================================================
+
+Frozen master SHA256: PASS
+
+Total checks: 18
+Passed: 18
+Failed: 0
+
+  [PASS] V2 row count == 204 (got 204)
+  [PASS] V2 unique KJUs == 204 (got 204)
+  [PASS] V2 KJU IDs == master KJU IDs (diff=set())
+  [PASS] Status counts sum to 204 (got 204)
+  [PASS] canonical + noseq + unresolved == 204 (111+1+92)
+  [PASS] Frozen master SHA256 unchanged (got 7d858153a0aaf19e...)
+  [PASS] All canonical have SHA256 (0 blank)
+  [PASS] All canonical have sequence (0 blank)
+  [PASS] SHA256 integrity for all canonical (0 mismatches)
+  [PASS] IUPAC validity for all canonical (0 invalid)
+  [PASS] No unresolved has sequence (0)
+  [PASS] No fabricated accession
+  [PASS] No fabricated biological identity
+  [PASS] KJU0039 is NO_SEQUENCE
+  [PASS] KJU0038 is ADJUDICATED_CANONICAL
+  [PASS] KJU0105 is ADJUDICATED_CANONICAL
+  [PASS] KJU0224 is ADJUDICATED_CANONICAL
+  [PASS] KJU0225 is ADJUDICATED_CANONICAL
+
+Frozen V1 master untouched.

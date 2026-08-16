@@ -1,0 +1,16 @@
+STEP 91: 16S/ITS SEQUENCE-TYPE VALIDATION
+==============================================================================================================
+
+Frozen master SHA256: PASS
+
+Total canonical: 111
+
+SEQUENCE TYPE DISTRIBUTION:
+  16S: 111
+
+LENGTH RANGE: 1232-1499
+MEAN: 1347
+
+ANOMALIES: 0
+
+Frozen V1 master untouched.

@@ -1,0 +1,29 @@
+==============================================================================================================
+STEP 82: SEQUENCE FIELD INTEGRITY DIAGNOSTIC
+==============================================================================================================
+
+Input rows: 3630
+
+DETECTED COLUMNS
+KJU: KJU_ID
+Sequence field: Sequence_file
+SHA256: Sequence_SHA256
+Accession: Sequence_accession_detected
+Length: Sequence_length
+
+FIELD TYPES
+FILE_PATH_OR_FILENAME: 3630
+
+HASH QC
+Reported hashes: 3630
+Unique reported hashes: 559
+Calculated hashes: 3630
+Unique calculated hashes: 176
+Hash matches: 0
+
+DUPLICATE HASHES
+Reported duplicate groups: 485
+Calculated duplicate groups: 35
+
+IMPORTANT:
+This diagnostic does not modify the frozen V1 master.

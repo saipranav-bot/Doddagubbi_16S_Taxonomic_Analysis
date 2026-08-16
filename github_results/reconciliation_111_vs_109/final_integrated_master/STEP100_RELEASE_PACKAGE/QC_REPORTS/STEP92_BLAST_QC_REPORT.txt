@@ -1,0 +1,16 @@
+STEP 92: BLAST-BASED TAXONOMIC VALIDATION
+==============================================================================================================
+
+Frozen master SHA256: PASS
+
+Reference sequences: 65
+Canonical queries:   111
+
+BLAST HITS:          555
+Self-matching:       14
+Taxonomy agreement:  111
+Taxonomy discordance:0
+No BLAST hits:       0
+
+
+Frozen V1 master untouched.

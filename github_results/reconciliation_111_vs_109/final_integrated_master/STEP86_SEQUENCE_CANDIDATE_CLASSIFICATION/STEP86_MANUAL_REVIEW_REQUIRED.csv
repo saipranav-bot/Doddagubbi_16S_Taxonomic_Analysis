@@ -1,0 +1,3 @@
+KJU_ID,Accepted_accession,Accepted_length,Accepted_taxonomy,Biological_identity,Candidate_count,Unique_sequence_count,Unique_accession_count,Candidate_lengths,Candidate_accessions,Exact_accession_length_candidates,Candidate_count_class,Resolution_status
+KJU0224,PZ740679,,Pseudomonas putida,PZ740679,1,1,1,1396,PZ740679.1,0,SINGLE_CANDIDATE,REVIEW_REQUIRED
+KJU0225,PZ740680,,Chryseobacterium indologenes,PZ740680,1,1,1,1321,PZ740680.1,0,SINGLE_CANDIDATE,REVIEW_REQUIRED

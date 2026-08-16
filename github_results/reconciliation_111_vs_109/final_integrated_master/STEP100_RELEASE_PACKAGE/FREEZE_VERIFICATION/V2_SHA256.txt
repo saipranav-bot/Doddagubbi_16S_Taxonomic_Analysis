@@ -1,0 +1,6 @@
+V2 Frozen Master SHA256
+============================================================
+
+File: FINAL_204_KJU_ADJUDICATED_MASTER_V2.csv
+SHA256: 65185f7545f73fcf36ff5062bb85305affcae76458f8049130f052a811b79bee
+Status: FROZEN

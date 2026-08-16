@@ -1,0 +1,49 @@
+STEP 87: DETERMINISTIC CANONICAL SEQUENCE SELECTION
+==============================================================================================================
+
+INPUTS
+--------------------------------------------------------------------------------------------------------------
+Frozen master : /home/pranav/Doddagubbi_Master/github_results/reconciliation_111_vs_109/final_integrated_master/FINAL_KJU_MASTER_FREEZE_V1/FINAL_204_KJU_ADJUDICATED_MASTER_V1.csv
+True records  : /home/pranav/Doddagubbi_Master/github_results/reconciliation_111_vs_109/final_integrated_master/STEP83_TRUE_SEQUENCE_INVENTORY/STEP83_TRUE_SEQUENCE_RECORDS.csv
+STEP86 audit  : /home/pranav/Doddagubbi_Master/github_results/reconciliation_111_vs_109/final_integrated_master/STEP86_SEQUENCE_CANDIDATE_CLASSIFICATION/STEP86_KJU_CANDIDATE_AUDIT.csv
+
+MASTER
+--------------------------------------------------------------------------------------------------------------
+Total KJU records : 204
+Unique KJU IDs    : 204
+Resolved records  : 112
+Unresolved records: 92
+
+KJU INPUT VALIDATION
+--------------------------------------------------------------------------------------------------------------
+Blank/invalid KJU rows : 1253
+Unknown KJU rows       : 0
+Eligible sequence rows: 2258
+
+CANONICAL SELECTION
+--------------------------------------------------------------------------------------------------------------
+Priority 1 selected : 109
+Priority 2 selected : 2
+Priority 3 selected : 0
+Total automatically selected : 111
+Manual review required : 0
+No sequence available : 1
+Unresolved : 92
+
+SAFETY
+--------------------------------------------------------------------------------------------------------------
+No taxonomy modified.
+No accession modified.
+No sequence fabricated.
+Frozen V1 master was not modified.
+Frozen V1 SHA256: 7d858153a0aaf19e3e1f4f7a1d3b03b3acc69ec6451c6c71541213172196c8a8
+
+OUTPUTS
+--------------------------------------------------------------------------------------------------------------
+KJU audit       : /home/pranav/Doddagubbi_Master/github_results/reconciliation_111_vs_109/final_integrated_master/STEP87_DETERMINISTIC_CANONICAL_SEQUENCE/STEP87_KJU_CANONICAL_SELECTION_AUDIT.csv
+Canonical        : /home/pranav/Doddagubbi_Master/github_results/reconciliation_111_vs_109/final_integrated_master/STEP87_DETERMINISTIC_CANONICAL_SEQUENCE/STEP87_CANONICAL_SEQUENCE_RECORDS.csv
+Manual review    : /home/pranav/Doddagubbi_Master/github_results/reconciliation_111_vs_109/final_integrated_master/STEP87_DETERMINISTIC_CANONICAL_SEQUENCE/STEP87_MANUAL_REVIEW_REQUIRED.csv
+All candidates   : /home/pranav/Doddagubbi_Master/github_results/reconciliation_111_vs_109/final_integrated_master/STEP87_DETERMINISTIC_CANONICAL_SEQUENCE/STEP87_ALL_SEQUENCE_CANDIDATES.csv
+Invalid KJUs     : /home/pranav/Doddagubbi_Master/github_results/reconciliation_111_vs_109/final_integrated_master/STEP87_DETERMINISTIC_CANONICAL_SEQUENCE/STEP87_INVALID_OR_BLANK_KJU_RECORDS.csv
+Master integrity : /home/pranav/Doddagubbi_Master/github_results/reconciliation_111_vs_109/final_integrated_master/STEP87_DETERMINISTIC_CANONICAL_SEQUENCE/STEP87_FROZEN_MASTER_INTEGRITY.txt
+QC report        : /home/pranav/Doddagubbi_Master/github_results/reconciliation_111_vs_109/final_integrated_master/STEP87_DETERMINISTIC_CANONICAL_SEQUENCE/STEP87_DETERMINISTIC_CANONICAL_SEQUENCE_REPORT.txt

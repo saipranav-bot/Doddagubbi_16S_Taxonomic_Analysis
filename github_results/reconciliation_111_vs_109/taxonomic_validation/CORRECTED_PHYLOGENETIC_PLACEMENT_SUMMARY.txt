@@ -1,0 +1,25 @@
+==========================================================================================
+CORRECTED PHYLOGENETIC PLACEMENT SUMMARY
+==========================================================================================
+
+==========================================================================================
+KJU0224
+==========================================================================================
+Claimed species: Pseudomonas putida
+Best neighbor: PZ779676.1
+Best neighbor organism: PZ779676.1 KJU0224_REFERENCE
+Best distance: 0.014001
+Genus matches among top 10: 0/10
+Species matches among top 10: 0/10
+Interpretation: PHYLOGENETIC PLACEMENT DOES NOT SUPPORT CLAIMED GENUS
+
+==========================================================================================
+KJU0225
+==========================================================================================
+Claimed species: Chryseobacterium indologenes
+Best neighbor: PZ101831.1
+Best neighbor organism: PZ101831.1 KJU0225_REFERENCE
+Best distance: 0.004568
+Genus matches among top 10: 0/10
+Species matches among top 10: 0/10
+Interpretation: PHYLOGENETIC PLACEMENT DOES NOT SUPPORT CLAIMED GENUS

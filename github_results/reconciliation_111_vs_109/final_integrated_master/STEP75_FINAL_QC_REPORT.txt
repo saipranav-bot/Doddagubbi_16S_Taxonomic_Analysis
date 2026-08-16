@@ -1,0 +1,19 @@
+STEP 75 — FINAL QC OF 204-KJU INTEGRATED MASTER
+====================================================================================================
+
+Total KJU records       : 204
+Unique KJU IDs          : 204
+MASTER records          : 183
+Reconciliation records  : 112
+MASTER_ONLY             : 92
+Reconciliation_ONLY     : 21
+Overlap                 : 91
+Resolved taxonomy       : 112
+Unresolved taxonomy     : 92
+Unexpected blank        : 0
+Biological identities   : 203
+Duplicate bio identities: 1
+
+FINAL STATUS: PASS
+No taxonomy was fabricated.
+MASTER_ONLY records remain explicitly unresolved.

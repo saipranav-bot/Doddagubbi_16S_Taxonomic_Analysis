@@ -1,0 +1,40 @@
+FINAL KJU MASTER FREEZE V1
+====================================================================================================
+
+Freeze timestamp : 2026-08-16T17:05:20
+
+INPUT MASTER
+/home/pranav/Doddagubbi_Master/github_results/reconciliation_111_vs_109/final_integrated_master/FINAL_204_KJU_ADJUDICATED_MASTER.csv
+
+FINAL MASTER
+/home/pranav/Doddagubbi_Master/github_results/reconciliation_111_vs_109/final_integrated_master/FINAL_KJU_MASTER_FREEZE_V1/FINAL_204_KJU_ADJUDICATED_MASTER_V1.csv
+
+BIOLOGICALLY UNIQUE MASTER
+/home/pranav/Doddagubbi_Master/github_results/reconciliation_111_vs_109/final_integrated_master/FINAL_KJU_MASTER_FREEZE_V1/FINAL_BIOLOGICALLY_UNIQUE_KJU_MASTER_V1.csv
+
+QC REPORT
+/home/pranav/Doddagubbi_Master/github_results/reconciliation_111_vs_109/final_integrated_master/FINAL_KJU_MASTER_FREEZE_V1/STEP75_FINAL_QC_REPORT_V1.txt
+
+DATASET COUNTS
+----------------------------------------------------------------------------------------------------
+Total KJU records          : 204
+Unique KJU IDs             : 204
+Resolved records           : 112
+Unresolved MASTER_ONLY     : 92
+Biological identities      : 203
+
+TAXONOMY POLICY
+----------------------------------------------------------------------------------------------------
+Resolved records have accepted taxonomy.
+MASTER_ONLY unresolved records retain blank taxonomy.
+No taxonomy was fabricated.
+
+KNOWN BIOLOGICAL DUPLICATE
+----------------------------------------------------------------------------------------------------
+KJU0038 + KJU0039 -> PZ666011
+
+QC STATUS
+----------------------------------------------------------------------------------------------------
+STEP 75 QC PASSED
+FINAL MASTER FREEZE V1 CREATED
+

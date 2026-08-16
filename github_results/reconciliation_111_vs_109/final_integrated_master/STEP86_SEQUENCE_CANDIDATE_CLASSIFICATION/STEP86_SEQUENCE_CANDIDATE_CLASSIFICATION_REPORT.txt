@@ -1,0 +1,74 @@
+==============================================================================================================
+STEP 86: SEQUENCE CANDIDATE CLASSIFICATION + REGION CONSISTENCY AUDIT
+==============================================================================================================
+
+INPUTS
+--------------------------------------------------------------------------------------------------------------
+Frozen master : /home/pranav/Doddagubbi_Master/github_results/reconciliation_111_vs_109/final_integrated_master/FINAL_KJU_MASTER_FREEZE_V1/FINAL_204_KJU_ADJUDICATED_MASTER_V1.csv
+True records  : /home/pranav/Doddagubbi_Master/github_results/reconciliation_111_vs_109/final_integrated_master/STEP83_TRUE_SEQUENCE_INVENTORY/STEP83_TRUE_SEQUENCE_RECORDS.csv
+STEP84 audit  : /home/pranav/Doddagubbi_Master/github_results/reconciliation_111_vs_109/final_integrated_master/STEP84_TRUE_SEQUENCE_MASTER_RECONCILIATION/STEP84_KJU_TRUE_SEQUENCE_RECONCILIATION.csv
+
+MASTER
+--------------------------------------------------------------------------------------------------------------
+Total KJU records        : 204
+Resolved records         : 112
+Unresolved records       : 92
+
+SEQUENCE DATA
+--------------------------------------------------------------------------------------------------------------
+Valid nucleotide rows    : 3511
+KJUs with candidates     : 111
+KJUs without candidates  : 93
+
+UNIQUE CANDIDATES
+--------------------------------------------------------------------------------------------------------------
+Exactly one unique seq   : 12
+Multiple unique seq      : 99
+
+CANONICAL EVIDENCE CLASSIFICATION
+--------------------------------------------------------------------------------------------------------------
+Auto-supported exact     : 109
+Multiple exact candidates: 0
+Accession match only     : 0
+Length match only        : 0
+Review required          : 2
+No sequence              : 1
+Unresolved               : 92
+
+DUPLICATE / CONFLICT AUDIT
+--------------------------------------------------------------------------------------------------------------
+Duplicate SHA groups     : 107
+Accession conflict groups: 152
+
+REGION CONSISTENCY
+--------------------------------------------------------------------------------------------------------------
+LIKELY_SAME_REGION_LENGTH_VARIANTS                : 99
+LENGTH_CONSISTENT                                 : 12
+
+SPECIAL KJU CHECK
+--------------------------------------------------------------------------------------------------------------
+KJU0038 | accepted_accession=PZ666011.1 | accepted_length=1362.0 | unique_sequences=4 | candidate_count=4 | status=AUTO_SUPPORTED_EXACT_MATCH
+KJU0039 | accepted_accession=PZ666011 | accepted_length=nan | unique_sequences=0 | candidate_count=0 | status=NO_SEQUENCE
+KJU0105 | accepted_accession=PZ710590.1 | accepted_length=1399.0 | unique_sequences=3 | candidate_count=3 | status=AUTO_SUPPORTED_EXACT_MATCH
+KJU0224 | accepted_accession=PZ740679 | accepted_length=nan | unique_sequences=1 | candidate_count=1 | status=REVIEW_REQUIRED
+KJU0225 | accepted_accession=PZ740680 | accepted_length=nan | unique_sequences=1 | candidate_count=1 | status=REVIEW_REQUIRED
+
+QC
+--------------------------------------------------------------------------------------------------------------
+PASS — no unresolved KJU has a sequence candidate
+PASS — every frozen KJU is represented in audit
+PASS — no empty KJU IDs
+
+OUTPUT FILES
+--------------------------------------------------------------------------------------------------------------
+KJU audit       : /home/pranav/Doddagubbi_Master/github_results/reconciliation_111_vs_109/final_integrated_master/STEP86_SEQUENCE_CANDIDATE_CLASSIFICATION/STEP86_KJU_CANDIDATE_AUDIT.csv
+Candidates      : /home/pranav/Doddagubbi_Master/github_results/reconciliation_111_vs_109/final_integrated_master/STEP86_SEQUENCE_CANDIDATE_CLASSIFICATION/STEP86_SEQUENCE_CANDIDATE_CLASSIFICATION.csv
+Manual review   : /home/pranav/Doddagubbi_Master/github_results/reconciliation_111_vs_109/final_integrated_master/STEP86_SEQUENCE_CANDIDATE_CLASSIFICATION/STEP86_MANUAL_REVIEW_REQUIRED.csv
+Region audit    : /home/pranav/Doddagubbi_Master/github_results/reconciliation_111_vs_109/final_integrated_master/STEP86_SEQUENCE_CANDIDATE_CLASSIFICATION/STEP86_REGION_CONSISTENCY_AUDIT.csv
+Duplicates      : /home/pranav/Doddagubbi_Master/github_results/reconciliation_111_vs_109/final_integrated_master/STEP86_SEQUENCE_CANDIDATE_CLASSIFICATION/STEP86_DUPLICATE_SEQUENCE_GROUPS.csv
+Accession conf. : /home/pranav/Doddagubbi_Master/github_results/reconciliation_111_vs_109/final_integrated_master/STEP86_SEQUENCE_CANDIDATE_CLASSIFICATION/STEP86_ACCESSION_SEQUENCE_CONFLICTS.csv
+QC report       : /home/pranav/Doddagubbi_Master/github_results/reconciliation_111_vs_109/final_integrated_master/STEP86_SEQUENCE_CANDIDATE_CLASSIFICATION/STEP86_SEQUENCE_CANDIDATE_CLASSIFICATION_REPORT.txt
+
+==============================================================================================================
+FROZEN V1 MASTER WAS NOT MODIFIED
+==============================================================================================================

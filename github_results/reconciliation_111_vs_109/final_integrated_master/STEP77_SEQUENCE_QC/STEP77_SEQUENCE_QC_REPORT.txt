@@ -1,0 +1,65 @@
+STEP 77 — SEQUENCE INVENTORY + METADATA CONSISTENCY QC
+==============================================================================================================
+
+1. INPUT
+----------------------------------------------------------------------------------------------------
+/home/pranav/Doddagubbi_Master/github_results/reconciliation_111_vs_109/final_integrated_master/FINAL_KJU_MASTER_FREEZE_V1/FINAL_204_KJU_ADJUDICATED_MASTER_V1.csv
+
+2. MASTER COUNTS
+----------------------------------------------------------------------------------------------------
+Total KJU records              : 204
+Resolved records               : 112
+Unresolved MASTER_ONLY         : 92
+
+3. SEQUENCE FILE INVENTORY
+----------------------------------------------------------------------------------------------------
+Sequence files discovered      : 176
+Raw sequence records           : 3630
+KJUs with sequence             : 111
+KJUs without sequence          : 93
+
+4. RESOLVED RECORD SEQUENCE QC
+----------------------------------------------------------------------------------------------------
+Resolved with sequence         : 111
+Resolved without sequence      : 1
+
+5. ACCESSION QC
+----------------------------------------------------------------------------------------------------
+Accession matches              : 111
+Accession mismatches           : 0
+
+6. LENGTH QC
+----------------------------------------------------------------------------------------------------
+Length matches                 : 109
+Length mismatches              : 0
+
+7. UNRESOLVED RECORD QC
+----------------------------------------------------------------------------------------------------
+Unresolved records             : 92
+Unresolved with sequence       : 0
+NOTE: sequence presence does not automatically resolve taxonomy.
+
+8. DUPLICATE SEQUENCE QC
+----------------------------------------------------------------------------------------------------
+Duplicate sequence groups      : 485
+
+9. LENGTH MISMATCH FILE
+----------------------------------------------------------------------------------------------------
+/home/pranav/Doddagubbi_Master/github_results/reconciliation_111_vs_109/final_integrated_master/STEP77_SEQUENCE_QC/STEP77_LENGTH_MISMATCHES.csv
+
+10. MISSING SEQUENCE FILE
+----------------------------------------------------------------------------------------------------
+/home/pranav/Doddagubbi_Master/github_results/reconciliation_111_vs_109/final_integrated_master/STEP77_SEQUENCE_QC/STEP77_MISSING_SEQUENCE_RECORDS.csv
+
+11. DUPLICATE SEQUENCE FILE
+----------------------------------------------------------------------------------------------------
+/home/pranav/Doddagubbi_Master/github_results/reconciliation_111_vs_109/final_integrated_master/STEP77_SEQUENCE_QC/STEP77_DUPLICATE_SEQUENCES.csv
+
+12. FINAL STEP 77 STATUS
+----------------------------------------------------------------------------------------------------
+PASS — no accession mismatches detected
+PASS — no sequence length mismatches detected
+REVIEW — 1 resolved records lack sequences
+
+Frozen V1 master was NOT modified.
+

@@ -1,0 +1,29 @@
+STEP 104: SEQUENCE-LEVEL DIVERSITY
+============================================================
+
+Input: /home/pranav/Doddagubbi_Master/github_results/reconciliation_111_vs_109/final_integrated_master/STEP98_FINAL_FREEZE_V2/FINAL_KJU_MASTER_FREEZE_V2/FINAL_CANONICAL_KJU_16S_V2.fasta
+Sequences: 111
+
+LENGTH DISTRIBUTION:
+  Min: 1232 bp
+  Max: 1499 bp
+  Mean: 1347 bp
+  Std: 40.2 bp
+
+GC CONTENT:
+  Min: 49.5%
+  Max: 59.1%
+  Mean: 54.6%
+  Std: 1.47%
+
+NUCLEOTIDE COMPOSITION (mean):
+  A: 25.5%
+  T: 19.9%
+  G: 31.6%
+  C: 23.0%
+
+PAIRWISE IDENTITY:
+  Min: 21.42%
+  Max: 100.00%
+  Mean: 26.59%
+  Median: 25.56%

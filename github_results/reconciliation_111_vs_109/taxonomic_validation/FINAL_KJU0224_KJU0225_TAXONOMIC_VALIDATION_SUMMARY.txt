@@ -1,0 +1,50 @@
+==========================================================================================
+FINAL TAXONOMIC VALIDATION REPORT
+Doddagubbi 16S — KJU0224 / KJU0225
+==========================================================================================
+
+Evidence integrated:
+1. NCBI BLAST validation
+2. NCBI-backed phylogenetic placement
+3. Top-10 taxonomic agreement
+4. Sequence-level taxonomic consistency
+
+------------------------------------------------------------------------------------------
+KJU0224
+------------------------------------------------------------------------------------------
+Claimed taxonomy      : Pseudomonas putida
+Sequence length       : 1396 bp
+Best BLAST accession  : OQ608841
+BLAST organism        : Pseudomonas putida
+BLAST identity        : 99.21%
+BLAST coverage        : 100.00%
+Phylogenetic neighbor : PZ779676.1
+Phylogenetic organism : Pseudomonas putida
+Phylogenetic distance : 0.014001
+Genus agreement       : 10/10
+Species agreement     : 8/10
+Interpretation        : STRONG SPECIES-LEVEL PHYLOGENETIC SUPPORT
+FINAL VERDICT         : SUPPORTED
+CONFIDENCE            : VERY HIGH
+
+------------------------------------------------------------------------------------------
+KJU0225
+------------------------------------------------------------------------------------------
+Claimed taxonomy      : Chryseobacterium indologenes
+Sequence length       : 1321 bp
+Best BLAST accession  : PZ101831
+BLAST organism        : Chryseobacterium indologenes
+BLAST identity        : 99.55%
+BLAST coverage        : 100.00%
+Phylogenetic neighbor : PZ101831.1
+Phylogenetic organism : Chryseobacterium indologenes
+Phylogenetic distance : 0.004568
+Genus agreement       : 10/10
+Species agreement     : 6/10
+Interpretation        : STRONG SPECIES-LEVEL PHYLOGENETIC SUPPORT
+FINAL VERDICT         : SUPPORTED
+CONFIDENCE            : VERY HIGH
+
+==========================================================================================
+END OF REPORT
+==========================================================================================

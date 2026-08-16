@@ -1,0 +1,20 @@
+==========================================================================================
+PHYLOGENETIC PLACEMENT VALIDATION SUMMARY
+==========================================================================================
+
+KJU0224
+------------------------------------------------------------------------------------------
+Claimed species: Pseudomonas putida
+Closest reference: PZ779676.1
+Closest taxonomy: PZ779676.1
+Phylogenetic distance: 0.014001
+Placement interpretation: CONFLICT WITH CLAIMED TAXONOMY
+
+KJU0225
+------------------------------------------------------------------------------------------
+Claimed species: Chryseobacterium indologenes
+Closest reference: PZ101831.1
+Closest taxonomy: PZ101831.1
+Phylogenetic distance: 0.004568
+Placement interpretation: CONFLICT WITH CLAIMED TAXONOMY
+

@@ -1,0 +1,6 @@
+KJU_ID,Accepted_accession,Accepted_taxonomy,Has_Sequence,Final_status,Expected
+KJU0038,PZ666011.1,Shewanella algae,True,ADJUDICATED_CANONICAL,PZ666011.1 Shewanella algae canonical_sequence
+KJU0039,PZ666011,Shewanella algae,False,ADJUDICATED_NO_SEQUENCE,PZ666011 Shewanella algae NO_SEQUENCE
+KJU0105,PZ710590.1,Bacillus cereus,True,ADJUDICATED_CANONICAL,PZ710590.1 Bacillus cereus canonical_sequence
+KJU0224,PZ740679,Pseudomonas putida,True,ADJUDICATED_CANONICAL,PZ740679 Pseudomonas putida canonical_sequence
+KJU0225,PZ740680,Chryseobacterium indologenes,True,ADJUDICATED_CANONICAL,PZ740680 Chryseobacterium indologenes canonical_sequence

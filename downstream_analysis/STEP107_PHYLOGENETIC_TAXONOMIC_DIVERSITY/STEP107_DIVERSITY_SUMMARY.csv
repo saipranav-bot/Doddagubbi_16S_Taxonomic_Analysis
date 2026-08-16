@@ -1,0 +1,11 @@
+Metric,Value
+Total_KJUs,111
+Unique_genera,34
+Unique_species,51
+Shannon_index_genus,2.886
+Shannon_index_species,3.593
+Evenness_genus,0.818
+Evenness_species,0.914
+Dominant_genus,Aeromonas
+Dominant_genus_count,25
+Dominance_percent,22.5

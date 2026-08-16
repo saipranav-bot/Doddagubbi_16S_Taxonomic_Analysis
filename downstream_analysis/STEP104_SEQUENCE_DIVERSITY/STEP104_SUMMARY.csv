@@ -1,0 +1,14 @@
+Metric,Value
+Sequences,111.0
+Length_min,1232.0
+Length_max,1499.0
+Length_mean,1347.0
+Length_std,40.16
+GC_min,49.5
+GC_max,59.12
+GC_mean,54.61
+GC_std,1.47
+Pairwise_identity_min,21.42
+Pairwise_identity_max,100.0
+Pairwise_identity_mean,26.59
+Pairwise_identity_median,25.56

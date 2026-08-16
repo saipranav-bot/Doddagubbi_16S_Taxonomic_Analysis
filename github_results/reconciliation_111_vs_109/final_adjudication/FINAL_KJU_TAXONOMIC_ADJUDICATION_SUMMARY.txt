@@ -1,0 +1,60 @@
+====================================================================================================
+DODDAGUBBI FINAL KJU TAXONOMIC ADJUDICATION
+====================================================================================================
+
+Total KJU rows in reconciliation: 112
+Unique biological records after KJU0039 identifier deduplication: 111
+
+RECONCILIATION STATUS
+----------------------------------------------------------------------------------------------------
+MATCHED: 108
+OPENCITY_ONLY: 3
+FINAL_ONLY: 1
+
+BIOLOGICAL RECONCILIATION
+----------------------------------------------------------------------------------------------------
+FULL_BIOLOGICAL_MATCH: 94
+SPECIES_CONFLICT: 14
+NOT_COMPARABLE: 4
+
+ADJUDICATION TYPES
+----------------------------------------------------------------------------------------------------
+MATCHED_FINAL_TAXONOMY: 94
+OPEN_CITY_TAXONOMY_SPELLING_ERROR: 13
+OPENCITY_ONLY_NCBI_VALIDATED: 2
+FINAL_ONLY_GENBANK_RECORD: 1
+OPEN_CITY_IDENTIFIER_DISCREPANCY: 1
+OPEN_CITY_TAXONOMIC_ERROR: 1
+
+CONFIDENCE
+----------------------------------------------------------------------------------------------------
+HIGH: 107
+VERY_HIGH: 5
+
+SPECIAL ADJUDICATIONS
+----------------------------------------------------------------------------------------------------
+KJU0038 -> Shewanella algae | FINAL_ONLY_GENBANK_RECORD | VERY_HIGH
+KJU0039 -> Shewanella algae | OPEN_CITY_IDENTIFIER_DISCREPANCY | VERY_HIGH
+KJU0105 -> Bacillus cereus | OPEN_CITY_TAXONOMIC_ERROR | VERY_HIGH
+KJU0224 -> Pseudomonas putida | OPENCITY_ONLY_NCBI_VALIDATED | VERY_HIGH
+KJU0225 -> Chryseobacterium indologenes | OPENCITY_ONLY_NCBI_VALIDATED | VERY_HIGH
+
+TAXONOMY NAME CORRECTIONS
+----------------------------------------------------------------------------------------------------
+KJU0008: Citrobacter brakii -> Citrobacter braakii
+KJU0071: Lwofella lincolnii -> Lwoffella lincolnii
+KJU0076: Paenibaillus polymyxa -> Paenibacillus polymyxa
+KJU0084: Shewanella putrefcaiens -> Shewanella putrefaciens
+KJU0096: Staphlyococcus epidermidis -> Staphylococcus epidermidis
+KJU0193: Glutamicibacter nicotianaa -> Glutamicibacter nicotianae
+KJU0195: Microbacterium oxidans -> Microbacterium oxydans
+KJU0205: Delftia aciuovorans -> Delftia acidovorans
+KJU0210: Shwanella putrefecians -> Shewanella putrefaciens
+KJU0213: Paenibacillus amyloticus -> Paenibacillus amylolyticus
+KJU0222: Pseudomonas aerugonisa -> Pseudomonas aeruginosa
+KJU0232: Shwanella putrefaciens -> Shewanella putrefaciens
+KJU0234: Shwanella putrefaciens -> Shewanella putrefaciens
+
+====================================================================================================
+STEP 72 COMPLETE
+====================================================================================================

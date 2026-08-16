@@ -1,0 +1,47 @@
+STEP 93: PHYLOGENETIC VALIDATION
+==============================================================================================================
+
+Frozen master SHA256: PASS
+
+Canonical sequences:  111
+Combined with refs:   176
+In tree:              111/111
+Model:                
+
+GENUS DISTRIBUTION:
+  Aeromonas: 25
+  Citrobacter: 13
+  Bacillus: 10
+  Shewanella: 9
+  Pseudomonas: 6
+  Paenibacillus: 6
+  Comamonas: 5
+  Plesiomonas: 4
+  Microbacterium: 3
+  Staphylococcus: 3
+  Peribacillus: 2
+  Faucicola: 2
+  Exiguobacterium: 2
+  Alcaligenes: 1
+  Mammaliicoccus: 1
+  Hymenobacter: 1
+  Pantoea: 1
+  Edwardsiella: 1
+  Pseudoalteromonas: 1
+  Lwoffella: 1
+  Kocuria: 1
+  Empedobacter: 1
+  Cellulomonas: 1
+  Vagococcus: 1
+  Leifsonia: 1
+  Listeria: 1
+  Chromobacterium: 1
+  Priestia: 1
+  Glutamicibacter: 1
+  Delftia: 1
+  Chryseobacterium: 1
+  Escherichia: 1
+  Micrococcus: 1
+  Limosilactobacillus: 1
+
+Frozen V1 master untouched.

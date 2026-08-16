@@ -1,0 +1,25 @@
+==========================================================================================
+NCBI-BACKED PHYLOGENETIC PLACEMENT SUMMARY
+==========================================================================================
+
+==========================================================================================
+KJU0224
+==========================================================================================
+Claimed species: Pseudomonas putida
+Best neighbor accession: PZ779676.1
+Best neighbor organism: Pseudomonas putida
+Best phylogenetic distance: 0.014001
+Genus matches: 10/10
+Species matches: 8/10
+Interpretation: STRONG SPECIES-LEVEL PHYLOGENETIC SUPPORT
+
+==========================================================================================
+KJU0225
+==========================================================================================
+Claimed species: Chryseobacterium indologenes
+Best neighbor accession: PZ101831.1
+Best neighbor organism: Chryseobacterium indologenes
+Best phylogenetic distance: 0.004568
+Genus matches: 10/10
+Species matches: 6/10
+Interpretation: STRONG SPECIES-LEVEL PHYLOGENETIC SUPPORT

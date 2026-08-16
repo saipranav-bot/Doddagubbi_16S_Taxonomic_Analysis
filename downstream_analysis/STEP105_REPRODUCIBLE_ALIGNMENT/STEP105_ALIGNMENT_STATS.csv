@@ -1,0 +1,2 @@
+Input_sequences,Output_sequences,Alignment_length,Mean_gaps_per_seq,Conserved_positions,Conserved_percent,Runtime_seconds
+111,111,1549,202.0,689,44.5,2.7

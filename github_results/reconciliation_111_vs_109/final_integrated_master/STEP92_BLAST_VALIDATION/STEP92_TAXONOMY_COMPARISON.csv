@@ -1,0 +1,205 @@
+KJU_ID,Accepted_taxonomy,Top_hit_accession,Top_hit_species,Top_hit_identity,Best_match_is_self,Taxonomy_agreement
+KJU0001,Aeromonas caviae,PX979534.1|NCBI_REF|Aeromonas_caviae,,98.647,False,True
+KJU0002,Aeromonas hydrophila,PZ711503.1|NCBI_REF|Aeromonas_hydrophila,,99.115,False,True
+KJU0003,Pseudomonas putida,PZ742396.1|NCBI_REF|Aeromonas_hydrophila,,87.748,False,True
+KJU0004,Aeromonas hydrophila,PZ711503.1|NCBI_REF|Aeromonas_hydrophila,,99.707,False,True
+KJU0005,Comamonas testosteroni,PZ725634.1|NCBI_REF|Shewanella_putrefaciens,,82.305,False,True
+KJU0006,Aeromonas caviae,PZ675202.1|NCBI_REF|Aeromonas_caviae,,99.388,False,True
+KJU0007,Citrobacter freundii,PZ327508.1|NCBI_REF|Citrobacter_braakii,,99.174,False,True
+KJU0008,Citrobacter braakii,PZ638866.1|NCBI_REF|Citrobacter_braakii,,100.0,True,True
+KJU0009,Aeromonas media,PZ711503.1|NCBI_REF|Aeromonas_hydrophila,,99.398,False,True
+KJU0010,Plesiomonas shigelloides,PX936420.1|NCBI_REF|Citrobacter_freundii,,93.657,False,True
+KJU0011,Alcaligenes faecalis,PZ447545.1|NCBI_REF|Aeromonas_salmonicida,,85.111,False,True
+KJU0012,Peribacillus simplex,PZ785220.1|NCBI_REF|Bacillus_cereus,,94.582,False,True
+KJU0013,Microbacterium testaceum,PZ728979.1|NCBI_REF|Bacillus_wiedmannii,,81.509,False,True
+KJU0014,Aeromonas caviae,PX979534.1|NCBI_REF|Aeromonas_caviae,,99.023,False,True
+KJU0015,Pseudomonas putida,PZ675621.1|NCBI_REF|Shewanella_putrefaciens,,87.737,False,True
+KJU0016,Aeromonas caviae,PZ675328.1|NCBI_REF|Aeromonas_caviae,,99.772,False,True
+KJU0017,Aeromonas hydrophila,PZ675328.1|NCBI_REF|Aeromonas_caviae,,99.693,False,True
+KJU0018,Mammaliicoccus sciuri,PZ785220.1|NCBI_REF|Bacillus_cereus,,92.494,False,True
+KJU0019,Citrobacter koseri,PZ693592.1|NCBI_REF|Citrobacter_koseri,,99.923,False,True
+KJU0020,Aeromonas caviae,PZ675328.1|NCBI_REF|Aeromonas_caviae,,99.772,False,True
+KJU0021,Citrobacter koseri,PZ693592.1|NCBI_REF|Citrobacter_koseri,,99.923,False,True
+KJU0022,Hymenobacter aquaticus,PZ725883.1|NCBI_REF|Bacillus_wiedmannii,,79.647,False,True
+KJU0023,Comamonas aquatica,PZ675621.1|NCBI_REF|Shewanella_putrefaciens,,82.216,False,True
+KJU0024,Faucicola osloensis,PZ711503.1|NCBI_REF|Aeromonas_hydrophila,,85.272,False,True
+KJU0025,Pantoea agglomerans,PX936420.1|NCBI_REF|Citrobacter_freundii,,95.943,False,True
+KJU0026,Plesiomonas shigelloides,PX936421.1|NCBI_REF|Citrobacter_freundii,,94.232,False,True
+KJU0027,Aeromonas caviae,PZ652972.1|NCBI_REF|Aeromonas_caviae,,100.0,True,True
+KJU0028,Aeromonas veronii,PZ734423.1|NCBI_REF|Aeromonas_veronii,,99.099,False,True
+KJU0029,Peribacillus simplex,PZ785220.1|NCBI_REF|Bacillus_cereus,,94.432,False,True
+KJU0030,Aeromonas veronii,PZ734423.1|NCBI_REF|Aeromonas_veronii,,99.099,False,True
+KJU0031,Aeromonas veronii,PZ734423.1|NCBI_REF|Aeromonas_veronii,,99.099,False,True
+KJU0032,Citrobacter koseri,PZ654717.1|NCBI_REF|Citrobacter_koseri,,100.0,True,True
+KJU0035,Citrobacter koseri,PZ654717.1|NCBI_REF|Citrobacter_koseri,,100.0,False,True
+KJU0036,Aeromonas veronii,PZ734423.1|NCBI_REF|Aeromonas_veronii,,99.061,False,True
+KJU0037,Shewanella putrefaciens,PZ675621.1|NCBI_REF|Shewanella_putrefaciens,,100.0,False,True
+KJU0038,Shewanella algae,PZ790506.1|NCBI_REF|Shewanella_putrefaciens,,94.355,False,True
+KJU0042,Shewanella xiamenensis,PZ666014.1|NCBI_REF|Shewanella_xiamenensis,,100.0,True,True
+KJU0043,Aeromonas veronii,PZ734423.1|NCBI_REF|Aeromonas_veronii,,99.028,False,True
+KJU0048,Citrobacter koseri,PZ654717.1|NCBI_REF|Citrobacter_koseri,,100.0,False,True
+KJU0049,Shewanella putrefaciens,PZ675621.1|NCBI_REF|Shewanella_putrefaciens,,100.0,False,True
+KJU0051,Pseudomonas aeruginosa,PZ734423.1|NCBI_REF|Aeromonas_veronii,,86.973,False,True
+KJU0052,Aeromonas caviae,PZ675202.1|NCBI_REF|Aeromonas_caviae,,100.0,True,True
+KJU0053,Edwardsiella tarda,PX936420.1|NCBI_REF|Citrobacter_freundii,,95.445,False,True
+KJU0054,Aeromonas salmonicida,PZ675204.1|NCBI_REF|Aeromonas_salmonicida,,100.0,True,True
+KJU0057,Bacillus subtilis,PZ798318.1|NCBI_REF|Bacillus_subtilis,,98.858,False,True
+KJU0058,Aeromonas hydrophila,PZ711503.1|NCBI_REF|Aeromonas_hydrophila,,99.118,False,True
+KJU0060,Aeromonas veronii,PZ734423.1|NCBI_REF|Aeromonas_veronii,,99.563,False,True
+KJU0061,Aeromonas hydrophila,PZ711503.1|NCBI_REF|Aeromonas_hydrophila,,99.117,False,True
+KJU0062,Pseudoalteromonas rubra,PZ790506.1|NCBI_REF|Shewanella_putrefaciens,,88.589,False,True
+KJU0063,Paenibacillus polymyxa,PZ730307.1|NCBI_REF|Bacillus_wiedmannii,,88.411,False,True
+KJU0064,Shewanella putrefaciens,PZ725634.1|NCBI_REF|Shewanella_putrefaciens,,99.023,False,True
+KJU0065,Aeromonas caviae,PZ675328.1|NCBI_REF|Aeromonas_caviae,,100.0,True,True
+KJU0066,Aeromonas veronii,PZ734423.1|NCBI_REF|Aeromonas_veronii,,98.911,False,True
+KJU0067,Citrobacter koseri,PZ675330.1|NCBI_REF|Citrobacter_koseri,,100.0,True,True
+KJU0068,Paenibacillus polymyxa,PZ728979.1|NCBI_REF|Bacillus_wiedmannii,,88.275,False,True
+KJU0071,Lwoffella lincolnii,PZ693592.1|NCBI_REF|Citrobacter_koseri,,84.0,False,True
+KJU0072,Faucicola osloensis,PZ741804.1|NCBI_REF|Shewanella_putrefaciens,,84.831,False,True
+KJU0074,Comamonas testosteroni,PZ741804.1|NCBI_REF|Shewanella_putrefaciens,,83.103,False,True
+KJU0076,Paenibacillus polymyxa,PZ730307.1|NCBI_REF|Bacillus_wiedmannii,,88.167,False,True
+KJU0081,Exiguobacterium acetylicum,PZ785220.1|NCBI_REF|Bacillus_cereus,,90.501,False,True
+KJU0082,Exiguobacterium indicum,PZ725883.1|NCBI_REF|Bacillus_wiedmannii,,89.722,False,True
+KJU0084,Shewanella putrefaciens,PZ675621.1|NCBI_REF|Shewanella_putrefaciens,,100.0,True,True
+KJU0088,Citrobacter freundii,PZ327508.1|NCBI_REF|Citrobacter_braakii,,99.485,False,True
+KJU0089,Comamonas testosteroni,PZ741804.1|NCBI_REF|Shewanella_putrefaciens,,83.067,False,True
+KJU0091,Comamonas testosteroni,PX936420.1|NCBI_REF|Citrobacter_freundii,,82.822,False,True
+KJU0093,Bacillus subtilis,PZ798318.1|NCBI_REF|Bacillus_subtilis,,99.087,False,True
+KJU0094,Kocuria rosea,PZ785220.1|NCBI_REF|Bacillus_cereus,,81.058,False,True
+KJU0095,Citrobacter koseri,PZ693592.1|NCBI_REF|Citrobacter_koseri,,100.0,True,True
+KJU0096,Staphylococcus epidermidis,PZ785220.1|NCBI_REF|Bacillus_cereus,,92.509,False,True
+KJU0099,Citrobacter freundii,PZ327508.1|NCBI_REF|Citrobacter_braakii,,99.174,False,True
+KJU0100,Empedobacter brevis,PX979534.1|NCBI_REF|Aeromonas_caviae,,77.694,False,True
+KJU0101,Cellulomonas flavigena,PZ728979.1|NCBI_REF|Bacillus_wiedmannii,,80.844,False,True
+KJU0102,Staphylococcus xylosus,PZ790514.1|NCBI_REF|Bacillus_cereus,,92.63,False,True
+KJU0103,Bacillus subtilis,PZ798318.1|NCBI_REF|Bacillus_subtilis,,99.087,False,True
+KJU0104,Aeromonas caviae,PZ710589.1|NCBI_REF|Aeromonas_caviae,,100.0,True,True
+KJU0105,Bacillus cereus,PZ790514.1|NCBI_REF|Bacillus_cereus,,99.5,False,True
+KJU0106,Citrobacter freundii,PZ327508.1|NCBI_REF|Citrobacter_braakii,,98.992,False,True
+KJU0107,Paenibacillus polymyxa,PZ730307.1|NCBI_REF|Bacillus_wiedmannii,,88.227,False,True
+KJU0108,Aeromonas hydrophila,PZ711503.1|NCBI_REF|Aeromonas_hydrophila,,99.484,False,True
+KJU0109,Vagococcus fluvialis,PZ785220.1|NCBI_REF|Bacillus_cereus,,91.629,False,True
+KJU0110,Leifsonia aquatica,PZ728979.1|NCBI_REF|Bacillus_wiedmannii,,81.029,False,True
+KJU0114,Aeromonas veronii,PZ734423.1|NCBI_REF|Aeromonas_veronii,,98.908,False,True
+KJU0115,Paenibacillus polymyxa,PZ728979.1|NCBI_REF|Bacillus_wiedmannii,,88.231,False,True
+KJU0116,Plesiomonas shigelloides,PX936421.1|NCBI_REF|Citrobacter_freundii,,94.232,False,True
+KJU0119,Pseudomonas aeruginosa,PZ734423.1|NCBI_REF|Aeromonas_veronii,,87.008,False,True
+KJU0128,Bacillus velezensis,PZ798318.1|NCBI_REF|Bacillus_subtilis,,99.619,False,True
+KJU0131,Staphylococcus epidermidis,PZ790514.1|NCBI_REF|Bacillus_cereus,,92.573,False,True
+KJU0132,Listeria innocua,PZ785220.1|NCBI_REF|Bacillus_cereus,,91.416,False,True
+KJU0134,Chromobacterium piscinae,PZ790506.1|NCBI_REF|Shewanella_putrefaciens,,84.214,False,True
+KJU0138,Priestia megaterium,PZ725883.1|NCBI_REF|Bacillus_wiedmannii,,94.559,False,True
+KJU0193,Glutamicibacter nicotianae,PZ727097.1|NCBI_REF|Aeromonas_veronii,,81.936,False,True
+KJU0194,Plesiomonas shigelloides,PX936420.1|NCBI_REF|Citrobacter_freundii,,93.416,False,True
+KJU0195,Microbacterium oxydans,PZ725883.1|NCBI_REF|Bacillus_wiedmannii,,81.917,False,True
+KJU0205,Delftia acidovorans,PZ276692.1|NCBI_REF|Shewanella_xiamenensis,,83.358,False,True
+KJU0208,Bacillus cereus,PZ790514.1|NCBI_REF|Bacillus_cereus,,99.311,False,True
+KJU0210,Shewanella putrefaciens,PZ725634.1|NCBI_REF|Shewanella_putrefaciens,,100.0,True,True
+KJU0211,Bacillus wiedmannii,PZ725883.1|NCBI_REF|Bacillus_wiedmannii,,100.0,True,True
+KJU0213,Paenibacillus amylolyticus,PZ725883.1|NCBI_REF|Bacillus_wiedmannii,,87.841,False,True
+KJU0215,Bacillus subtilis,PZ798318.1|NCBI_REF|Bacillus_subtilis,,98.858,False,True
+KJU0216,Bacillus velezensis,PZ798318.1|NCBI_REF|Bacillus_subtilis,,99.619,False,True
+KJU0217,Bacillus cereus,PZ790514.1|NCBI_REF|Bacillus_cereus,,99.561,False,True
+KJU0221,Citrobacter freundii,PZ327508.1|NCBI_REF|Citrobacter_braakii,,99.413,False,True
+KJU0222,Pseudomonas aeruginosa,PZ447545.1|NCBI_REF|Aeromonas_salmonicida,,86.691,False,True
+KJU0223,Microbacterium testaceum,PZ728979.1|NCBI_REF|Bacillus_wiedmannii,,81.509,False,True
+KJU0224,Pseudomonas putida,PZ734422.1|NCBI_REF|Aeromonas_hydrophila,,87.236,False,True
+KJU0225,Chryseobacterium indologenes,PZ728979.1|NCBI_REF|Bacillus_wiedmannii,,77.9,False,True
+KJU0226,Escherichia coli,PZ675330.1|NCBI_REF|Citrobacter_koseri,,96.586,False,True
+KJU0227,Micrococcus luteus,PZ790514.1|NCBI_REF|Bacillus_cereus,,80.934,False,True
+KJU0231,Limosilactobacillus fermentum,PZ728979.1|NCBI_REF|Bacillus_wiedmannii,,87.565,False,True
+KJU0232,Shewanella putrefaciens,PZ741804.1|NCBI_REF|Shewanella_putrefaciens,,100.0,True,True
+KJU0234,Shewanella putrefaciens,PZ675621.1|NCBI_REF|Shewanella_putrefaciens,,100.0,False,True
+KJU0033,nan,,,,N/A,UNRESOLVED
+KJU0034,nan,,,,N/A,UNRESOLVED
+KJU0040,nan,,,,N/A,UNRESOLVED
+KJU0041,nan,,,,N/A,UNRESOLVED
+KJU0044,nan,,,,N/A,UNRESOLVED
+KJU0045,nan,,,,N/A,UNRESOLVED
+KJU0046,nan,,,,N/A,UNRESOLVED
+KJU0047,nan,,,,N/A,UNRESOLVED
+KJU0050,nan,,,,N/A,UNRESOLVED
+KJU0055,nan,,,,N/A,UNRESOLVED
+KJU0056,nan,,,,N/A,UNRESOLVED
+KJU0059,nan,,,,N/A,UNRESOLVED
+KJU0069,nan,,,,N/A,UNRESOLVED
+KJU0070,nan,,,,N/A,UNRESOLVED
+KJU0073,nan,,,,N/A,UNRESOLVED
+KJU0075,nan,,,,N/A,UNRESOLVED
+KJU0077,nan,,,,N/A,UNRESOLVED
+KJU0078,nan,,,,N/A,UNRESOLVED
+KJU0079,nan,,,,N/A,UNRESOLVED
+KJU0080,nan,,,,N/A,UNRESOLVED
+KJU0083,nan,,,,N/A,UNRESOLVED
+KJU0085,nan,,,,N/A,UNRESOLVED
+KJU0086,nan,,,,N/A,UNRESOLVED
+KJU0087,nan,,,,N/A,UNRESOLVED
+KJU0090,nan,,,,N/A,UNRESOLVED
+KJU0092,nan,,,,N/A,UNRESOLVED
+KJU0097,nan,,,,N/A,UNRESOLVED
+KJU0098,nan,,,,N/A,UNRESOLVED
+KJU0111,nan,,,,N/A,UNRESOLVED
+KJU0112,nan,,,,N/A,UNRESOLVED
+KJU0113,nan,,,,N/A,UNRESOLVED
+KJU0117,nan,,,,N/A,UNRESOLVED
+KJU0118,nan,,,,N/A,UNRESOLVED
+KJU0120,nan,,,,N/A,UNRESOLVED
+KJU0121,nan,,,,N/A,UNRESOLVED
+KJU0122,nan,,,,N/A,UNRESOLVED
+KJU0123,nan,,,,N/A,UNRESOLVED
+KJU0124,nan,,,,N/A,UNRESOLVED
+KJU0125,nan,,,,N/A,UNRESOLVED
+KJU0126,nan,,,,N/A,UNRESOLVED
+KJU0127,nan,,,,N/A,UNRESOLVED
+KJU0129,nan,,,,N/A,UNRESOLVED
+KJU0130,nan,,,,N/A,UNRESOLVED
+KJU0133,nan,,,,N/A,UNRESOLVED
+KJU0135,nan,,,,N/A,UNRESOLVED
+KJU0136,nan,,,,N/A,UNRESOLVED
+KJU0137,nan,,,,N/A,UNRESOLVED
+KJU0139,nan,,,,N/A,UNRESOLVED
+KJU0140,nan,,,,N/A,UNRESOLVED
+KJU0141,nan,,,,N/A,UNRESOLVED
+KJU0142,nan,,,,N/A,UNRESOLVED
+KJU0143,nan,,,,N/A,UNRESOLVED
+KJU0144,nan,,,,N/A,UNRESOLVED
+KJU0145,nan,,,,N/A,UNRESOLVED
+KJU0146,nan,,,,N/A,UNRESOLVED
+KJU0147,nan,,,,N/A,UNRESOLVED
+KJU0148,nan,,,,N/A,UNRESOLVED
+KJU0149,nan,,,,N/A,UNRESOLVED
+KJU0150,nan,,,,N/A,UNRESOLVED
+KJU0151,nan,,,,N/A,UNRESOLVED
+KJU0152,nan,,,,N/A,UNRESOLVED
+KJU0153,nan,,,,N/A,UNRESOLVED
+KJU0154,nan,,,,N/A,UNRESOLVED
+KJU0155,nan,,,,N/A,UNRESOLVED
+KJU0156,nan,,,,N/A,UNRESOLVED
+KJU0157,nan,,,,N/A,UNRESOLVED
+KJU0158,nan,,,,N/A,UNRESOLVED
+KJU0159,nan,,,,N/A,UNRESOLVED
+KJU0160,nan,,,,N/A,UNRESOLVED
+KJU0161,nan,,,,N/A,UNRESOLVED
+KJU0162,nan,,,,N/A,UNRESOLVED
+KJU0163,nan,,,,N/A,UNRESOLVED
+KJU0164,nan,,,,N/A,UNRESOLVED
+KJU0165,nan,,,,N/A,UNRESOLVED
+KJU0166,nan,,,,N/A,UNRESOLVED
+KJU0167,nan,,,,N/A,UNRESOLVED
+KJU0168,nan,,,,N/A,UNRESOLVED
+KJU0169,nan,,,,N/A,UNRESOLVED
+KJU0170,nan,,,,N/A,UNRESOLVED
+KJU0171,nan,,,,N/A,UNRESOLVED
+KJU0172,nan,,,,N/A,UNRESOLVED
+KJU0173,nan,,,,N/A,UNRESOLVED
+KJU0174,nan,,,,N/A,UNRESOLVED
+KJU0175,nan,,,,N/A,UNRESOLVED
+KJU0176,nan,,,,N/A,UNRESOLVED
+KJU0177,nan,,,,N/A,UNRESOLVED
+KJU0178,nan,,,,N/A,UNRESOLVED
+KJU0179,nan,,,,N/A,UNRESOLVED
+KJU0180,nan,,,,N/A,UNRESOLVED
+KJU0181,nan,,,,N/A,UNRESOLVED
+KJU0182,nan,,,,N/A,UNRESOLVED
+KJU0183,nan,,,,N/A,UNRESOLVED
+KJU0039,Shewanella algae,,,,N/A,NO_SEQUENCE

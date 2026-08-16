@@ -1,0 +1,30 @@
+ColumnName,DataType,Description,SourceStep,Required
+KJU_ID,string,Unique KJU identifier (e.g. KJU0001),Step 83,Required
+Accepted_accession,string,NCBI accession from master metadata (e.g. PZ638859.1),Step 76,Required for resolved
+Accepted_taxonomy,string,Species-level taxonomy from master metadata (e.g. Aeromonas caviae),Step 76,Required for resolved
+Accepted_length,float,Sequence length from master metadata (bp),Step 76,May be missing for Priority 2
+Accepted_sequence_type,string,Sequence type from master metadata (16S or ITS),Step 76,Required for resolved
+Biological_identity,string,Accession-based biological identity from master metadata,Step 76,Required
+Reconciliation_status,string,Reconciliation status from master metadata,Step 76,Required for resolved
+Adjudication_type,string,"Adjudication type: CANONICAL, NO_SEQUENCE, UNRESOLVED",Step 94,Required
+Confidence,string,Confidence level for adjudication,Step 94,Required
+Adjudication_reason,string,Reason for adjudication decision,Step 94,Required
+Adjudication_evidence,string,Evidence supporting adjudication,Step 94,Required for resolved
+Taxonomic_evidence_source,string,Source of taxonomic evidence,Step 94,Required
+Normalized_accession,string,Normalized accession (version stripped),Step 87,Required for resolved
+Canonical_sequence,string,Selected canonical nucleotide sequence (IUPAC),Step 87,Required for canonical
+Canonical_sequence_SHA256,string,SHA256 hash of canonical sequence,Step 87,Required for canonical
+Canonical_sequence_length,integer,Length of canonical sequence (bp),Step 87,Required for canonical
+Canonical_accession,string,Accession of the canonical sequence source,Step 87,Required for canonical
+Canonical_sequence_source_files,string,Semicolon-delimited source file paths,Step 87,Required for canonical
+Canonical_sequence_source_record_IDs,string,Semicolon-delimited source record IDs,Step 87,Required for canonical
+Selection_status,string,"Sequence selection status (SELECTED, NO_SEQUENCE, UNRESOLVED)",Step 87,Required
+Selection_evidence,string,Evidence for sequence selection,Step 87,Required
+Unique_candidate_count,integer,Number of unique sequence candidates,Step 87,Required
+Sequence_type_validated,string,Whether sequence type was validated (True/False),Step 91,Required for canonical
+BLAST_taxonomy,string,"Top BLAST hit species (empty in V2 — STEP92 bug, fixed in 92b)",Step 92,Empty in V2
+BLAST_taxonomy_agreement,string,Whether BLAST taxonomy agrees with accepted (True/False/UNRESOLVED/NO_SEQUENCE),Step 92,Required
+In_phylogenetic_tree,string,Whether KJU appears in phylogenetic tree (True/False),Step 93,Required for canonical
+Evidence_conflicts,string,Evidence conflicts (empty = no conflicts detected),Step 94,Empty in V2
+Final_biological_identity,string,Final accession-based biological identity,Step 94,Required for resolved
+Final_status,string,"Final status: ADJUDICATED_CANONICAL, ADJUDICATED_NO_SEQUENCE, UNRESOLVED",Step 94,Required

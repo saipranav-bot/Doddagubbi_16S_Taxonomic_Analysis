@@ -1,0 +1,57 @@
+STEP 101: RELEASE/PACKAGE INTEGRITY CHECK
+======================================================================
+
+OVERALL STATUS: PASS
+Checks: 20/20 PASS, 0 FAIL
+
+CHECK RESULTS
+----------------------------------------------------------------------
+  [PASS] Check 01 — Release package exists: /home/pranav/Doddagubbi_Master/github_results/reconciliation_111_vs_109/final_integrated_master/STEP100_RELEASE_PACKAGE
+  [PASS] Check 02 — V2 CSV identified: /home/pranav/Doddagubbi_Master/github_results/reconciliation_111_vs_109/final_integrated_master/STEP100_RELEASE_PACKAGE/DATA/FINAL_204_KJU_ADJUDICATED_MASTER_V2.csv
+  [PASS] Check 03 — V2 Bio identified: /home/pranav/Doddagubbi_Master/github_results/reconciliation_111_vs_109/final_integrated_master/STEP100_RELEASE_PACKAGE/DATA/FINAL_BIOLOGICALLY_UNIQUE_KJU_MASTER_V2.csv
+  [PASS] Check 04 — V2 FASTA identified: /home/pranav/Doddagubbi_Master/github_results/reconciliation_111_vs_109/final_integrated_master/STEP100_RELEASE_PACKAGE/DATA/FINAL_CANONICAL_KJU_16S_V2.fasta
+  [PASS] Check 05 — V2 manifest identified: /home/pranav/Doddagubbi_Master/github_results/reconciliation_111_vs_109/final_integrated_master/STEP100_RELEASE_PACKAGE/MANIFESTS/FINAL_KJU_MASTER_FREEZE_MANIFEST_V2.txt
+  [PASS] Check 06 — Checksums identified: /home/pranav/Doddagubbi_Master/github_results/reconciliation_111_vs_109/final_integrated_master/STEP100_RELEASE_PACKAGE/STEP100_RELEASE_CHECKSUMS.txt
+  [PASS] Check 07 — V2 SHA256 matches manifest: calculated=65185f7545f73fcf... manifest=65185f7545f73fcf...
+  [PASS] Check 08 — V1 SHA256 matches expected: calculated=7d858153a0aaf19e... expected=7d858153a0aaf19e...
+  [PASS] Check 09 — V2 row count: 204 rows
+  [PASS] Check 10 — V2 unique KJUs: 204 unique KJU IDs
+  [PASS] Check 11 — FASTA entry count: 111 entries
+  [PASS] Check 12 — FASTA → V2 mapping: fasta_not_in_v2=0, v2_not_in_fasta=0
+  [PASS] Check 13 — FASTA duplicate IDs: duplicates=0
+  [PASS] Check 14 — Bio unique count: 111 rows
+  [PASS] Check 15 — Release checksums: 54/54 verified
+  [PASS] Check 16 — Status counts: canonical=111, no_seq=1, unresolved=92
+  [PASS] Check 17 — FASTA IUPAC valid: invalid=0 (none)
+  [PASS] Check 18 — FASTA length consistency: mismatches=0 (none)
+  [PASS] Check 19 — FASTA SHA256 consistency: mismatches=0 (none)
+  [PASS] Check 20 — Workspace directories: 7/7 exist
+
+FILES VERIFIED
+----------------------------------------------------------------------
+  V2 CSV: /home/pranav/Doddagubbi_Master/github_results/reconciliation_111_vs_109/final_integrated_master/STEP100_RELEASE_PACKAGE/DATA/FINAL_204_KJU_ADJUDICATED_MASTER_V2.csv
+  V2 Bio: /home/pranav/Doddagubbi_Master/github_results/reconciliation_111_vs_109/final_integrated_master/STEP100_RELEASE_PACKAGE/DATA/FINAL_BIOLOGICALLY_UNIQUE_KJU_MASTER_V2.csv
+  V2 FASTA: /home/pranav/Doddagubbi_Master/github_results/reconciliation_111_vs_109/final_integrated_master/STEP100_RELEASE_PACKAGE/DATA/FINAL_CANONICAL_KJU_16S_V2.fasta
+  V2 Manifest: /home/pranav/Doddagubbi_Master/github_results/reconciliation_111_vs_109/final_integrated_master/STEP100_RELEASE_PACKAGE/MANIFESTS/FINAL_KJU_MASTER_FREEZE_MANIFEST_V2.txt
+  V1 CSV: /home/pranav/Doddagubbi_Master/github_results/reconciliation_111_vs_109/final_integrated_master/FINAL_KJU_MASTER_FREEZE_V1/FINAL_204_KJU_ADJUDICATED_MASTER_V1.csv
+  Checksums: /home/pranav/Doddagubbi_Master/github_results/reconciliation_111_vs_109/final_integrated_master/STEP100_RELEASE_PACKAGE/STEP100_RELEASE_CHECKSUMS.txt
+
+SHA256 VALUES
+----------------------------------------------------------------------
+  V1: 7d858153a0aaf19e3e1f4f7a1d3b03b3acc69ec6451c6c71541213172196c8a8
+  V2: 65185f7545f73fcf36ff5062bb85305affcae76458f8049130f052a811b79bee
+  V2 FASTA: 2ed228e0d88d543ebd0d252682f0676ead8f6ca1b6a600f7b01284d5910844ce
+  V2 Bio: 9466cecb43bf3d6d1a2ffd382d8ec894f465156f6d9c4f78e3c0711314cd0061
+
+WORKSPACE CREATED
+----------------------------------------------------------------------
+  Root: /home/pranav/Doddagubbi_Master/downstream_analysis
+  STEP101_RELEASE_INTEGRITY/
+  STEP102_ANALYSIS_METADATA/
+  STEP103_TAXONOMIC_COMPOSITION/
+  STEP104_SEQUENCE_DIVERSITY/
+  STEP105_REPRODUCIBLE_ALIGNMENT/
+  STEP106_REPRODUCIBLE_PHYLOGENY/
+  STEP107_PHYLOGENETIC_TAXONOMIC_DIVERSITY/
+
+Generated: 2026-08-16 18:15:24

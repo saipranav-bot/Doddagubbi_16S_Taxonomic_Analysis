@@ -1,0 +1,58 @@
+==============================================================================================================
+STEP 83: TRUE SEQUENCE INVENTORY REPORT
+==============================================================================================================
+
+INPUT
+--------------------------------------------------------------------------------------------------------------
+Frozen master : /home/pranav/Doddagubbi_Master/github_results/reconciliation_111_vs_109/final_integrated_master/FINAL_KJU_MASTER_FREEZE_V1/FINAL_204_KJU_ADJUDICATED_MASTER_V1.csv
+STEP77 input  : /home/pranav/Doddagubbi_Master/github_results/reconciliation_111_vs_109/final_integrated_master/STEP77_SEQUENCE_QC/STEP77_RAW_SEQUENCE_RECORDS.csv
+
+INPUT SIZES
+--------------------------------------------------------------------------------------------------------------
+Master KJU records       : 204
+STEP77 raw rows          : 3630
+Unique sequence files    : 176
+Actual sequence records  : 3511
+
+SEQUENCE COVERAGE
+--------------------------------------------------------------------------------------------------------------
+KJUs with actual sequence    : 111
+KJUs without sequence       : 93
+Exactly one unique sequence : 12
+Multiple unique sequences   : 99
+
+DUPLICATE SEQUENCE QC
+--------------------------------------------------------------------------------------------------------------
+Exact duplicate SHA groups              : 485
+Same accession / different sequence     : 162
+Different KJU / identical sequence      : 25
+
+UNRESOLVED QC
+--------------------------------------------------------------------------------------------------------------
+Unresolved KJUs with actual sequence : 0
+PASS — no unresolved KJU has an actual sequence
+
+FILE QC
+--------------------------------------------------------------------------------------------------------------
+Missing sequence files : 0
+Files with parse errors: 0
+
+FROZEN MASTER QC
+--------------------------------------------------------------------------------------------------------------
+PASS — frozen V1 master was not modified
+Frozen V1 SHA256: 7d858153a0aaf19e3e1f4f7a1d3b03b3acc69ec6451c6c71541213172196c8a8
+
+OUTPUT FILES
+--------------------------------------------------------------------------------------------------------------
+True records     : /home/pranav/Doddagubbi_Master/github_results/reconciliation_111_vs_109/final_integrated_master/STEP83_TRUE_SEQUENCE_INVENTORY/STEP83_TRUE_SEQUENCE_RECORDS.csv
+True inventory   : /home/pranav/Doddagubbi_Master/github_results/reconciliation_111_vs_109/final_integrated_master/STEP83_TRUE_SEQUENCE_INVENTORY/STEP83_TRUE_SEQUENCE_INVENTORY.csv
+Duplicate groups : /home/pranav/Doddagubbi_Master/github_results/reconciliation_111_vs_109/final_integrated_master/STEP83_TRUE_SEQUENCE_INVENTORY/STEP83_EXACT_DUPLICATE_SEQUENCES.csv
+KJU audit        : /home/pranav/Doddagubbi_Master/github_results/reconciliation_111_vs_109/final_integrated_master/STEP83_TRUE_SEQUENCE_INVENTORY/STEP83_KJU_SEQUENCE_AUDIT.csv
+Accession audit  : /home/pranav/Doddagubbi_Master/github_results/reconciliation_111_vs_109/final_integrated_master/STEP83_TRUE_SEQUENCE_INVENTORY/STEP83_ACCESSION_SEQUENCE_AUDIT.csv
+Missing files    : /home/pranav/Doddagubbi_Master/github_results/reconciliation_111_vs_109/final_integrated_master/STEP83_TRUE_SEQUENCE_INVENTORY/STEP83_MISSING_SEQUENCE_FILES.csv
+Parse errors     : /home/pranav/Doddagubbi_Master/github_results/reconciliation_111_vs_109/final_integrated_master/STEP83_TRUE_SEQUENCE_INVENTORY/STEP83_SEQUENCE_FILE_ERRORS.csv
+
+==============================================================================================================
+STEP 83 COMPLETE
+FROZEN V1 MASTER WAS NOT MODIFIED
+==============================================================================================================
