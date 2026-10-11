@@ -21,16 +21,18 @@ from pathlib import Path
 import pandas as pd
 import re
 import sys
+import os
 
 # ------------------------------------------------------------
 # PATHS
 # ------------------------------------------------------------
 
-MASTER = Path.home() / "Doddagubbi_Master"
+MASTER = Path(os.environ.get("DODDAGUBBI_MASTER", Path.home() / "Doddagubbi_Master"))
 META = MASTER / "07_Master_Metadata"
 
+# External OpenCity export. Override with OPENCITY_CSV if stored elsewhere.
 OPENCITY = Path(
-    "/mnt/c/Users/saipr/Desktop/731b3fb2-c763-4491-9621-e04f9e1a9740.csv"
+    os.environ.get("OPENCITY_CSV", MASTER / "opencity_731b3fb2.csv")
 )
 
 RECON_FILE = META / "MASTER_KJU_RECONCILIATION_001_183.csv"

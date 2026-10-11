@@ -40,7 +40,7 @@ warnings.filterwarnings("ignore", category=FutureWarning)
 # ──────────────────────────────────────────────────────────
 # PATHS
 # ──────────────────────────────────────────────────────────
-ROOT = Path("/home/pranav/Doddagubbi_Master")
+ROOT = Path(os.environ.get("DODDAGUBBI_ROOT", Path(__file__).resolve().parents[1]))
 RESULTS = ROOT / "github_results/reconciliation_111_vs_109/final_integrated_master"
 
 V2_DIR = RESULTS / "STEP98_FINAL_FREEZE_V2/FINAL_KJU_MASTER_FREEZE_V2"

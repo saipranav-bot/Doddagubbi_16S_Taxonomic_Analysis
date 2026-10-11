@@ -30,7 +30,7 @@ from pathlib import Path
 # ──────────────────────────────────────────────────────────
 # PATHS
 # ──────────────────────────────────────────────────────────
-ROOT = Path("/home/pranav/Doddagubbi_Master")
+ROOT = Path(os.environ.get("DODDAGUBBI_ROOT", Path(__file__).resolve().parents[1]))
 RESULTS = ROOT / "github_results/reconciliation_111_vs_109/final_integrated_master"
 STEP92_DIR = RESULTS / "STEP92_BLAST_VALIDATION"
 OUT_DIR = STEP92_DIR / "STEP92b_TAXONOMY_CORRECTION"
