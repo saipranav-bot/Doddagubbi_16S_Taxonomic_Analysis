@@ -63,3 +63,7 @@ Sai Pranav
 
 Repository:
 https://github.com/saipranav-bot/Doddagubbi_16S_Taxonomic_Analysis
+
+
+## Plain-English Explanation
+See [EXPLAIN_PLAIN_ENGLISH.md](EXPLAIN_PLAIN_ENGLISH.md) for a non-technical summary of what was done, steps, and verification.
